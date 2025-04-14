@@ -1,0 +1,160 @@
+---
+title: Publications
+layout: default
+background_img: /assets/images/banner-publications.jpg
+welcome_msg: Publications
+intro_msg: Contributing to Over 180 Scientific Publications with Excellence in Genomics Research.
+abstract: A total of more than 180 scientific papers have been published with XinLab's participation and co-authorship, among which more than 39 papers were published as major participants. Here is a list of our publications and you can visit our <a href="https://scholar.google.com/citations?user=UkTazWQAAAAJ&hl=en" target="_blank">Google Scholar profile</a> for more details.
+---
+    <!-- DataTables CSS -->
+    <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+
+        <h2>XinLab Publications</h2>
+        <div class="table-container">
+            <table id="publicationsTable" class="table table-striped table-bordered" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Title</th>
+                        <th>Journal</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    <!-- Modal for Details -->
+    <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailsModalLabel">Publication details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row mb-3">
+                            <div class="col-md-3 fw-bold">Title:</div>
+                            <div class="col-md-9" id="modalTitle"></div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-3 fw-bold">Author:</div>
+                            <div class="col-md-9" id="modalAuthors"></div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-3 fw-bold">Abstract:</div>
+                            <div class="col-md-9" id="modalAbstract" class="abstract-content"></div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-3 fw-bold">DOI:</div>
+                            <div class="col-md-9" id="modalDOI"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            // Use jQuery $.get to fetch the txt file
+            $.get('/assets/data/xinlab-publications.txt', function(data) {
+                // Parse the raw data into an array of publication objects
+                const publications = parsePublications(data);
+
+                // Initialize DataTable
+                const table = $('#publicationsTable').DataTable({
+                    data: publications,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'title' },
+                        {
+                            data: null,
+                            render: function(data, type, row) {
+                                return `<a href="${row.url}" target="_blank">${row.journal}</a>`;
+                            }
+                        },
+                        {
+                            data: null,
+                            render: function(data, type, row) {
+                                return `<button class="btn btn-primary btn-sm details-btn" data-index="${publications.indexOf(row)}">Details</button>`;
+                            }
+                        }
+                    ],
+                    pageLength: 10,
+                    responsive: true
+                });
+
+                // Handle details button click
+                $('#publicationsTable tbody').on('click', '.details-btn', function() {
+                    const index = $(this).data('index');
+                    const pub = publications[index];
+
+                    $('#modalTitle').text(pub.title);
+                    $('#modalAuthors').text(pub.authors);
+                    $('#modalAbstract').text(pub.abstract || 'Not available');
+                    $('#modalDOI').text(pub.doi || 'Not available');
+                    $('#modalDOI').attr('href', pub.doi ? `https://doi.org/${pub.doi}` : '#');
+
+                    $('#detailsModal').modal('show');
+                });
+            }).fail(function(jqXHR, textStatus, errorThrown) {
+                console.error('Error fetching the file:', textStatus, errorThrown);
+                alert('Failed to load publications data. Please ensure the file is accessible via a web server.');
+            });
+
+            // Function to parse the raw EndNote data
+            function parsePublications(data) {
+                const records = data.trim().split('Reference Type:').slice(1); // Split by reference type
+                const publications = [];
+
+                records.forEach(record => {
+                    const lines = record.trim().split('\n');
+                    let pub = {};
+
+                    lines.forEach(line => {
+                        const [key, value] = line.split(/: +(.+)/); // Split key-value pairs
+                        if (key && value) {
+                            switch (key.trim()) {
+                                case 'Year':
+                                    pub.year = value.trim();
+                                    break;
+                                case 'Title':
+                                    pub.title = value.trim();
+                                    break;
+                                case 'Journal':
+                                    pub.journal = value.trim();
+                                    break;
+                                case 'URL':
+                                    pub.url = value.trim();
+                                    break;
+                                case 'Author':
+                                    pub.authors = value.trim();
+                                    break;
+                                case 'Abstract':
+                                    pub.abstract = value.trim();
+                                    break;
+                                case 'DOI':
+                                    pub.doi = value.trim();
+                                    break;
+                            }
+                        }
+                    });
+
+                    if (pub.year && pub.title && pub.journal) {
+                        publications.push(pub);
+                    }
+                });
+
+                return publications;
+            }
+        });
+    </script>

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article class="person-page">
+  <div class="person-header">
+    {% if page.photo %}
+      <img src="{{ page.photo | relative_url }}" alt="{{ page.name }}" class="person-hero-photo">
+    {% else %}
+      <div class="person-hero-photo placeholder">No Photo</div>
+    {% endif %}
+    <div class="person-info">
+      <h1>{{ page.name }}</h1>
+      <p class="person-role">{{ page.role }}</p>
+      {% if page.email %}
+        <p class="person-meta"><span class="meta-label">Email:</span> <a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+      {% endif %}
+      {% if page.website %}
+        <p class="person-meta"><span class="meta-label">Website:</span> <a href="{{ page.website }}" target="_blank">{{ page.website }}</a></p>
+      {% endif %}
+    </div>
+  </div>
+  <div class="person-content">
+    {{ content }}
+  </div>
+</article>

@@ -1,0 +1,26 @@
+title: XinLab
+description: Genomics Research Laboratory
+baseurl: ""
+url: "https://xgenome.cn"
+collections:
+  information:
+    output: true
+    permalink: /information/:title/
+  people:
+    output: true
+    permalink: /people/:name/
+defaults:
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "person"
+  - scope:
+      path: "news"
+      type: news
+    values:
+      layout: post
+plugins:
+  - jekyll-feed
+
+

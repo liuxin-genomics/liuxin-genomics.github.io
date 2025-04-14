@@ -1,0 +1,159 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #343a40;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0.5rem 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  color: #343a40;
+  margin-left: 1rem;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #343a40;
+  margin-left: 1rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.navbar .collapse.navbar-collapse {
+  margin-right: 1rem;
+}
+
+.jumbotron {
+  background: url('path/to/image.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 10rem 2rem;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.jumbotron::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.jumbotron .container {
+  text-align: left;
+}
+
+.jumbotron h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.jumbotron p {
+  font-size: 1.25rem;
+}
+
+.page-abstract {
+    background-color: #f8f9fa;
+    border-left: 1px solid #c9c9c9;
+    border-right: 5px solid #c9c9c9;
+    border-top: 0.5px solid #c9c9c9;
+    border-bottom: 1.5px solid #c9c9c9;
+    color:darkgray;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer .social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .social-links a {
+  margin: 0 1rem;
+  color: #343a40;
+}
+
+footer .social-links a:hover {
+  color: #007bff;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: #0056b3;
+}
