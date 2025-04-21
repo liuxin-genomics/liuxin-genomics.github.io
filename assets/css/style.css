@@ -11,10 +11,10 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   .navbar-brand {
-    margin-left: 4rem; /* 左侧留出一定空白 */
+    margin-left: 2rem; /* 左侧留出一定空白 */
   }
   .navbar .collapse.navbar-collapse {
-    margin-right: 4rem; /* 右侧留出一定空白 */
+    margin-right: 2rem; /* 右侧留出一定空白 */
   }
 
   /* Buttons and Accents */

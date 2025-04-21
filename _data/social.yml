@@ -13,3 +13,6 @@
 - name: Email
   url: mailto:liuxincqbj@gmail.com
   icon: fas fa-envelope
+- name: RSS
+  url: www.xgenome.cn/feed.xml
+  icon: fa fa-rss-square

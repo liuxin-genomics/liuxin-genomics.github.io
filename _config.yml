@@ -1,7 +1,7 @@
 title: XinLab
 description: Genomics Research Laboratory
 baseurl: ""
-url: "https://xgenome.cn"
+url: "www.xgenome.cn"
 collections:
   information:
     output: true
@@ -22,5 +22,7 @@ defaults:
       layout: post
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+google_analytics: G-ETXSDK6Y4B
 
 

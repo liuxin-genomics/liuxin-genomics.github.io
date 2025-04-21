@@ -24,3 +24,7 @@ _Publication of the "Ocean Genomics White Paper" at the Ocean Genomics Session o
 ---
 
 By the end of 2020, the establishment of the Beijing branch (BGI & CAS Joint Research Center) further broadened XinLab’s research scope. Methodologically, the lab began incorporating single-cell and spatial omics technologies, while its research focus expanded to include disease-related studies alongside plant genomics. Despite its historical evolution, XinLab cannot be equated with any single team or branch within BGI Research. Since 2024, Xin Liu has transitioned to a leadership role in the southern region of the group and is no longer directly overseeing the aforementioned project teams. However, XinLab continues its collaborative research model, working closely with relevant teams to drive innovation and progress.
+
+---
+_Disclaimer_
+_The images displayed on this website—including our banner photographs—have been sourced from reputable online platforms as well as proprietary collections to accurately represent our organization. Figures used to illustrate our progress have been derived from our publications and other verified online materials. Should you have any concerns regarding the use of any of these resources, please contact us immediately for prompt resolution._
