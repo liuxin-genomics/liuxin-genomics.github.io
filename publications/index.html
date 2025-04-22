@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications | XinLab</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+</head>
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+      <img src="/assets/images/logo.png" alt="Logo" height="50"> XinLab
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav nav-underline">
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/">Home</a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/research/">Research</a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link active" href="/publications/">Publications</a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/people/">People</a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/about/">About</a>
+            </li>
+          
+        
+          
+            <li class="nav-item dropdown">
+              <!-- 使用普通链接，让点击 News 时跳转到 /news/ -->
+              <a class="nav-link dropdown-toggle" href="" id="navDropdown6" 
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                News
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navDropdown6">
+                
+                  <li>
+                    <a class="dropdown-item" href="/news/">
+                      All
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="/news/categories/">
+                      Categories
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="/news/tags/">
+                      Tags
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<body>
+  
+  <div class="jumbotron" style="background-image: url('/assets/images/banner-publications.jpg');">
+    
+    <!-- Overlay for better contrast -->
+    <!-- Content -->
+    <div class="container">
+        <h1>Publications</h1>
+        <p>Contributing to Over 180 Scientific Publications with Excellence in Genomics Research.</p>
+    </div>
+  </div>
+  
+  <main class="container col-lg-8 col-md-12 col-sm-12">
+    
+      <div class="page-abstract">A total of more than 180 scientific papers have been published with XinLab's participation and co-authorship, among which more than 39 papers were published as major participants. Here is a list of our publications and you can visit our <a href="https://scholar.google.com/citations?user=UkTazWQAAAAJ&hl=en" target="_blank">Google Scholar profile</a> for more details.</div>
+    
+        <!-- DataTables CSS -->
+    <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+
+        <h2>XinLab Publications</h2>
+        <div class="table-container">
+            <table id="publicationsTable" class="table table-striped table-bordered" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Title</th>
+                        <th>Journal</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    <!-- Modal for Details -->
+    <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailsModalLabel">Publication details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row mb-3">
+                            <div class="col-md-3 fw-bold">Title:</div>
+                            <div class="col-md-9" id="modalTitle"></div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-3 fw-bold">Author:</div>
+                            <div class="col-md-9" id="modalAuthors"></div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-3 fw-bold">Abstract:</div>
+                            <div class="col-md-9" id="modalAbstract" class="abstract-content"></div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-3 fw-bold">DOI:</div>
+                            <div class="col-md-9" id="modalDOI"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            // Use jQuery $.get to fetch the txt file
+            $.get('/assets/data/xinlab-publications.txt', function(data) {
+                // Parse the raw data into an array of publication objects
+                const publications = parsePublications(data);
+
+                // Initialize DataTable
+                const table = $('#publicationsTable').DataTable({
+                    data: publications,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'title' },
+                        {
+                            data: null,
+                            render: function(data, type, row) {
+                                return `<a href="${row.url}" target="_blank">${row.journal}</a>`;
+                            }
+                        },
+                        {
+                            data: null,
+                            render: function(data, type, row) {
+                                return `<button class="btn btn-primary btn-sm details-btn" data-index="${publications.indexOf(row)}">Details</button>`;
+                            }
+                        }
+                    ],
+                    pageLength: 10,
+                    responsive: true
+                });
+
+                // Handle details button click
+                $('#publicationsTable tbody').on('click', '.details-btn', function() {
+                    const index = $(this).data('index');
+                    const pub = publications[index];
+
+                    $('#modalTitle').text(pub.title);
+                    $('#modalAuthors').text(pub.authors);
+                    $('#modalAbstract').text(pub.abstract || 'Not available');
+                    $('#modalDOI').text(pub.doi || 'Not available');
+                    $('#modalDOI').attr('href', pub.doi ? `https://doi.org/${pub.doi}` : '#');
+
+                    $('#detailsModal').modal('show');
+                });
+            }).fail(function(jqXHR, textStatus, errorThrown) {
+                console.error('Error fetching the file:', textStatus, errorThrown);
+                alert('Failed to load publications data. Please ensure the file is accessible via a web server.');
+            });
+
+            // Function to parse the raw EndNote data
+            function parsePublications(data) {
+                const records = data.trim().split('Reference Type:').slice(1); // Split by reference type
+                const publications = [];
+
+                records.forEach(record => {
+                    const lines = record.trim().split('\n');
+                    let pub = {};
+
+                    lines.forEach(line => {
+                        const [key, value] = line.split(/: +(.+)/); // Split key-value pairs
+                        if (key && value) {
+                            switch (key.trim()) {
+                                case 'Year':
+                                    pub.year = value.trim();
+                                    break;
+                                case 'Title':
+                                    pub.title = value.trim();
+                                    break;
+                                case 'Journal':
+                                    pub.journal = value.trim();
+                                    break;
+                                case 'URL':
+                                    pub.url = value.trim();
+                                    break;
+                                case 'Author':
+                                    pub.authors = value.trim();
+                                    break;
+                                case 'Abstract':
+                                    pub.abstract = value.trim();
+                                    break;
+                                case 'DOI':
+                                    pub.doi = value.trim();
+                                    break;
+                            }
+                        }
+                    });
+
+                    if (pub.year && pub.title && pub.journal) {
+                        publications.push(pub);
+                    }
+                });
+
+                return publications;
+            }
+        });
+    </script>
+  </main>
+  <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href=" " class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <img class="bi" width="30" height="30" src="/assets/images/logo.svg"></img>
+      </a >
+      <span class="mb-3 mb-md-0 text-muted">&copy; 2025 XinLab</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      
+        <a href="https://x.com/liuxin_genomics" class="mx-2" target="_blank"><i class="fab fa-twitter" style="color: #333333;"></i></a>
+      
+        <a href="https://github.com/liuxin-genomics" class="mx-2" target="_blank"><i class="fab fa-github" style="color: #333333;"></i></a>
+      
+        <a href="https://facebook.com/liuxin.genomics" class="mx-2" target="_blank"><i class="fab fa-facebook" style="color: #333333;"></i></a>
+      
+        <a href="https://www.linkedin.com/in/liuxin-genomics" class="mx-2" target="_blank"><i class="fab fa-linkedin" style="color: #333333;"></i></a>
+      
+        <a href="mailto:liuxincqbj@gmail.com" class="mx-2" target="_blank"><i class="fas fa-envelope" style="color: #333333;"></i></a>
+      
+        <a href="www.xgenome.cn/feed.xml" class="mx-2" target="_blank"><i class="fa fa-rss-square" style="color: #333333;"></i></a>
+      
+    </ul>
+  </footer>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
