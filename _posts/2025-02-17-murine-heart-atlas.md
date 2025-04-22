@@ -3,8 +3,8 @@ layout: post
 title: "New Paper Unveils Spatiotemporal Atlas of Mouse Heart Development"
 date: 2025-02-17
 image: /assets/images/news/2025-02-17-murine-heart-atlas.png
-categories: [Research, Publications]
-tags: [Transcriptomics, Cardiology, Regeneration, Spatial Omics]
+categories: progresses
+tags: [animal genomics, single-cell and spatial genomics]
 ---
 
 

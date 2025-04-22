@@ -6,7 +6,13 @@
   url: /publications/
 - title: People
   url: /people/
-- title: News
-  url: /news/
 - title: About
   url: /about/
+- title: News
+  children:
+    - title: All
+      url: /news/
+    - title: Categories
+      url: "/news/categories/"
+    - title: Tags
+      url: "/news/tags/"

@@ -3,6 +3,8 @@ layout: post
 title: Cicer Super-Pangenome Study Offers Insights for Chickpea Improvement
 date: 2024-05-23
 image: /assets/images/news/2024-05-23-ChickpeaSuperpangenome.png
+categories: progresses
+tags: [plant genomics]
 ---
 
 Published online in *Nature Genetics* on May 23, 2024, a study presents genomes of eight wild chickpea relatives and a Cicer super-pangenome, providing resources for crop enhancement.

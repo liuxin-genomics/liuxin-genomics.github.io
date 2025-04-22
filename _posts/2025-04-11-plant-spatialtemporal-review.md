@@ -3,6 +3,8 @@ layout: post
 title:  "Review Article on Spatial Omics for Plant Research"
 date:   2025-04-11 05:56:51 +0000
 image: /assets/images/news/2025-04-11-plant-spatialtemporal-review.png
+categories: progresses
+tags: [plant genomics]
 ---
 *Our recent review paper comprehensively introduced spatial transcriptome technologies and their applications in plant research and crop breeding.*
 

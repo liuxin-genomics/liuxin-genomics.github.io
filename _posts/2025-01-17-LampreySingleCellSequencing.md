@@ -3,6 +3,8 @@ layout: post
 title: Lamprey Cell Atlas Study Reveals Natterin's Role in Fat Browning
 date: 2025-01-17
 image: /assets/images/news/2025-01-17-LampreySingleCellSequencing.png
+categories: progresses
+tags: [animal genomics, single-cell and spatial genomics]
 ---
 
 A study co-led by **Xin Liu (BGI Research / XinLab)**, Guangyi Fan (BGI Research), Qingwei Li (Liaoning Normal University), and Yue Pang (Liaoning Normal University), published in ***Nature Communications***, presents a comprehensive single-cell atlas of the lamprey (*Lethenteron reissneri*), offering profound insights into vertebrate evolution and uncovering a novel function for the immune protein Natterin in regulating fat metabolism.

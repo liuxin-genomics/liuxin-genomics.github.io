@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign post_count = page.posts | size %}
+<div class="alert alert-primary" role="alert">
+  <h2>News in Category: {{ page.title|capitalize }}<span class="badge bg-primary ms-2">{{ post_count }}</span></h2>
+</div>
+
+<div>
+  <section class="posts-grid">
+    {% for post in page.posts %}
+      <article class="post-card">
+        {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image">
+        {% endif %}
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  {{ post.date | date: "%B %d, %Y" }}</p>
+            <p class="abstract">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+            <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
+      </article>
+    {% endfor %}
+  </section>
+</div>

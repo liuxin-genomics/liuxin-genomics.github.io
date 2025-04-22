@@ -3,6 +3,8 @@ layout: post
 title: Conserved Chloroplast Genomes of Heliconia Revealed
 date: 2025-01-16
 image: "/assets/images/news/2025-01-16-Heliconia-chloroplast-genomes.png"
+categories: progresses
+tags: [plant genomics]
 ---
 
 We’re excited to share that XinLab has published a new study in *Frontiers in Plant Science* (2025, Vol. 15) titled **“Unveiling the Conserved Nature of Heliconia Chloroplast Genomes: Insights from the University and the University of California, and the Complete Chloroplast Genomes.”** Spearheaded by [Xin Liu](/people/xin-liu) and Xin Cheng, with contributions from lab members and collaborators like John W. Kress (Smithsonian Institution), this work dives into the genomic underpinnings of Heliconia, the vibrant tropical plants known for their stunning bracts.

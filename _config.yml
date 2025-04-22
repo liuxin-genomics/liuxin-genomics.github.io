@@ -3,9 +3,9 @@ description: Genomics Research Laboratory
 baseurl: ""
 url: "www.xgenome.cn"
 collections:
-  information:
+  categories:
     output: true
-    permalink: /information/:title/
+    permalink: /categories/:title/
   people:
     output: true
     permalink: /people/:name/
@@ -24,5 +24,20 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 google_analytics: G-ETXSDK6Y4B
+
+plugins:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
+    - categories
+  layouts:
+    tag: tag_archive   # 指定生成标签归档页时使用的布局
+    category: category_archive  # 指定生成分类归档页时使用的布局
+  permalinks:
+    tag: "/news/tags/:name/"       # 标签归档页地址，如 /news/tags/plant-genomics/
+    category: "/news/categories/:name/"  # 分类归档页地址，如 /news/categories/frontiers/
+
 
 

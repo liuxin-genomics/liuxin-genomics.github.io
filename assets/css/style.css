@@ -17,17 +17,6 @@
     margin-right: 2rem; /* 右侧留出一定空白 */
   }
 
-  /* Buttons and Accents */
-  button, .btn {
-    background-color: #4CAF50; /* Green for buttons */
-    color: #FFFFFF; /* White text */
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  button:hover, .btn:hover {
-    background-color: #008080; /* Teal on hover */
-  }
 
   .container {
     margin: 0 auto; /* 居中显示 */

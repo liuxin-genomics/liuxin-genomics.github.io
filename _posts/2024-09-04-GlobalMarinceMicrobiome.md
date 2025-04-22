@@ -3,6 +3,8 @@ layout: post
 title: Massive Genomic Study Catalogues Marine Microbes
 date: 2024-09-04
 image: /assets/images/news/2024-09-04-GlobalMarinceMicrobiome.png
+categories: progresses
+tags: [others]
 ---
 
 🌊 BGI Research Team Unveils Vast Marine Microbial Diversity and Biotechnological Potential in *Nature* and successfully discovers novel gene editing tools, antibiotics, and plastic-degrading enzymes.

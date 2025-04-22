@@ -3,6 +3,8 @@ layout: post
 title: Rattan Phylogeny based on the Calamus tetradactylus Chloroplast Genome
 date: 2024-03-25
 image: /assets/images/news/2024-03-25-RattenChloroplastGenomes.png
+categories: progresses
+tags: [plant genomics]
 ---
 
 

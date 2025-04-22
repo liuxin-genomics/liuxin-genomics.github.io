@@ -1,19 +1,40 @@
 <nav class="navbar navbar-expand-lg sticky-top">
   <div class="container-fluid">
-      <a class="navbar-brand" href="/">
-        <img src="{{ site.baseurl }}/assets/images/logo.png" alt="Logo" height="50"> XinLab
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav nav-underline">
-          {% for item in site.data.navigation %}
+    <a class="navbar-brand" href="/">
+      <img src="{{ site.baseurl }}/assets/images/logo.png" alt="Logo" height="50"> XinLab
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav nav-underline">
+        {% for item in site.data.navigation %}
+          {% if item.children %}
+            <li class="nav-item dropdown">
+              <!-- 使用普通链接，让点击 News 时跳转到 /news/ -->
+              <a class="nav-link dropdown-toggle" href="{{ item.url }}" id="navDropdown{{ forloop.index }}" 
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ item.title }}
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navDropdown{{ forloop.index }}">
+                {% for child in item.children %}
+                  <li>
+                    <a class="dropdown-item" href="{{ child.url }}">
+                      {{ child.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
             <li class="nav-item">
               <a class="nav-link {% if page.url == item.url %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
             </li>
-          {% endfor %}
-        </ul>
-      </div>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </nav>
+
+

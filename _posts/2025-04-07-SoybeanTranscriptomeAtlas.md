@@ -3,6 +3,8 @@ layout: post
 title:  Soybean Transcriptomic Atlas
 date:   2025-04-07
 image: /assets/images/news/2025-04-07-SoybeanTranscriptomeAtlas.png
+categories: progresses
+tags: [plant genomics, single-cell and spatial genomics]
 ---
 *We generated Bulk, Single-Cell, and Spatial Transcriptome Data for Soybean to Unveil Mechanisms Underlying its Organ Development*
 
