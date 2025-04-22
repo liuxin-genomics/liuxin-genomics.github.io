@@ -1,4 +1,4 @@
-name: Again-Build and Deploy Jekyll Site
+name: Final-test run and Deploy Jekyll Site
 on:
   push:
     branches:
