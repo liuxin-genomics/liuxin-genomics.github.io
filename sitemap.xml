@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>www.xgenome.cn/people/xinliu/</loc>
-<lastmod>2025-04-22T09:37:45+00:00</lastmod>
+<lastmod>2025-04-29T10:26:55+00:00</lastmod>
 </url>
 <url>
 <loc>www.xgenome.cn/progresses/2024/03/25/RattenChloroplastGenomes.html</loc>
@@ -57,6 +57,14 @@
 <lastmod>2025-04-21T05:56:51+00:00</lastmod>
 </url>
 <url>
+<loc>www.xgenome.cn/progresses/2025/04/25/SaltToleranceInNHCC.html</loc>
+<lastmod>2025-04-25T05:56:51+00:00</lastmod>
+</url>
+<url>
+<loc>www.xgenome.cn/progresses/2025/04/29/PTLO.html</loc>
+<lastmod>2025-04-29T05:56:51+00:00</lastmod>
+</url>
+<url>
 <loc>www.xgenome.cn/news/categories/</loc>
 </url>
 <url>
@@ -66,10 +74,10 @@
 <loc>www.xgenome.cn/about/</loc>
 </url>
 <url>
-<loc>www.xgenome.cn/news/</loc>
+<loc>www.xgenome.cn/research/</loc>
 </url>
 <url>
-<loc>www.xgenome.cn/research/</loc>
+<loc>www.xgenome.cn/news/</loc>
 </url>
 <url>
 <loc>www.xgenome.cn/people/</loc>
@@ -100,6 +108,12 @@
 </url>
 <url>
 <loc>www.xgenome.cn/news/tags/bioinformatics/</loc>
+</url>
+<url>
+<loc>www.xgenome.cn/news/tags/single-cell-genomics/</loc>
+</url>
+<url>
+<loc>www.xgenome.cn/news/tags/human-disease/</loc>
 </url>
 <url>
 <loc>www.xgenome.cn/news/categories/progresses/</loc>

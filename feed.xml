@@ -7,6 +7,168 @@
         <atom:link href="www.xgenome.cn/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>Tertiary Lymphoid Organ-like Structures in Carotid Artery Plaques: A Breakthrough in Understanding Plaque Instability</title>
+                <description>&lt;p&gt;&lt;em&gt;Tertiary lymphoid organ-like structures in human atherosclerosis contribute to plaque instability. Xin Liu, on behalf of the XinLab team and our collaborators at Peking Union Medical College Hospital&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Carotid artery plaques are a significant risk factor for atherosclerosis and various cardiovascular diseases.&lt;/strong&gt; Driven by our passion for applying cutting‐edge genomic technologies to real-world clinical challenges, our team set out to unravel the cellular secrets hidden within these plaques. Using spatiotemporal omics and single‑cell sequencing, our research has revealed a previously unappreciated facet of plaque biology—clusters of immune cells that organize into structures strikingly similar to tertiary lymphoid organs (TLOs), commonly observed in tumor microenvironments.&lt;/p&gt;
+
+&lt;h2 id=&quot;uncovering-the-immune-landscape-of-plaques&quot;&gt;Uncovering the Immune Landscape of Plaques&lt;/h2&gt;
+
+&lt;p&gt;Our study employed high‑resolution spatial transcriptomics alongside single‑cell RNA sequencing to create a detailed atlas of the cellular composition within carotid plaques. The spatial data provided crucial context: we observed that in select regions of the plaque, immune cells—chiefly B cells and plasma cells—congregated into organized clusters. These structures bear a resemblance to TLS, suggesting that local immune responses may play a pivotal role in plaque progression and instability.&lt;/p&gt;
+
+&lt;p&gt;Further integrative analysis allowed us not only to map these cell assemblies but also to tease apart the key factors and signaling pathways that drive their formation. By combining molecular profiling with rigorous histopathological validation (using H&amp;amp;E staining), our data shows that plaques harboring TLS are more likely to be unstable and associated with adverse clinical symptoms. In other words, the presence of these organized immune cell clusters appears to contribute directly to the risk of subsequent cardiovascular events.&lt;/p&gt;
+
+&lt;h2 id=&quot;significance-of-our-findings&quot;&gt;Significance of Our Findings&lt;/h2&gt;
+
+&lt;p&gt;This discovery is particularly significant—it represents the first time that TLS-like structures have been definitively identified within carotid artery plaques. While similar structures have been observed in other atherosclerosis-related tissues, finding them in carotid plaques opens new avenues for understanding the adaptive immune responses that modulate plaque stability. Molecular evidence from our study suggests that the aggregation of B cells and plasma cells could instigate local inflammatory processes, destabilizing the plaque and thereby heightening the risk of clinical events.&lt;/p&gt;
+
+&lt;p&gt;Our work not only deepens our understanding of the immune system’s role in atherosclerosis but also uncovers new therapeutic targets. By pinpointing the molecular drivers of TLS formation within plaques, we pave the way for the development of interventions designed to stabilize these high-risk lesions, potentially preventing strokes and other cardiovascular complications.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-collaborative-milestone&quot;&gt;A Collaborative Milestone&lt;/h2&gt;
+
+&lt;p&gt;This study marks a major milestone in our research efforts. It was born out of a collaborative synergy between XinLab—a dynamic team led by Xin Liu at BGI—and our colleagues at Peking Union Medical College Hospital, spearheaded by Dr. Bao Liu. Significant contributions from Zhichao Lai, Deqiang Kong, Yue Wang, Qingsong Du, Ziqing Deng, and others exemplify the spirit of teamwork that drives breakthroughs in human disease research. For more information about our lab’s work, please visit &lt;a href=&quot;http://www.xgenome.cn&quot;&gt;www.xgenome.cn&lt;/a&gt; and our GitHub page &lt;a href=&quot;http://liuxin-genomics.github.io&quot;&gt;liuxin-genomics.github.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;reflections-on-the-journey&quot;&gt;Reflections on the Journey&lt;/h2&gt;
+
+&lt;p&gt;No discovery, however groundbreaking, comes easily. Reflecting on the peer-review journey for this work, I recall a time of grueling scrutiny and intense revision. At moments, it felt like the hurdles were insurmountable; yet, the challenge was also deeply invigorating. In retrospect, every piece of feedback pushed us to refine our analyses and strengthen our conclusions. I find it fascinating how a rigorous review process ultimately enriches research—it shaped our study into something even more compelling and robust.&lt;/p&gt;
+
+&lt;p&gt;I am particularly grateful to Reviewer Klaus Ley, who not only provided incisive comments but also authored a thoughtful commentary on our work. His summary, available &lt;a href=&quot;https://www.nature.com/articles/s44161-025-00645-x&quot;&gt;here&lt;/a&gt;, offers a distillation of our findings and an appreciation of their clinical implications. Such insights remind me that science, much like the fabled allegories of transformation, involves a process of refinement—a journey reminiscent of the Chinese fable of Sun Wukong being tempered in Laozi’s alchemy furnace until, in a dramatic reversal, the latent power bursts forth in unexpected ways.&lt;/p&gt;
+
+&lt;h2 id=&quot;looking-ahead&quot;&gt;Looking Ahead&lt;/h2&gt;
+
+&lt;p&gt;Our discovery of TLS-like structures in carotid plaques is only the beginning. It not only underscores the critical role of local immune dynamics in cardiovascular disease but also opens exciting avenues for therapeutic intervention. XinLab remains dedicated to leveraging advanced genomic technologies in our quest to decode complex human diseases. I look forward to sharing more details about our ongoing research and the fascinating lessons learned from our continued exploration of the immune microenvironment in atherosclerosis.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;We hope you find our journey as inspiring as we do. Stay tuned for more updates from XinLab, where cutting-edge genomics meets impactful discovery.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 29 Apr 2025 05:56:51 +0000</pubDate>
+                <link>www.xgenome.cn/progresses/2025/04/29/PTLO.html</link>
+                <guid isPermaLink="true">www.xgenome.cn/progresses/2025/04/29/PTLO.html</guid>
+            </item>
+        
+            <item>
+                <title>Single‐Cell Multiome Reveals Root Hair‐Specific Responses to Salt Stress in Non‐Heading Chinese Cabbage</title>
+                <description>&lt;p&gt;&lt;em&gt;Our recent paper introduced findings on mechanisms underlying salt-tolerance in non-heading Chinese cabbage using single-cell and spatial transcriptome sequencing.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;We are excited to announce that our latest research article, “Single‐cell multiome reveals root hair‐specific responses to salt stress,” has been published in New Phytologist (DOI: 10.1111/nph.70160). This work marks a significant advance in our understanding of how non‐heading Chinese cabbage (NHCC) roots adapt at the cellular and molecular levels to salt stress—a growing challenge for sustainable agriculture.&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;Soil salinization is a critical issue driven by environmental degradation and unsustainable cultivation practices. Salt stress affects plants by:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Inhibiting seed germination and root development&lt;/li&gt;
+  &lt;li&gt;Reducing crop yield through detrimental physiological impacts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For NHCC—a vital leafy vegetable crop—the root system is central to detecting and responding to salinity. However, the cell type–specific regulatory mechanisms underlying this response have largely remained unexplored. To address this gap, our study leverages cutting-edge single-cell multiomic technologies to create the first comprehensive single-cell atlas of NHCC root tips under both normal and salt-stress conditions.&lt;/p&gt;
+
+&lt;h2 id=&quot;methodology&quot;&gt;Methodology&lt;/h2&gt;
+&lt;p&gt;Our approach combined several advanced techniques to dissect the complexity of root responses:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Single-Nucleus RNA Sequencing (snRNA-seq) and ATAC Sequencing (snATAC-seq):
+    &lt;ul&gt;
+      &lt;li&gt;Nuclei were isolated from 5-mm root tips of NHCC plants grown under control conditions and after a 12-hour treatment with 150 mM NaCl.&lt;/li&gt;
+      &lt;li&gt;This dual approach allowed us to simultaneously profile gene expression and chromatin accessibility, revealing distinct cell populations and regulatory elements.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Spatial Transcriptomics (Stereo-seq):
+    &lt;ul&gt;
+      &lt;li&gt;Root tip sections were processed with Stereo-seq, capturing spatial expression data at “cell-sized” resolution.&lt;/li&gt;
+      &lt;li&gt;This enabled us to map the anatomical distribution of cell type–specific markers and correlate transcriptomic data with tissue structure.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;RNA In Situ Hybridization and Histochemical Staining:
+    &lt;ul&gt;
+      &lt;li&gt;These validation experiments confirmed the subcellular localization of important genes.&lt;/li&gt;
+      &lt;li&gt;Histochemical stains (e.g., Perls and DAB) were used to assess iron distribution in root tissues.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Virus-Induced Gene Silencing (VIGS):
+    &lt;ul&gt;
+      &lt;li&gt;We silenced the iron transporter gene BcIRT2 to decipher its role under salt stress.&lt;/li&gt;
+      &lt;li&gt;Plants with reduced BcIRT2 expression exhibited lower iron accumulation and stress symptoms (e.g., leaf chlorosis), underscoring its pivotal role.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;key-findings&quot;&gt;Key Findings&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Disrupted Root Hair Differentiation&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Normal vs. Salt Stress Conditions: Under salt stress, the developmental trajectory of root hair cells was markedly altered. Many cells were arrested in an undifferentiated state, preventing the proper transcriptional program required for full maturation&lt;/li&gt;
+  &lt;li&gt;Suppression of Stress-Response Genes: The focus on single-cell transcriptomics revealed that key stress-responsive genes were not activated in the root hair clusters, directly impairing nutrient uptake and environmental sensing abilities.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Impaired Iron Uptake Linked to BcIRT2&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Downregulation of BcIRT2: We discovered that BcIRT2, the NHCC ortholog of an established Arabidopsis iron transporter, was significantly downregulated under salt stress.&lt;/li&gt;
+  &lt;li&gt;Physiological Impact: Reduced BcIRT2 levels correlated with lower iron content in roots. VIGS experiments confirmed that silencing BcIRT2 produced chlorotic leaves and increased salt sensitivity, highlighting the gene’s importance in sustaining iron homeostasis.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Cell Type–Specific Regulatory Networks&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Integrated Multiomic Analysis: By combining snRNA-seq, snATAC-seq, and spatial transcriptomics, we constructed a high-resolution atlas that delineates the distinct regulatory circuits of individual cell types in the NHCC root tip.&lt;/li&gt;
+  &lt;li&gt;Regulatory Insights for Crop Improvement: Our study identified key transcription factors and signaling pathways that govern root hair differentiation and stress response. These findings provide molecular targets for future breeding programs aimed at enhancing salt tolerance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;discussion--impact&quot;&gt;Discussion &amp;amp; Impact&lt;/h2&gt;
+
+&lt;p&gt;Our research provides a comprehensive view of the cellular reprogramming that occurs in NHCC roots under salt stress. The arrest in root hair differentiation and the consequent impairment in iron uptake are critical factors that could explain stress-induced yield losses. Importantly, this work:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Deepens our fundamental understanding of plant abiotic stress responses at the single-cell level.&lt;/li&gt;
+  &lt;li&gt;Offers valuable molecular insights that can drive the development of salt-tolerant cultivars.&lt;/li&gt;
+  &lt;li&gt;Provides a resource-rich multiomic atlas that will support future studies on plant stress physiology and crop improvement.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;acknowledgements&quot;&gt;Acknowledgements&lt;/h2&gt;
+
+&lt;p&gt;This research was a collaborative effort involving contributions from multiple institutions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;State Key Laboratory of North China Crop Improvement and Regulation, Hebei Agricultural University&lt;/li&gt;
+  &lt;li&gt;BGI Research, Beijing (as well as XinLab, www.xgenome.cn)&lt;/li&gt;
+  &lt;li&gt;College of Life Sciences, University of Chinese Academy of Sciences, Beijing&lt;/li&gt;
+  &lt;li&gt;Suzhou Academy of Agricultural Sciences, Suzhou&lt;/li&gt;
+  &lt;li&gt;Glbizzia Biosciences, Beijing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Co-first authors: Qing Liu, Jingmin Kang, Lin Du, and Zhaokun Liu Additional key team members include Hao Liang, Kailai Wang, Haijiao He, Xiaonan Zhang, Qifan Wang, Yiguo Hong, Qi Cheng, Xin Liu, Wei Ma, and Jianjun Zhao.
+We also gratefully acknowledge the support from:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;National Natural Science Foundation of China (Grant Nos. 32330096; 32202505; U24A20417)&lt;/li&gt;
+  &lt;li&gt;Hebei Natural Science Foundation (Grant Nos. C2023204308; C2024204246)&lt;/li&gt;
+  &lt;li&gt;Hebei S&amp;amp;T Bureau (2023HBQZYCSB009)&lt;/li&gt;
+  &lt;li&gt;Science Foundation of the Ministry of Education of China (MoE, 902/1123401)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;The publication of our paper in New Phytologist marks an important milestone in plant genomics research. By unveiling the single-cell landscape of NHCC root responses to salt stress, we have not only expanded our understanding of plant stress physiology but also identified potential targets to enhance crop resilience in saline environments. We are enthusiastic about the future implications of these findings for precision breeding and sustainable agriculture.&lt;/p&gt;
+
+&lt;p&gt;Read the full paper here: &lt;a href=&quot;https://doi.org/10.1111/nph.70160&quot;&gt;https://doi.org/10.1111/nph.70160&lt;/a&gt;&lt;/p&gt;
+</description>
+                <pubDate>Fri, 25 Apr 2025 05:56:51 +0000</pubDate>
+                <link>www.xgenome.cn/progresses/2025/04/25/SaltToleranceInNHCC.html</link>
+                <guid isPermaLink="true">www.xgenome.cn/progresses/2025/04/25/SaltToleranceInNHCC.html</guid>
+            </item>
+        
+            <item>
                 <title>New RNA-seq Analysis Method - TRADE</title>
                 <description>&lt;p&gt;&lt;em&gt;In a recent Nature paper, a novel RNA-seq analysis method was published, which might be the future direction for RNA-seq data analysis.&lt;/em&gt;&lt;/p&gt;
 
@@ -461,103 +623,6 @@
                 <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
                 <link>www.xgenome.cn/progresses/2025/01/16/Heliconia-chloroplast-genomes.html</link>
                 <guid isPermaLink="true">www.xgenome.cn/progresses/2025/01/16/Heliconia-chloroplast-genomes.html</guid>
-            </item>
-        
-            <item>
-                <title>Dynamic TE Shaping Plant Evolution and Crop Traits</title>
-                <description>&lt;p&gt;We analyzed 811 plant genomes across 119 species to create an unprecedented atlas of recent transposable element activity, offering insights into genome evolution and crop domestication.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Transposable elements (TEs), often called “jumping genes,” are DNA sequences that can move within a genome. They are major drivers of genetic change, but understanding their recent activity and impact across the plant kingdom has been challenging. A new study published in the &lt;strong&gt;&lt;em&gt;Plant Biotechnology Journal&lt;/em&gt;&lt;/strong&gt; by researchers including &lt;strong&gt;Xin Liu and Sunil Kumar Sahu from BGI Research&lt;/strong&gt; tackles this challenge head-on.&lt;/p&gt;
-
-&lt;p&gt;By comparing a massive dataset of &lt;strong&gt;811 high-quality plant genome assemblies&lt;/strong&gt; – spanning 119 diverse species from algae to crops like rice, maize, and tomato – the team has deciphered recent patterns of TE movement. This large-scale comparative genomics approach, enabled by advancements in sequencing and data sharing, provides a detailed look into how these mobile elements have shaped plant genomes.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Findings:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;A Vast Atlas of TE Activity:&lt;/strong&gt; The researchers performed new TE annotations and identified over &lt;strong&gt;13.8 million structural variants&lt;/strong&gt; in genomes caused by recent TE activity (TE-SVs). This allowed them to map the activity of different TE types (like &lt;em&gt;Copia&lt;/em&gt;, &lt;em&gt;Gypsy&lt;/em&gt;, &lt;em&gt;Helitron&lt;/em&gt;, etc.) across species and within specific crop populations, revealing distinct patterns. For example, Class I retrotransposons were more active in maize and soybean, while &lt;em&gt;Helitron&lt;/em&gt; DNA transposons were highly active in cabbage and mustard.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;TEs and Host Genomes Interact:&lt;/strong&gt; The study provides evidence for a co-evolutionary relationship between TEs and their host genomes. It found that host genes and non-coding RNAs (ncRNAs) are often located near active TEs and are involved in processes like chromatin regulation, DNA binding, and defense responses, suggesting they may influence or be influenced by TE transposition.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;TEs Drive Genetic Innovation:&lt;/strong&gt; The analysis showed that TEs are a major source of genetic variation, responsible for a significant portion (~60-70%) of structural differences between genomes in the studied crop populations. Active TEs were found to promote the duplication of host genes and frequently insert into regulatory regions, potentially altering gene expression.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Impact on Crop Domestication &amp;amp; Adaptation:&lt;/strong&gt; Genes influenced by recent TE activity were found to be linked to important plant functions, including organ development, nutrient absorption, storage metabolism, and responses to environmental stress. This highlights the role TEs have likely played in the domestication of crops and their adaptation to diverse environments.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Significance:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This comprehensive TE dynamics atlas serves as a valuable resource for the plant science community. It illuminates the intricate interplay between mobile elements and host genomes, revealing how TEs contribute to genetic diversity and adaptation. The findings offer a foundation for future research into TE-mediated genome evolution and could inform novel strategies for crop improvement by leveraging the genetic variation generated by these dynamic elements.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Read the full paper:&lt;/strong&gt; Huang, Y., Sahu, S.K. and Liu, X. (2024) Deciphering recent transposition patterns in plants through comparison of 811 genome assemblies. &lt;em&gt;Plant Biotechnol. J.&lt;/em&gt;, https://doi.org/10.1111/pbi.14570&lt;/p&gt;
-</description>
-                <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
-                <link>www.xgenome.cn/progresses/2024/12/23/PlantTE.html</link>
-                <guid isPermaLink="true">www.xgenome.cn/progresses/2024/12/23/PlantTE.html</guid>
-            </item>
-        
-            <item>
-                <title>Massive Genomic Study Catalogues Marine Microbes</title>
-                <description>&lt;p&gt;🌊 BGI Research Team Unveils Vast Marine Microbial Diversity and Biotechnological Potential in &lt;em&gt;Nature&lt;/em&gt; and successfully discovers novel gene editing tools, antibiotics, and plastic-degrading enzymes.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The world’s oceans harbor a staggering diversity of microbial life, a largely untapped resource with immense potential. A major study published online in &lt;strong&gt;&lt;em&gt;Nature&lt;/em&gt;&lt;/strong&gt;, involving researchers from &lt;strong&gt;BGI Research&lt;/strong&gt;, Shandong University, University of East Anglia, and other international collaborators, presents a landmark effort to catalogue this diversity and unlock its biotechnological applications. Key BGI Research contributors include &lt;strong&gt;Guangyi Fan, Wenwei Zhang, Xin Liu, Ying Sun, Jianwei Chen, and Yangyang Jia&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;-the-challenge-from-data-to-discovery&quot;&gt;💡 The Challenge: From Data to Discovery&lt;/h3&gt;
-
-&lt;p&gt;While sequencing technology has generated vast amounts of marine microbial genomic data, translating this into practical biotechnological or biomedical applications has remained difficult. This study aimed to bridge that gap.&lt;/p&gt;
-
-&lt;h3 id=&quot;-building-a-global-ocean-microbiome-catalogue-gomc&quot;&gt;🌍 Building a Global Ocean Microbiome Catalogue (GOMC)&lt;/h3&gt;
-
-&lt;p&gt;The research team analyzed enormous volumes of public marine metagenome data, resulting in:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;🧬 Genome Recovery:&lt;/strong&gt; Reconstruction of &lt;strong&gt;43,191 unique microbial genomes&lt;/strong&gt; (MAGs) from diverse marine environments.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;📖 Unified Catalogue (GOMC):&lt;/strong&gt; Integration with existing databases to create the GOMC, containing nearly &lt;strong&gt;24,200 unique species-level genomes&lt;/strong&gt;, significantly expanding known marine microbial diversity.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;🦠 Novel Insights:&lt;/strong&gt; Characterization of genomic features, including the &lt;strong&gt;largest known marine bacterial genomes&lt;/strong&gt; (up to 18.4 Mb) and complex relationships between microbial defense systems (CRISPR-Cas vs. antibiotic resistance genes).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;-bioprospecting-success-mining-marine-genomes&quot;&gt;✨ Bioprospecting Success: Mining Marine Genomes&lt;/h3&gt;
-
-&lt;p&gt;The true power of this resource was demonstrated through successful &lt;em&gt;in silico&lt;/em&gt; bioprospecting combined with rigorous &lt;em&gt;experimental validation&lt;/em&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;✂️ Novel CRISPR-Cas9 System:&lt;/strong&gt; Discovered &lt;strong&gt;Om1Cas9&lt;/strong&gt;, a compact and efficient new gene-editing tool, and confirmed its activity &lt;em&gt;in vitro&lt;/em&gt; and in human cell lines.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;💊 New Antimicrobial Peptides (AMPs):&lt;/strong&gt; Identified over 1,000 potential AMPs. Ten synthesized candidates showed antibacterial activity, including &lt;strong&gt;cAMP_87&lt;/strong&gt;, which exhibited potent, broad-spectrum action against pathogens.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;♻️ Potent Plastic-Degrading Enzymes:&lt;/strong&gt; Found novel &lt;strong&gt;PETases&lt;/strong&gt; (enzymes that break down PET plastic) from deep-sea environments. Three candidates displayed &lt;strong&gt;superior PET degradation activity&lt;/strong&gt;, especially under high-salt conditions, outperforming known enzymes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;-significance-a-resource-for-the-future&quot;&gt;🚀 Significance: A Resource for the Future&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This comprehensive study not only provides an invaluable resource – the GOMC and associated protein catalogue (GOPC) – for fundamental research into marine ecosystems and microbial evolution, but it also powerfully demonstrates that global genomic data can be effectively mined to discover tangible solutions for medicine, biotechnology, and environmental remediation.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The success in identifying and validating novel gene editors, potential antibiotics, and plastic-degrading enzymes highlights the immense, accessible potential residing within the ocean’s microbiome.&lt;/p&gt;
-
-&lt;h3 id=&quot;-personal-thinking&quot;&gt;💡 Personal thinking&lt;/h3&gt;
-&lt;p&gt;This project originated after the establishment of the Qingdao branch, where there was an urgent need to carry out foundational work in the marine field, particularly related to databases. As a result, we initiated efforts to organize and summarize existing data across various aspects of marine genomics. In 2018, we compiled summaries for plants, animals, and microorganisms, culminating in the creation of a marine white paper. This document not only consolidated publicly available genomic data up to that point but also explored potential future directions in the field of marine genomics.&lt;/p&gt;
-
-&lt;p&gt;The primary author of this paper, Chen Jianwei, was responsible for summarizing the microbial content of the white paper, as he was already leading environmental metagenomics research at BGI. Under his leadership, the team comprehensively collected and organized marine microbial data from public databases, creating a complete dataset. They conducted de novo assembly and rederived functional elements of the microorganisms. Subsequent work involved collaboration with partners on data mining and functional validation, which ultimately led to the publication of this paper through joint efforts.&lt;/p&gt;
-
-&lt;p&gt;The key to the project’s success lies in leveraging large-scale datasets and maintaining long-term perseverance in tackling challenging tasks. This approach proved essential to achieving these significant outcomes.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-publication-details&quot;&gt;📄 Publication Details&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; Chen, J., Jia, Y., Sun, Y. et al. Global marine microbial diversity and its potential in bioprospecting. &lt;em&gt;Nature&lt;/em&gt; (2024).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Published Online:&lt;/strong&gt; 04 September 2024&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;DOI:&lt;/strong&gt; 🔗 &lt;a href=&quot;https://doi.org/10.1038/s41586-024-07891-2&quot;&gt;https://doi.org/10.1038/s41586-024-07891-2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Data &amp;amp; Resources:&lt;/strong&gt; 🌐 Explore the data interactively at CNGBdb: &lt;a href=&quot;https://db.cngb.org/maya/datasets/MDB0000002&quot;&gt;https://db.cngb.org/maya/datasets/MDB0000002&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-</description>
-                <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
-                <link>www.xgenome.cn/progresses/2024/09/04/GlobalMarinceMicrobiome.html</link>
-                <guid isPermaLink="true">www.xgenome.cn/progresses/2024/09/04/GlobalMarinceMicrobiome.html</guid>
             </item>
         
     </channel>
