@@ -7,6 +7,42 @@
         <atom:link href="www.xgenome.cn/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>Exploring Antarctic Krill Mitogenomes: Insights into Genetic Diversity and Population Dynamics</title>
+                <description>&lt;p&gt;Antarctic krill (&lt;em&gt;Euphausia superba&lt;/em&gt;), a keystone species in the Southern Ocean ecosystem, plays a pivotal role in global marine biodiversity and biogeochemical cycles. In our recent study, we leveraged previously published whole-genome sequencing data of Antarctic krill to conduct a deeper analysis of mitochondrial genomes, shedding light on population evolution and genetic selection pressures.&lt;/p&gt;
+
+&lt;h2 id=&quot;key-findings&quot;&gt;Key Findings&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;High-Quality Mitogenome Assembly:&lt;/strong&gt;&lt;br /&gt;
+Using PacBio long-read sequencing technology, we assembled the complete mitochondrial genome of Antarctic krill, spanning 18,926 bp with a notably large control region (CR) of 3,952 bp. The CR includes a 2,289 bp tandem repeat, highlighting the advantages of long-read sequencing in resolving complex genomic regions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;NUMTs and Mitogenome Diversity:&lt;/strong&gt;&lt;br /&gt;
+Our analysis identified 900 nuclear-mitochondrial DNA segments (NUMTs) in the krill nuclear genome, totaling 2.79 Mb. These NUMTs provide insights into the dynamic integration of mitochondrial DNA into nuclear genomes during and after speciation events. Additionally, we constructed a dataset of 80 krill mitogenomes, revealing substantial mitochondrial diversity and high levels of genetic connectivity across geographically distinct populations in the Southern Ocean.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Population Evolution and Demographic History:&lt;/strong&gt;&lt;br /&gt;
+Haplotype network analysis and demographic reconstructions suggest a recent population expansion, likely driven by favorable environmental conditions during the late Pleistocene. Our study also revealed evidence of purifying selection across all 13 mitochondrial protein-coding genes, emphasizing the evolutionary constraint to maintain mitochondrial function under extreme conditions.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;reflections-and-comments&quot;&gt;Reflections and Comments&lt;/h2&gt;
+
+&lt;p&gt;This project forms part of the PhD research undertaken by Shuai Sun, one of my doctoral students and a vital member of XinLab. Shuai has contributed significantly to various projects involving crop population genomics and marine species, publishing multiple papers in these fields. This particular study represents a focused effort to analyze mitochondrial genomes and uncover evolutionary insights from mutations and selection pressures within krill populations.&lt;/p&gt;
+
+&lt;p&gt;As a mentor, I was impressed by Shuai’s dedication and meticulous approach to this research. Leveraging previously published Antarctic krill genomic data, Shuai conducted an in-depth exploration of mitochondrial genes to reveal their evolutionary dynamics and functional significance. These findings not only advance our understanding of krill population biology but also highlight the importance of integrative genomics for marine species conservation.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Our study provides valuable insights into the mitochondrial genomic landscape of Antarctic krill, offering new perspectives on population genetics and evolutionary history. By combining high-quality genomic data with advanced bioinformatics approaches, we have established a foundational resource for krill conservation and management in the Southern Ocean. This work underscores the critical role of mitochondrial research in addressing broader ecological and evolutionary questions.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 29 Apr 2025 10:00:00 +0000</pubDate>
+                <link>www.xgenome.cn/progresses/2025/04/29/krill-mitogenome.html</link>
+                <guid isPermaLink="true">www.xgenome.cn/progresses/2025/04/29/krill-mitogenome.html</guid>
+            </item>
+        
+            <item>
                 <title>Tertiary Lymphoid Organ-like Structures in Carotid Artery Plaques: A Breakthrough in Understanding Plaque Instability</title>
                 <description>&lt;p&gt;&lt;em&gt;Tertiary lymphoid organ-like structures in human atherosclerosis contribute to plaque instability. Xin Liu, on behalf of the XinLab team and our collaborators at Peking Union Medical College Hospital&lt;/em&gt;&lt;/p&gt;
 
@@ -581,48 +617,6 @@ We also gratefully acknowledge the support from:&lt;/p&gt;
                 <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
                 <link>www.xgenome.cn/progresses/2025/01/17/LampreySingleCellSequencing.html</link>
                 <guid isPermaLink="true">www.xgenome.cn/progresses/2025/01/17/LampreySingleCellSequencing.html</guid>
-            </item>
-        
-            <item>
-                <title>Conserved Chloroplast Genomes of Heliconia Revealed</title>
-                <description>&lt;p&gt;We’re excited to share that XinLab has published a new study in &lt;em&gt;Frontiers in Plant Science&lt;/em&gt; (2025, Vol. 15) titled &lt;strong&gt;“Unveiling the Conserved Nature of Heliconia Chloroplast Genomes: Insights from the University and the University of California, and the Complete Chloroplast Genomes.”&lt;/strong&gt; Spearheaded by &lt;a href=&quot;/people/xin-liu&quot;&gt;Xin Liu&lt;/a&gt; and Xin Cheng, with contributions from lab members and collaborators like John W. Kress (Smithsonian Institution), this work dives into the genomic underpinnings of Heliconia, the vibrant tropical plants known for their stunning bracts.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-it-matters&quot;&gt;Why It Matters&lt;/h2&gt;
-
-&lt;p&gt;Heliconia species, with their dazzling inflorescences, are ecological and horticultural stars of tropical regions. But what drives their diversity? Our study explores their chloroplast genomes—maternally inherited DNA that powers photosynthesis—to reveal evolutionary clues. By sequencing and comparing four Heliconia species, we’ve built a foundation for understanding their genetic stability and potential adaptations, offering resources for future plant science breakthroughs.&lt;/p&gt;
-
-&lt;h2 id=&quot;key-findings&quot;&gt;Key Findings&lt;/h2&gt;
-
-&lt;p&gt;We assembled complete chloroplast genomes for &lt;em&gt;Heliconia bihai&lt;/em&gt;, &lt;em&gt;H. caribaea&lt;/em&gt;, &lt;em&gt;H. orthotricha&lt;/em&gt;, and &lt;em&gt;H. tortuosa&lt;/em&gt;, uncovering a striking level of conservation:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Genome Structure&lt;/strong&gt;: All four genomes are ~161,700 bp, with a quadripartite layout (LSC, SSC, two IR regions) typical of angiosperms, featuring 132 genes (86 coding, 8 rRNAs, 38 tRNAs).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Low Diversity&lt;/strong&gt;: Nucleotide diversity (π) is lower in Heliconia than other Zingiberales families, suggesting their visual diversity isn’t tied to chloroplast variation.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Repeat Sequences&lt;/strong&gt;: Simple sequence repeats (SSRs) vary by species—e.g., &lt;em&gt;H. tortuosa&lt;/em&gt; and &lt;em&gt;H. orthotricha&lt;/em&gt; include hexanucleotide SSRs—offering potential genetic markers.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Selection Signals&lt;/strong&gt;: Genes like &lt;em&gt;ndhD&lt;/em&gt;, &lt;em&gt;rpl2&lt;/em&gt;, and &lt;em&gt;ycf2&lt;/em&gt; show signs of positive selection, hinting at roles in photosynthesis and protein import.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Phylogenetic Insights&lt;/strong&gt;: Heliconia forms a distinct clade in Zingiberales, closely related to Musaceae and Strelitziaceae, based on maximum likelihood analysis.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;xinlabs-role&quot;&gt;XinLab’s Role&lt;/h2&gt;
-
-&lt;p&gt;This study showcases XinLab’s expertise in genomics and evolutionary biology. &lt;a href=&quot;/people/xin-liu&quot;&gt;Xin Liu&lt;/a&gt;, the senior author, oversaw the project, while Xin Cheng led data curation and analysis. Lab members contributed to methodology and writing, collaborating with John W. Kress, a Heliconia expert from the Smithsonian. Meet the full team on our &lt;a href=&quot;/people&quot;&gt;People page&lt;/a&gt;!&lt;/p&gt;
-
-&lt;h2 id=&quot;explore-the-work&quot;&gt;Explore the Work&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Read the Paper&lt;/strong&gt;: Available open-access in &lt;em&gt;Frontiers in Plant Science&lt;/em&gt; &lt;a href=&quot;https://doi.org/10.3389/fpls.2024.1535549&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Access the Data&lt;/strong&gt;: Chloroplast genomes are deposited in NCBI (PP093761, PP093760, PP093759, PP093762) and CNGBdb (CNP0005095). See supplementary data in the paper’s &lt;a href=&quot;https://doi.org/10.3389/fpls.2024.1535549&quot;&gt;Table S1b&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;looking-ahead&quot;&gt;Looking Ahead&lt;/h2&gt;
-
-&lt;p&gt;This conserved genomic baseline sets the stage for deeper dives into Heliconia’s nuclear genome, where its morphological diversity may originate. Stay tuned as XinLab continues to explore plant evolution and adaptation!&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Published on April 11, 2025, by XinLab&lt;/em&gt;&lt;/p&gt;
-</description>
-                <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-                <link>www.xgenome.cn/progresses/2025/01/16/Heliconia-chloroplast-genomes.html</link>
-                <guid isPermaLink="true">www.xgenome.cn/progresses/2025/01/16/Heliconia-chloroplast-genomes.html</guid>
             </item>
         
     </channel>
