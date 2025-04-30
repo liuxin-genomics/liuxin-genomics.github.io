@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Symbiont-Screener: Efficient Separation of Host and Symbiont Sequences for Long-Read Metagenomics | XinLab</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+</head>
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+      <img src="/assets/images/logo.png" alt="Logo" height="50"> XinLab
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav nav-underline">
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/">Home</a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/research/">Research</a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/publications/">Publications</a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/people/">People</a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/about/">About</a>
+            </li>
+          
+        
+          
+            <li class="nav-item dropdown">
+              <!-- 使用普通链接，让点击 News 时跳转到 /news/ -->
+              <a class="nav-link dropdown-toggle" href="" id="navDropdown6" 
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                News
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navDropdown6">
+                
+                  <li>
+                    <a class="dropdown-item" href="/news/">
+                      All
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="/news/categories/">
+                      Categories
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="/news/tags/">
+                      Tags
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<body>
+  
+  <main class="container col-lg-8 col-md-12 col-sm-12">
+    
+    <div class="container post-content section">
+  <h2>Symbiont-Screener: Efficient Separation of Host and Symbiont Sequences for Long-Read Metagenomics</h2>
+  
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <!-- 首页 -->
+        <li class="breadcrumb-item">
+          <a href="/">Home</a>
+        </li>
+        <!-- News 页面 -->
+        <li class="breadcrumb-item">
+          <a href="/news/">News</a>
+        </li>
+        <!-- 分类归档（取第一个分类） -->
+        
+          
+          <li class="breadcrumb-item">
+            <a href="/news/categories/progresses/">
+              Progresses
+            </a>
+          </li>
+        
+        <!-- 标签归档（取第一个标签） -->
+        
+          
+          <li class="breadcrumb-item">
+            <a href="/news/tags/bioinformatics/">
+              Bioinformatics
+            </a>
+          </li>
+        
+      </ol>
+    </nav>
+  
+  
+    
+  
+  <p class="post-meta"><i class="fas fa-calendar" aria-hidden="true"></i>  January 30, 2023</p>
+  
+    <img src="/assets/images/news/2023-01-30-symbiont-screener.png" alt="Symbiont-Screener: Efficient Separation of Host and Symbiont Sequences for Long-Read Metagenomics" class="post-hero-image">
+  
+  <div class="content">
+    <p>The phenomenon of symbiosis is widespread in nature, with biological samples often containing data from multiple species. In such cases, sequencing results are frequently mixed with data originating from unintended species, which we often term “contamination.” Removing this contamination to isolate host-specific sequences is critically important for high-quality genomic research. To address this challenge, our recent study introduces Symbiont-Screener, a reference-free computational tool designed to efficiently differentiate and separate sequences from different sources based on their unique sequence characteristics.</p>
+
+<h2 id="key-findings">Key Findings</h2>
+
+<ul>
+  <li>
+    <p><strong>Reference-Free Approach for Host-Symbiont Separation:</strong><br />
+Symbiont-Screener operates without relying on pre-existing reference genomes, enabling effective identification of host sequences in mixed samples. It utilizes trio-binning techniques and strobemers (error-tolerant genomic markers) to categorize long-read sequences according to their parental origins, GC content, and sequence composition. This ensures higher precision in host genome reconstruction and improved metagenomic profiling for associated microbiomes.</p>
+  </li>
+  <li>
+    <p><strong>Performance Across Simulated and Real Datasets:</strong><br />
+Using both simulated datasets and real-world samples (e.g., algal-bacterial symbiotic systems), Symbiont-Screener demonstrated significant improvement in host genome assembly quality. Long-read sequencing technologies like PacBio HiFi and Oxford Nanopore were leveraged, with the purified host assemblies achieving chromosome-level contiguity while reducing contamination effectively. The remaining symbiont reads also facilitated more accurate profiling and assembly of associated microbial genomes.</p>
+  </li>
+  <li>
+    <p><strong>Implications for Symbiosis Research:</strong><br />
+Beyond separating host and symbiont sequences, this tool serves as a foundational step for exploring the biological significance of symbiotic relationships. By enabling precise partitioning of sequences, Symbiont-Screener lays the groundwork for deeper investigations into the ecological and evolutionary mechanisms driving symbiosis.</p>
+  </li>
+</ul>
+
+<h2 id="reflections">Reflections</h2>
+
+<p>This project was led by Mengyang Xu, who not only served as the primary executor of the study but is also the team leader for software development at BGI-Qingdao. The innovative approach presented by Symbiont-Screener addresses a common challenge in genomic sequencing, where samples often include data from multiple species. Mengyang’s dedication to developing and testing this methodology has been pivotal to its success.</p>
+
+<p>On a personal note, as someone involved in symbiosis-related projects, I find it fascinating to consider the broader biological significance of these intertwined relationships. While Symbiont-Screener focuses on separating host and symbiont sequences, this separation represents just the beginning of research into the reasons and mechanisms behind symbiosis itself. Understanding this phenomenon requires a deeper exploration into why symbiotic systems arise and persist in nature—a challenge that we are keen to tackle in the future.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Symbiont-Screener exemplifies the power of bioinformatics in solving complex challenges within metagenomics and symbiotic studies. Its ability to efficiently separate host sequences from symbionts and contaminants not only facilitates high-quality genomic assembly but also provides a novel perspective for investigating symbiotic relationships. As we advance this research, we look forward to uncovering more insights into the co-evolution and functional dynamics of symbiotic organisms.</p>
+
+  </div>
+</div>
+<div>
+    <h4>Share this:</h4>
+        <!-- Facebook -->
+        <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=http://0.0.0.0:4000/progresses/2023/01/30/symbiont-screener.html"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share this on facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <!-- Twitter -->
+        <a class="btn btn-primary" href="https://twitter.com/intent/tweet?text=Symbiont-Screener: Efficient Separation of Host and Symbiont Sequences for Long-Read Metagenomics&url=http://0.0.0.0:4000/progresses/2023/01/30/symbiont-screener.html"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <!-- Google+ -->
+        <a class="btn btn-primary" href="https://plus.google.com/share?url=http://0.0.0.0:4000/progresses/2023/01/30/symbiont-screener.html"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Google+">
+            <i class="fab fa-google-plus"></i>
+        </a>
+</div>
+  </main>
+  <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href=" " class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <img class="bi" width="30" height="30" src="/assets/images/logo.svg"></img>
+      </a >
+      <span class="mb-3 mb-md-0 text-muted">&copy; 2025 XinLab</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      
+        <a href="https://x.com/liuxin_genomics" class="mx-2" target="_blank"><i class="fab fa-twitter" style="color: #333333;"></i></a>
+      
+        <a href="https://github.com/liuxin-genomics" class="mx-2" target="_blank"><i class="fab fa-github" style="color: #333333;"></i></a>
+      
+        <a href="https://facebook.com/liuxin.genomics" class="mx-2" target="_blank"><i class="fab fa-facebook" style="color: #333333;"></i></a>
+      
+        <a href="https://www.linkedin.com/in/liuxin-genomics" class="mx-2" target="_blank"><i class="fab fa-linkedin" style="color: #333333;"></i></a>
+      
+        <a href="mailto:liuxincqbj@gmail.com" class="mx-2" target="_blank"><i class="fas fa-envelope" style="color: #333333;"></i></a>
+      
+        <a href="www.xgenome.cn/feed.xml" class="mx-2" target="_blank"><i class="fa fa-rss-square" style="color: #333333;"></i></a>
+      
+    </ul>
+  </footer>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
