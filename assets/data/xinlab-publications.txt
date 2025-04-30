@@ -102,6 +102,134 @@ Database Provider: NLM
 
 
 Reference Type:  Journal Article
+Record Number: 199
+Author: Liu, Q., Kang, J., Du, L., Liu, Z., Liang, H., Wang, K., He, H., Zhang, X., Wang, Q., Hong, Y., Cheng, Q., Liu, X., Ma, W. and Zhao, J.
+Year: 2025
+Title: Single-cell multiome reveals root hair-specific responses to salt stress
+Journal: New Phytol
+Epub Date: 20250423
+Date: Apr 23
+Short Title: Single-cell multiome reveals root hair-specific responses to salt stress
+ISSN: 1469-8137 (Electronic)
+0028-646X (Linking)
+DOI: 10.1111/nph.70160
+Accession Number: 40269556
+Keywords: BcIRT2
+non-heading Chinese cabbage
+root hair
+salt stress
+single-nucleus multi-omics
+Abstract: Soil salinization, exacerbated by environmental deterioration and improper cultivation, is a major challenge for sustainable agriculture. The root is the primary organ in plants to perceive and respond to salt stress. Utilizing single-cell sequencing, we have created the first single-cell transcriptional and chromatin accessibility landscape for normal and salt-stressed root tips in non-heading Chinese cabbage (NHCC). Our study reveals that salt stress disrupts the normal differentiation of root hairs, leaving many in an undifferentiated state and preventing stress response gene expression. Inter-species analyses show that both salt and osmotic stresses inhibit root hair differentiation and elongation similarly, resulting in fewer, malfunctioning root hairs. We found that high salinity affects root hair iron transport. Salt stress-responsive genes, cell type-specific transcriptional regulatory networks, and trajectory curves are linked to iron transport. Specifically, the expression of BcIRT2, a metal transporter gene, is influenced by salt stress. Silencing BcIRT2 causes chlorotic leaves and increases salt sensitivity, reducing iron content in NHCC roots. Our findings offer significant insights into plant salt stress responses and provide valuable information for breeding salt-tolerant NHCC and other crops.
+Notes: Liu, Qing
+Kang, Jingmin
+Du, Lin
+Liu, Zhaokun
+Liang, Hao
+Wang, Kailai
+He, Haijiao
+Zhang, Xiaonan
+Wang, Qifan
+Hong, Yiguo
+Cheng, Qi
+Liu, Xin
+Ma, Wei
+Zhao, Jianjun
+eng
+2023HBQZYCSB009/Hebei S&T Bureau/
+C2023204308/Natural Science Foundation of Hebei Province/
+C2024204246/Natural Science Foundation of Hebei Province/
+32202505/National Natural Science Foundation of China/
+32330096/National Natural Science Foundation of China/
+U24A20417/National Natural Science Foundation of China/
+902/1123401/Science Foundation of Ministry of Education of China (MoE)/
+England
+2025/04/24
+New Phytol. 2025 Apr 23. doi: 10.1111/nph.70160.
+URL: https://www.ncbi.nlm.nih.gov/pubmed/40269556
+Author Address: State Key Laboratory of North China Crop Improvement and Regulation, Key Laboratory of Vegetable Germplasm Innovation and Utilization of Hebei, Collaborative Innovation Center of Vegetable Industry in Hebei, Hebei International Joint Research and Development Center of Modern Agricultural Biotechnology, College of Horticulture, College of Life Sciences, Hebei Agricultural University, Baoding, 071000, China.
+BGI Research, Beijing, 102601, China.
+College of Life Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China.
+Suzhou Academy of Agricultural Sciences, Suzhou, Jiangsu, 215155, China.
+Glbizzia Biosciences, Beijing, 102609, China.
+Name of Database: Publisher
+Database Provider: NLM
+
+
+Reference Type:  Journal Article
+Record Number: 200
+Author: Lai, Z., Kong, D., Li, Q., Wang, Y., Li, K., Duan, X., Shao, J., Xie, Y., Chen, J., Zhang, T., Feng, Y., Deng, H., Wang, J., Wang, C., Shu, K., Zhao, H., Du, H., Jia, C., Dai, H., Xie, L., Liu, J., Luo, X., Wang, L., Xu, L., Zhu, Z., Lei, X., Wang, Y., Yang, Y., Liu, Y., Liang, Y., Yang, Y., Xie, J., Liu, B., Deng, Z. and Liu, X.
+Year: 2025
+Title: Single-cell spatial transcriptomics of tertiary lymphoid organ-like structures in human atherosclerotic plaques
+Journal: Nat Cardiovasc Res
+Epub Date: 20250428
+Date: Apr 28
+Short Title: Single-cell spatial transcriptomics of tertiary lymphoid organ-like structures in human atherosclerotic plaques
+ISSN: 2731-0590 (Electronic)
+2731-0590 (Linking)
+DOI: 10.1038/s44161-025-00639-9
+Legal Note: Competing interests: The authors declare no competing interests.
+Accession Number: 40295810
+Abstract: Tertiary lymphoid organs have been identified in the arterial adventitia in both mouse models of atherosclerosis and patients with atherosclerosis, yet their role in the disease remains insufficiently explored. Here we present a spatially resolved single-cell transcriptome atlas of human atherosclerotic plaques, identifying 14 distinct cell types and providing evidence of plaque tertiary lymphoid organs (PTLOs). The development of PTLOs was associated with the expression of lymphangiogenic chemokine genes and the adhesion molecule gene in fibroblast-like smooth muscle cells. PTLOs harbor abundant B cells with expanded and diversified B cell receptors, suggesting substantial immune involvement. We also observed that B cells may be exchanged between PTLOs and perivascular adipose tissues. The presence of PTLO-like structures correlates with cerebrovascular events, which may be mediated by PTLO-derived IgG antibodies enhancing macrophage functional activity. Our findings suggest the existence and characteristics of PTLOs in human atherosclerosis, elucidating their cellular functions and clinical implications and offering avenues for understanding, diagnosing and treating this condition.
+Notes: Lai, Zhichao
+Kong, Deqiang
+Li, Qingsong
+Wang, Yue
+Li, Kang
+Duan, Xiaohan
+Shao, Jiang
+Xie, Yiyun
+Chen, Junye
+Zhang, Tianjing
+Feng, Yuyao
+Deng, Haohao
+Wang, Jiaxian
+Wang, Chaonan
+Shu, Keqiang
+Zhao, Hongmei
+Du, Hanze
+Jia, Congwei
+Dai, Huanyu
+Xie, Lizhi
+Liu, Jianlin
+Luo, Xujiao
+Wang, Lin
+Xu, Leyin
+Zhu, Zhan
+Lei, Xiangling
+Wang, Yuru
+Yang, Yixuan
+Liu, Yanan
+Liang, Yuyu
+Yang, Yang
+Xie, Jun
+Liu, Bao
+Deng, Ziqing
+Liu, Xin
+eng
+No. 82070498 and No. 82100521/National Natural Science Foundation of China (National Science Foundation of China)/
+England
+2025/04/29
+Nat Cardiovasc Res. 2025 Apr 28. doi: 10.1038/s44161-025-00639-9.
+URL: https://www.ncbi.nlm.nih.gov/pubmed/40295810
+Author Address: Department of Vascular Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, China.
+BGI Research, Beijing, China.
+Shanxi Medical University-BGI Collaborative Center for Future Medicine, Shanxi Medical University, Taiyuan, China.
+State Key Laboratory of Quality Research in Chinese Medicine and Institute of Chinese Medical Sciences, University of Macau, Macao, China.
+4+4 Medical Doctor Program, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.
+State Key Laboratory of Medical Molecular Biology, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences, Department of Pathophysiology, Peking Union Medical College, Beijing, China.
+Department of Hemangiomas and Vascular Malformations, Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.
+Department of Endocrinology, Key Laboratory of Endocrinology of National Health Commission, Translation Medicine Centre, Peking Union Medical College Hospital, Peking Union Medical College, Chinese Academy of Medical Sciences, Beijing, China.
+Department of Pathology, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, China.
+BGI Research, Shenzhen, China.
+Department of Vascular Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, China. liubao72@aliyun.com.
+BGI Research, Beijing, China. dengziqing@genomics.cn.
+BGI Research, Beijing, China. liuxin@genomics.cn.
+Shanxi Medical University-BGI Collaborative Center for Future Medicine, Shanxi Medical University, Taiyuan, China. liuxin@genomics.cn.
+Name of Database: Publisher
+Database Provider: NLM
+
+
+Reference Type:  Journal Article
 Record Number: 196
 Author: Kang, J. M., Li, Q. S., Liu, J., Du, L., Liu, P., Liu, F. Y., Wang, Y., Shen, X. N., Luo, X. J., Wang, N. H., Wu, R. H., Song, L., Wang, J. Z. and Liu, X.
 Year: 2025
@@ -148,48 +276,77 @@ Access Date: 3/24/2025
 Language: English
 
 Reference Type:  Journal Article
-Record Number: 195
-Author: Cheng, X., Shi, C., Yang, T., Ge, Q., Kress, W. J. and Liu, X.
-Year: 2024
-Title: Unveiling the conserved nature of Heliconia chloroplast genomes: insights from the assembly and analysis of four complete chloroplast genomes
-Journal: Front Plant Sci
-Volume: 15
-Pages: 1535549
-Epub Date: 20250116
-Date: 2025-January-16
-Type of Article: Original Research
-Short Title: Exploring Heliconia chloroplast genomic features
-ISSN: 1664-462X (Print)
-1664-462X (Electronic)
-1664-462X (Linking)
-DOI: 10.3389/fpls.2024.1535549
-Legal Note: The authors declare that this study received funding from BGI Research, Beijing. The funder was not involved in the study design, data collection, analysis, interpretation of data, the writing of this article, or the decision to submit it for publication.
-PMCID: PMC11779715
-Accession Number: 39886692
-Keywords: Heliconia
-Heliconiaceae
-Zingiberales
-chloroplast genome
-genomic features
-Abstract: INTRODUCTION: Heliconia, a genus within the Zingiberales order, is renowned for its diverse morphology, suggesting a rich genetic reservoir. However, genetic research on plants within the Heliconiaceae family has primarily focused on taxonomy and phylogenetics, with limited exploration into other genetic aspects, particularly the chloroplast genome. Given the significance of chloroplast genomes in evolutionary studies, a deeper understanding of their structure and diversity within Heliconia is essential. METHODS: In this study, we sequenced and assembled the complete chloroplast genomes of four representative Heliconia species: Heliconia bihai, Heliconia caribaea, Heliconia orthotricha, and Heliconia tortuosa. The chloroplast genomes were analyzed for structure, gene content, and nucleotide diversity. We also performed comparative analysis with other species within the Zingiberales order to investigate structural and functional differences. RESULTS: The assembled chloroplast genomes of the four Heliconia species exhibited a typical quadripartite structure and ranged in length from 161,680 bp to 161,913 bp. All genomes contained 86 protein-coding genes. Comparative analysis revealed that the chloroplast genome structures of the different Heliconia species were highly conserved, with minor variations. Notably, the chloroplast genome of Heliconia was slightly shorter than those of other Zingiberales species, primarily due to the reduced length of the inverted repeat region. In terms of nucleotide diversity, Heliconia species exhibited lower diversity in their chloroplast genomes compared to other families within the Zingiberales order. DISCUSSION: This study provides valuable insights into the conserved nature of the chloroplast genome in Heliconia. The reduced chloroplast genome size, particularly the shortened inverted repeat region, marks a distinct feature of Heliconia within the Zingiberales family. Our findings also underscore the low nucleotide diversity within the chloroplast genomes of Heliconia species, which could be indicative of their evolutionary history and limited genetic differentiation. These results contribute to a broader understanding of chloroplast genome evolution in the Zingiberales and offer important genetic resources for future research on Heliconia and related species.
-Notes: Cheng, Xin
-Shi, Chengcheng
-Yang, Ting
-Ge, Qijin
-Kress, W John
+Record Number: 198
+Author: Fan, J., Shen, Y., Chen, C., Chen, X., Yang, X., Liu, H., Chen, R., Liu, S., Zhang, B., Zhang, M., Zhou, G., Wang, Y., Sun, H., Jiang, Y., Wei, X., Yang, T., Liu, Y., Tian, D., Deng, Z., Xu, X., Liu, X. and Tian, Z.
+Year: 2025
+Title: A large-scale integrated transcriptomic atlas for soybean organ development
+Journal: Mol Plant
+Volume: 18
+Issue: 4
+Pages: 669-689
+Epub Date: 20250218
+Date: Apr 7
+Short Title: A large-scale integrated transcriptomic atlas for soybean organ development
+ISSN: 1752-9867 (Electronic)
+1674-2052 (Linking)
+DOI: 10.1016/j.molp.2025.02.003
+Accession Number: 39973009
+Keywords: *Glycine max/genetics/growth & development
+*Transcriptome/genetics
+Gene Expression Regulation, Plant
+Gene Expression Profiling
+Stereo-seq
+bulk RNA-seq
+development
+snRNA-seq
+soybean
+transcriptomic atlas
+Abstract: Soybean is one of the most important crops globally, and its production must be significantly increased to meet increasing demand. Elucidating the genetic regulatory networks underlying soybean organ development is essential for breeding elite and resilient varieties to ensure increased soybean production under climate change. An integrated transcriptomic atlas that leverages multiple types of transcriptomics data can facilitate the characterization of temporal-spatial expression patterns of most organ development-related genes and thereby help us to understand organ developmental processes. Here, we constructed a comprehensive, integrated transcriptomic atlas for soybeans, integrating bulk RNA sequencing (RNA-seq) datasets from 314 samples across the soybean life cycle, along with single-nucleus RNA-seq and spatially enhanced resolution omics sequencing datasets from five organs: root, nodule, shoot apex, leaf, and stem. Investigating genes related to organ specificity, blade development, and nodule formation, we demonstrate that the atlas has robust power for exploring key genes involved in organ formation. In addition, we developed a user-friendly panoramic database for the transcriptomic atlas, enabling easy access and queries, which will serve as a valuable resource to significantly advance future soybean functional studies.
+Notes: Fan, Jingwei
+Shen, Yanting
+Chen, Chuan
+Chen, Xi
+Yang, Xiaoyue
+Liu, Haixia
+Chen, Ruiying
+Liu, Shulin
+Zhang, Bohan
+Zhang, Min
+Zhou, Guoan
+Wang, Yu
+Sun, Haixi
+Jiang, Yuqiang
+Wei, Xiaofeng
+Yang, Tao
+Liu, Yucheng
+Tian, Dongmei
+Deng, Ziqing
+Xu, Xun
 Liu, Xin
+Tian, Zhixi
 eng
-Switzerland
-2025/01/31
-Front Plant Sci. 2025 Jan 16;15:1535549. doi: 10.3389/fpls.2024.1535549. eCollection 2024.
-URL: https://www.ncbi.nlm.nih.gov/pubmed/39886692
-'File' Attachments: internal-pdf://3260985863/Cheng-2025-Unveiling the conserved nature of H.pdf
-Author Address: College of Life Sciences, University of Chinese Academy of Sciences, Beijing, China.
-BGI Research, Beijing, China.
-Department of Botany, National Museum of Natural History, Smithsonian Institution, Washington, DC, United States.
-Name of Database: PubMed-not-MEDLINE
+England
+2025/02/20
+Mol Plant. 2025 Apr 7;18(4):669-689. doi: 10.1016/j.molp.2025.02.003. Epub 2025 Feb 18.
+URL: https://www.ncbi.nlm.nih.gov/pubmed/39973009
+https://www.cell.com/action/showPdf?pii=S1674205225000693
+'File' Attachments: internal-pdf://3829176425/Fan-2025-A large-scale integrated transcriptom.pdf
+Author Address: State Key Laboratory of Seed Innovation, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing 100101, China.
+State Key Laboratory of Seed Innovation, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing 100101, China; Yazhouwan National Laboratory, Sanya 572000, Hainan, China. Electronic address: shenyanting@yzwlab.cn.
+BGI-Beijing, Beijing 102601, China.
+BGI-Beijing, Beijing 102601, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.
+State Key Laboratory of Seed Innovation, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing 100101, China; College of Advanced Agriculture Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.
+State Key Laboratory of Seed Innovation, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing 100101, China; Yazhouwan National Laboratory, Sanya 572000, Hainan, China.
+State Key Laboratory of Molecular Developmental Biology, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing 100101, China.
+China National GeneBank, Shenzhen, Guangdong 518120, China.
+National Genomics Data Center, China National Center for Bioinformation, Beijing 100101, China; Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing 100101, China.
+BGI-Beijing, Beijing 102601, China; BGI-Shenzhen, Shenzhen 518083, Guangdong, China.
+BGI-Shenzhen, Shenzhen 518083, Guangdong, China. Electronic address: xuxun@genomics.cn.
+BGI-Beijing, Beijing 102601, China; BGI-Shenzhen, Shenzhen 518083, Guangdong, China. Electronic address: liuxin@genomics.cn.
+State Key Laboratory of Seed Innovation, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing 100101, China; Yazhouwan National Laboratory, Sanya 572000, Hainan, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China. Electronic address: tianzhixi@yzwlab.cn.
+Name of Database: Medline
 Database Provider: NLM
-Language: English
+
 
 Reference Type:  Journal Article
 Record Number: 191
@@ -282,6 +439,67 @@ Author Address: College of Life Sciences, University of Chinese Academy of Scien
 BGI-Qingdao, BGI-Shenzhen, Qingdao 266555, China.
 BGI-Shenzhen, Shenzhen 518083, China.
 Name of Database: PubMed-not-MEDLINE
+Database Provider: NLM
+
+
+Reference Type:  Journal Article
+Record Number: 163
+Author: Thudi, M., Samineni, S., Li, W., Boer, M. P., Roorkiwal, M., Yang, Z., Ladejobi, F., Zheng, C., Chitikineni, A., Nayak, S., He, Z., Valluri, V., Bajaj, P., Khan, A. W., Gaur, P. M., van Eeuwijk, F., Mott, R., Xin, L. and Varshney, R. K.
+Year: 2024
+Title: Whole genome resequencing and phenotyping of MAGIC population for high resolution mapping of drought tolerance in chickpea
+Journal: Plant Genome
+Volume: 17
+Issue: 1
+Pages: e20333
+Epub Date: 20230430
+Date: Mar
+Short Title: Whole genome resequencing and phenotyping of MAGIC population for high resolution mapping of drought tolerance in chickpea
+ISSN: 1940-3372 (Electronic)
+1940-3372 (Linking)
+DOI: 10.1002/tpg2.20333
+Accession Number: 37122200
+Keywords: Chromosome Mapping
+*Cicer/genetics
+Genome, Plant
+Genome-Wide Association Study
+Drought Resistance
+Abstract: Terminal drought is one of the major constraints to crop production in chickpea (Cicer arietinum L.). In order to map drought tolerance related traits at high resolution, we sequenced multi-parent advanced generation intercross (MAGIC) population using whole genome resequencing approach and phenotyped it under drought stress environments for two consecutive years (2013-14 and 2014-15). A total of 52.02 billion clean reads containing 4.67 TB clean data were generated on the 1136 MAGIC lines and eight parental lines. Alignment of clean data on to the reference genome enabled identification of a total, 932,172 of SNPs, 35,973 insertions, and 35,726 deletions among the parental lines. A high-density genetic map was constructed using 57,180 SNPs spanning a map distance of 1606.69 cM. Using compressed mixed linear model, genome-wide association study (GWAS) enabled us to identify 737 markers significantly associated with days to 50% flowering, days to maturity, plant height, 100 seed weight, biomass, and harvest index. In addition to the GWAS approach, an identity-by-descent (IBD)-based mixed model approach was used to map quantitative trait loci (QTLs). The IBD-based mixed model approach detected major QTLs that were comparable to those from the GWAS analysis as well as some exclusive QTLs with smaller effects. The candidate genes like FRIGIDA and CaTIFY4b can be used for enhancing drought tolerance in chickpea. The genomic resources, genetic map, marker-trait associations, and QTLs identified in the study are valuable resources for the chickpea community for developing climate resilient chickpeas.
+Notes: Thudi, Mahendar
+Samineni, Srinivasan
+Li, Wenhao
+Boer, Martin P
+Roorkiwal, Manish
+Yang, Zuoquan
+Ladejobi, Funmi
+Zheng, Chaozhi
+Chitikineni, Annapurna
+Nayak, Sourav
+He, Zhang
+Valluri, Vinod
+Bajaj, Prasad
+Khan, Aamir W
+Gaur, Pooran M
+van Eeuwijk, Fred
+Mott, Richard
+Xin, Liu
+Varshney, Rajeev K
+eng
+BB/P024726/1/BB_/Biotechnology and Biological Sciences Research Council/United Kingdom
+2023/05/01
+Plant Genome. 2024 Mar;17(1):e20333. doi: 10.1002/tpg2.20333. Epub 2023 Apr 30.
+URL: https://www.ncbi.nlm.nih.gov/pubmed/37122200
+'File' Attachments: internal-pdf://1722060049/The Plant Genome - 2023 - Thudi - Whole genome.pdf
+Author Address: Center of Excellence in Genomics and Systems Biology (CEGSB), International Crops Research Institute for the Semi-Arid Tropics (ICRISAT), Patancheru, India.
+Department of Agricultural Biotechnology and Molecular Biology, Dr. Rajendra Prasad Central Agricultural University (RPCAU), Pusa, India.
+Crop Improvement Program-Asia, ICRISAT, Patancheru, India.
+International Center for Biosaline Agriculture, Dubai, United Arab Emirates.
+Wageningen University and Research, Wageningen, The Netherlands.
+Khalifa Center for Genetic Engineering and Biotechnology (KCGEB), United Arab Emirates University, Al Ain, United Arab Emirates.
+BGI-Shenzhen, Shenzhen, China.
+Department of Genetics, Evolution and Environment, Genetics Institute, University College London, London, UK.
+The UWA Institute of Agriculture, University of Western Australia, Perth, Western Australia, Australia.
+Centre for Crop & Food Innovation, WA State Agricultural Biotechnology Centre, Food Futures Institute, Murdoch University, Murdoch, Western Australia, Australia.
+Name of Database: Medline
 Database Provider: NLM
 
 
@@ -496,6 +714,50 @@ SKUAST Kashmir, Fac Agr, Div Genet & Plant Breeding, Wadura, India
 Indian Agr Res Inst, Div Genet, ICAR, New Delhi, India
 Guangdong Acad Agr Sci GDAAS, Crops Res Inst, Guangzhou, Peoples R China
 BGI Res, Beijing, Peoples R China
+Language: English
+
+Reference Type:  Journal Article
+Record Number: 195
+Author: Cheng, X., Shi, C., Yang, T., Ge, Q., Kress, W. J. and Liu, X.
+Year: 2024
+Title: Unveiling the conserved nature of Heliconia chloroplast genomes: insights from the assembly and analysis of four complete chloroplast genomes
+Journal: Front Plant Sci
+Volume: 15
+Pages: 1535549
+Epub Date: 20250116
+Date: 2025-January-16
+Type of Article: Original Research
+Short Title: Exploring Heliconia chloroplast genomic features
+ISSN: 1664-462X (Print)
+1664-462X (Electronic)
+1664-462X (Linking)
+DOI: 10.3389/fpls.2024.1535549
+Legal Note: The authors declare that this study received funding from BGI Research, Beijing. The funder was not involved in the study design, data collection, analysis, interpretation of data, the writing of this article, or the decision to submit it for publication.
+PMCID: PMC11779715
+Accession Number: 39886692
+Keywords: Heliconia
+Heliconiaceae
+Zingiberales
+chloroplast genome
+genomic features
+Abstract: INTRODUCTION: Heliconia, a genus within the Zingiberales order, is renowned for its diverse morphology, suggesting a rich genetic reservoir. However, genetic research on plants within the Heliconiaceae family has primarily focused on taxonomy and phylogenetics, with limited exploration into other genetic aspects, particularly the chloroplast genome. Given the significance of chloroplast genomes in evolutionary studies, a deeper understanding of their structure and diversity within Heliconia is essential. METHODS: In this study, we sequenced and assembled the complete chloroplast genomes of four representative Heliconia species: Heliconia bihai, Heliconia caribaea, Heliconia orthotricha, and Heliconia tortuosa. The chloroplast genomes were analyzed for structure, gene content, and nucleotide diversity. We also performed comparative analysis with other species within the Zingiberales order to investigate structural and functional differences. RESULTS: The assembled chloroplast genomes of the four Heliconia species exhibited a typical quadripartite structure and ranged in length from 161,680 bp to 161,913 bp. All genomes contained 86 protein-coding genes. Comparative analysis revealed that the chloroplast genome structures of the different Heliconia species were highly conserved, with minor variations. Notably, the chloroplast genome of Heliconia was slightly shorter than those of other Zingiberales species, primarily due to the reduced length of the inverted repeat region. In terms of nucleotide diversity, Heliconia species exhibited lower diversity in their chloroplast genomes compared to other families within the Zingiberales order. DISCUSSION: This study provides valuable insights into the conserved nature of the chloroplast genome in Heliconia. The reduced chloroplast genome size, particularly the shortened inverted repeat region, marks a distinct feature of Heliconia within the Zingiberales family. Our findings also underscore the low nucleotide diversity within the chloroplast genomes of Heliconia species, which could be indicative of their evolutionary history and limited genetic differentiation. These results contribute to a broader understanding of chloroplast genome evolution in the Zingiberales and offer important genetic resources for future research on Heliconia and related species.
+Notes: Cheng, Xin
+Shi, Chengcheng
+Yang, Ting
+Ge, Qijin
+Kress, W John
+Liu, Xin
+eng
+Switzerland
+2025/01/31
+Front Plant Sci. 2025 Jan 16;15:1535549. doi: 10.3389/fpls.2024.1535549. eCollection 2024.
+URL: https://www.ncbi.nlm.nih.gov/pubmed/39886692
+'File' Attachments: internal-pdf://3260985863/Cheng-2025-Unveiling the conserved nature of H.pdf
+Author Address: College of Life Sciences, University of Chinese Academy of Sciences, Beijing, China.
+BGI Research, Beijing, China.
+Department of Botany, National Museum of Natural History, Smithsonian Institution, Washington, DC, United States.
+Name of Database: PubMed-not-MEDLINE
+Database Provider: NLM
 Language: English
 
 Reference Type:  Journal Article
@@ -838,67 +1100,6 @@ BGI Shenzhen, Shenzhen, Peoples R China
 Univ Chinese Acad Sci, Coll Life Sci, Beijing, Peoples R China
 BGI Shenzhen, State Key Lab Agr Genom, Shenzhen, Peoples R China
 Language: English
-
-Reference Type:  Journal Article
-Record Number: 163
-Author: Thudi, M., Samineni, S., Li, W., Boer, M. P., Roorkiwal, M., Yang, Z., Ladejobi, F., Zheng, C., Chitikineni, A., Nayak, S., He, Z., Valluri, V., Bajaj, P., Khan, A. W., Gaur, P. M., van Eeuwijk, F., Mott, R., Xin, L. and Varshney, R. K.
-Year: 2024
-Title: Whole genome resequencing and phenotyping of MAGIC population for high resolution mapping of drought tolerance in chickpea
-Journal: Plant Genome
-Volume: 17
-Issue: 1
-Pages: e20333
-Epub Date: 20230430
-Date: Mar
-Short Title: Whole genome resequencing and phenotyping of MAGIC population for high resolution mapping of drought tolerance in chickpea
-ISSN: 1940-3372 (Electronic)
-1940-3372 (Linking)
-DOI: 10.1002/tpg2.20333
-Accession Number: 37122200
-Keywords: Chromosome Mapping
-*Cicer/genetics
-Genome, Plant
-Genome-Wide Association Study
-Drought Resistance
-Abstract: Terminal drought is one of the major constraints to crop production in chickpea (Cicer arietinum L.). In order to map drought tolerance related traits at high resolution, we sequenced multi-parent advanced generation intercross (MAGIC) population using whole genome resequencing approach and phenotyped it under drought stress environments for two consecutive years (2013-14 and 2014-15). A total of 52.02 billion clean reads containing 4.67 TB clean data were generated on the 1136 MAGIC lines and eight parental lines. Alignment of clean data on to the reference genome enabled identification of a total, 932,172 of SNPs, 35,973 insertions, and 35,726 deletions among the parental lines. A high-density genetic map was constructed using 57,180 SNPs spanning a map distance of 1606.69 cM. Using compressed mixed linear model, genome-wide association study (GWAS) enabled us to identify 737 markers significantly associated with days to 50% flowering, days to maturity, plant height, 100 seed weight, biomass, and harvest index. In addition to the GWAS approach, an identity-by-descent (IBD)-based mixed model approach was used to map quantitative trait loci (QTLs). The IBD-based mixed model approach detected major QTLs that were comparable to those from the GWAS analysis as well as some exclusive QTLs with smaller effects. The candidate genes like FRIGIDA and CaTIFY4b can be used for enhancing drought tolerance in chickpea. The genomic resources, genetic map, marker-trait associations, and QTLs identified in the study are valuable resources for the chickpea community for developing climate resilient chickpeas.
-Notes: Thudi, Mahendar
-Samineni, Srinivasan
-Li, Wenhao
-Boer, Martin P
-Roorkiwal, Manish
-Yang, Zuoquan
-Ladejobi, Funmi
-Zheng, Chaozhi
-Chitikineni, Annapurna
-Nayak, Sourav
-He, Zhang
-Valluri, Vinod
-Bajaj, Prasad
-Khan, Aamir W
-Gaur, Pooran M
-van Eeuwijk, Fred
-Mott, Richard
-Xin, Liu
-Varshney, Rajeev K
-eng
-BB/P024726/1/BB_/Biotechnology and Biological Sciences Research Council/United Kingdom
-2023/05/01
-Plant Genome. 2024 Mar;17(1):e20333. doi: 10.1002/tpg2.20333. Epub 2023 Apr 30.
-URL: https://www.ncbi.nlm.nih.gov/pubmed/37122200
-'File' Attachments: internal-pdf://1722060049/The Plant Genome - 2023 - Thudi - Whole genome.pdf
-Author Address: Center of Excellence in Genomics and Systems Biology (CEGSB), International Crops Research Institute for the Semi-Arid Tropics (ICRISAT), Patancheru, India.
-Department of Agricultural Biotechnology and Molecular Biology, Dr. Rajendra Prasad Central Agricultural University (RPCAU), Pusa, India.
-Crop Improvement Program-Asia, ICRISAT, Patancheru, India.
-International Center for Biosaline Agriculture, Dubai, United Arab Emirates.
-Wageningen University and Research, Wageningen, The Netherlands.
-Khalifa Center for Genetic Engineering and Biotechnology (KCGEB), United Arab Emirates University, Al Ain, United Arab Emirates.
-BGI-Shenzhen, Shenzhen, China.
-Department of Genetics, Evolution and Environment, Genetics Institute, University College London, London, UK.
-The UWA Institute of Agriculture, University of Western Australia, Perth, Western Australia, Australia.
-Centre for Crop & Food Innovation, WA State Agricultural Biotechnology Centre, Food Futures Institute, Murdoch University, Murdoch, Western Australia, Australia.
-Name of Database: Medline
-Database Provider: NLM
-
 
 Reference Type:  Journal Article
 Record Number: 173
@@ -1988,6 +2189,47 @@ Database Provider: NLM
 
 
 Reference Type:  Journal Article
+Record Number: 159
+Author: Liu, Y. Y., Shao, L. B., Zhou, J., Li, R. C., Pandey, M. K., Han, Y., Cui, F., Zhang, J. L., Guo, F., Chen, J., Shan, S. H., Fan, G. Y., Zhang, H., Seim, I., Liu, X., Li, X. G., Varshney, R. K., Li, G. W. and Wan, S. B.
+Year: 2022
+Title: Genomic insights into the genetic signatures of selection and seed trait loci in cultivated peanut
+Journal: Journal of Advanced Research
+Volume: 42
+Pages: 237-248
+Date: Dec
+Short Title: Genomic insights into the genetic signatures of selection and seed trait loci in cultivated peanut
+Alternate Journal: J Adv Res
+ISSN: 2090-1232
+DOI: 10.1016/j.jare.2022.01.016
+Accession Number: WOS:000906666400001
+Keywords: peanut
+genomic diversity
+evolution
+gwas
+seed traits
+cell-cycle
+model
+plant
+Abstract: Introduction: Cultivated peanut (Arachis hypogaea L.) is an important oil crop for human nutrition and is cultivated in >100 countries. However, the present knowledge of its genomic diversity, evolution, and loci related to the seed traits is limited. Objectives: Our study intended to (1) uncover the population structure and the demographic history of peanuts, (2) identify signatures of selection that occurred during peanut improvement breeding, and (3) detect and verify the functions of candidate genes associated with seed traits. Methods: We explored the population relationship and the evolution of peanuts using a largescale single nucleotide polymorphism dataset generated from the genome-wide resequencing of 203 cultivated peanuts. Genetic diversity and genomic scan analyses were applied to identify selective loci for genomicselection breeding. Genome-wide association studies, transgenic experiments, and RNA-seq were employed to identify the candidate genes associated with seed traits. Results: Our study revealed that the 203 resequenced accessions were divided into four genetic groups, consistent with their botanical classification. Moreover, the var. peruviana and var. fastigiata subpopulations have diverged to a greater extent than the others, and var. peruviana may be the earliest variant in the evolution from tetraploid ancestors. A recent dramatic expansion in the effective population size of the cultivated peanuts ca. 300-500 years ago was also noted. Selective sweeps underlying quantitative trait loci and genes of seed size, plant architecture, and disease resistance coincide with the major goals of improved peanut breeding compared with the landrace and cultivar populations. Genome-wide association testing with functional analysis led to the identification of two genes involved in seed weight and seed length regulation. Conclusion: Our study provides valuable information for understanding the genomic diversity and the evolution of peanuts and serves as a genomic basis for improving peanut cultivars. (c) 2022 The Authors. Published by Elsevier B.V. on behalf of Cairo University. This is an open access article
+Notes: Sp. Iss. SI
+7m4zc
+Times Cited:19
+Cited References Count:51
+URL: <Go to ISI>://WOS:000906666400001
+'File' Attachments: internal-pdf://2511712092/Liu-2022-Genomic insights into the genetic sig.pdf
+Author Address: Shandong Acad Agr Sci, Inst Crop Germplasm Resources, Prov Key Lab Crop Genet Improvement Ecol & Physiol, Jinan 250100, Shandong, Peoples R China
+BGI Shenzhen, BGI Qingdao, Qingdao, Shandong, Peoples R China
+Int Crops Res Inst Semi Arid Trop, Ctr Excellence Genom & Syst Biol, Hyderabad 502324, India
+Shandong Normal Univ, Coll Life Sci, Jinan 250014, Shandong, Peoples R China
+Shandong Peanut Res Inst, Qingdao 266000, Peoples R China
+BGI Shenzhen, State Key Lab Agr Genom, Shenzhen 518083, Peoples R China
+Nanjing Normal Univ, Coll Life Sci, Integrat Biol Lab, Wenyuan Rd, Nanjing 210023, Peoples R China
+Queensland Univ Technol, Sch Biol & Environm Sci, Brisbane 4000, Australia
+Univ Western Australia, UWA Inst Agr, Perth, WA 6001, Australia
+Murdoch Univ, State Agr Biotechnol Ctr, Ctr Crop & Food Innovat, Murdoch, WA, Australia
+Language: English
+
+Reference Type:  Journal Article
 Record Number: 143
 Author: Liu, Y., Wang, S., Li, L., Yang, T., Dong, S., Wei, T., Wu, S., Liu, Y., Gong, Y., Feng, X., Ma, J., Chang, G., Huang, J., Yang, Y., Wang, H., Liu, M., Xu, Y., Liang, H., Yu, J., Cai, Y., Zhang, Z., Fan, Y., Mu, W., Sahu, S. K., Liu, S., Lang, X., Yang, L., Li, N., Habib, S., Yang, Y., Lindstrom, A. J., Liang, P., Goffinet, B., Zaman, S., Wegrzyn, J. L., Li, D., Liu, J., Cui, J., Sonnenschein, E. C., Wang, X., Ruan, J., Xue, J. Y., Shao, Z. Q., Song, C., Fan, G., Li, Z., Zhang, L., Liu, J., Liu, Z. J., Jiao, Y., Wang, X. Q., Wu, H., Wang, E., Lisby, M., Yang, H., Wang, J., Liu, X., Xu, X., Li, N., Soltis, P. S., Van de Peer, Y., Soltis, D. E., Gong, X., Liu, H. and Zhang, S.
 Year: 2022
@@ -2127,47 +2369,6 @@ Key Laboratory of Southern Subtropical Plant Diversity, Fairy Lake Botanical Gar
 Name of Database: Medline
 Database Provider: NLM
 
-
-Reference Type:  Journal Article
-Record Number: 159
-Author: Liu, Y. Y., Shao, L. B., Zhou, J., Li, R. C., Pandey, M. K., Han, Y., Cui, F., Zhang, J. L., Guo, F., Chen, J., Shan, S. H., Fan, G. Y., Zhang, H., Seim, I., Liu, X., Li, X. G., Varshney, R. K., Li, G. W. and Wan, S. B.
-Year: 2022
-Title: Genomic insights into the genetic signatures of selection and seed trait loci in cultivated peanut
-Journal: Journal of Advanced Research
-Volume: 42
-Pages: 237-248
-Date: Dec
-Short Title: Genomic insights into the genetic signatures of selection and seed trait loci in cultivated peanut
-Alternate Journal: J Adv Res
-ISSN: 2090-1232
-DOI: 10.1016/j.jare.2022.01.016
-Accession Number: WOS:000906666400001
-Keywords: peanut
-genomic diversity
-evolution
-gwas
-seed traits
-cell-cycle
-model
-plant
-Abstract: Introduction: Cultivated peanut (Arachis hypogaea L.) is an important oil crop for human nutrition and is cultivated in >100 countries. However, the present knowledge of its genomic diversity, evolution, and loci related to the seed traits is limited. Objectives: Our study intended to (1) uncover the population structure and the demographic history of peanuts, (2) identify signatures of selection that occurred during peanut improvement breeding, and (3) detect and verify the functions of candidate genes associated with seed traits. Methods: We explored the population relationship and the evolution of peanuts using a largescale single nucleotide polymorphism dataset generated from the genome-wide resequencing of 203 cultivated peanuts. Genetic diversity and genomic scan analyses were applied to identify selective loci for genomicselection breeding. Genome-wide association studies, transgenic experiments, and RNA-seq were employed to identify the candidate genes associated with seed traits. Results: Our study revealed that the 203 resequenced accessions were divided into four genetic groups, consistent with their botanical classification. Moreover, the var. peruviana and var. fastigiata subpopulations have diverged to a greater extent than the others, and var. peruviana may be the earliest variant in the evolution from tetraploid ancestors. A recent dramatic expansion in the effective population size of the cultivated peanuts ca. 300-500 years ago was also noted. Selective sweeps underlying quantitative trait loci and genes of seed size, plant architecture, and disease resistance coincide with the major goals of improved peanut breeding compared with the landrace and cultivar populations. Genome-wide association testing with functional analysis led to the identification of two genes involved in seed weight and seed length regulation. Conclusion: Our study provides valuable information for understanding the genomic diversity and the evolution of peanuts and serves as a genomic basis for improving peanut cultivars. (c) 2022 The Authors. Published by Elsevier B.V. on behalf of Cairo University. This is an open access article
-Notes: Sp. Iss. SI
-7m4zc
-Times Cited:19
-Cited References Count:51
-URL: <Go to ISI>://WOS:000906666400001
-'File' Attachments: internal-pdf://2511712092/Liu-2022-Genomic insights into the genetic sig.pdf
-Author Address: Shandong Acad Agr Sci, Inst Crop Germplasm Resources, Prov Key Lab Crop Genet Improvement Ecol & Physiol, Jinan 250100, Shandong, Peoples R China
-BGI Shenzhen, BGI Qingdao, Qingdao, Shandong, Peoples R China
-Int Crops Res Inst Semi Arid Trop, Ctr Excellence Genom & Syst Biol, Hyderabad 502324, India
-Shandong Normal Univ, Coll Life Sci, Jinan 250014, Shandong, Peoples R China
-Shandong Peanut Res Inst, Qingdao 266000, Peoples R China
-BGI Shenzhen, State Key Lab Agr Genom, Shenzhen 518083, Peoples R China
-Nanjing Normal Univ, Coll Life Sci, Integrat Biol Lab, Wenyuan Rd, Nanjing 210023, Peoples R China
-Queensland Univ Technol, Sch Biol & Environm Sci, Brisbane 4000, Australia
-Univ Western Australia, UWA Inst Agr, Perth, WA 6001, Australia
-Murdoch Univ, State Agr Biotechnol Ctr, Ctr Crop & Food Innovat, Murdoch, WA, Australia
-Language: English
 
 Reference Type:  Journal Article
 Record Number: 146
@@ -11631,67 +11832,48 @@ Database Provider: NLM
 
 
 Reference Type:  Journal Article
-Record Number: 2
-Author: Xu, X., Liu, X., Ge, S., Jensen, J. D., Hu, F., Li, X., Dong, Y., Gutenkunst, R. N., Fang, L., Huang, L., Li, J., He, W., Zhang, G., Zheng, X., Zhang, F., Li, Y., Yu, C., Kristiansen, K., Zhang, X., Wang, J., Wright, M., McCouch, S., Nielsen, R., Wang, J. and Wang, W.
-Year: 2011
-Title: Resequencing 50 accessions of cultivated and wild rice yields markers for identifying agronomically important genes
-Journal: Nat Biotechnol
-Volume: 30
-Issue: 1
-Pages: 105-11
-Epub Date: 20111211
-Date: Dec 11
-Short Title: Resequencing 50 accessions of cultivated and wild rice yields markers for identifying agronomically important genes
-ISSN: 1546-1696 (Electronic)
-1087-0156 (Linking)
-DOI: 10.1038/nbt.2050
-Accession Number: 22158310
-Keywords: Breeding
-Chromosome Mapping
-Evolution, Molecular
-Genetic Markers/*genetics
-Genetic Variation
+Record Number: 5
+Author: Tomato Genome, Consortium
+Year: 2012
+Title: The tomato genome sequence provides insights into fleshy fruit evolution
+Journal: Nature
+Volume: 485
+Issue: 7400
+Pages: 635-41
+Epub Date: 20120530
+Date: May 30
+Short Title: The tomato genome sequence provides insights into fleshy fruit evolution
+ISSN: 1476-4687 (Electronic)
+0028-0836 (Print)
+0028-0836 (Linking)
+DOI: 10.1038/nature11119
+PMCID: PMC3378239
+Accession Number: 22660326
+Keywords: Arabidopsis/genetics
+*Evolution, Molecular
+Genetic Variation/genetics
 Genome, Plant/*genetics
-Linkage Disequilibrium
-Oryza/*genetics
+Genomics
+Solanum lycopersicum/*genetics/physiology
+Molecular Sequence Data
 Phylogeny
-Polymorphism, Single Nucleotide/*genetics
-Population
-Selection, Genetic
-Sequence Analysis, DNA/*methods
-Abstract: Rice is a staple crop that has undergone substantial phenotypic and physiological changes during domestication. Here we resequenced the genomes of 40 cultivated accessions selected from the major groups of rice and 10 accessions of their wild progenitors (Oryza rufipogon and Oryza nivara) to >15 x raw data coverage. We investigated genome-wide variation patterns in rice and obtained 6.5 million high-quality single nucleotide polymorphisms (SNPs) after excluding sites with missing data in any accession. Using these population SNP data, we identified thousands of genes with significantly lower diversity in cultivated but not wild rice, which represent candidate regions selected during domestication. Some of these variants are associated with important biological features, whereas others have yet to be functionally characterized. The molecular markers we have identified should be valuable for breeding and for identifying agronomically important genes in rice.
-Notes: Xu, Xun
-Liu, Xin
-Ge, Song
-Jensen, Jeffrey D
-Hu, Fengyi
-Li, Xin
-Dong, Yang
-Gutenkunst, Ryan N
-Fang, Lin
-Huang, Lei
-Li, Jingxiang
-He, Weiming
-Zhang, Guojie
-Zheng, Xiaoming
-Zhang, Fumin
-Li, Yingrui
-Yu, Chang
-Kristiansen, Karsten
-Zhang, Xiuqing
-Wang, Jian
-Wright, Mark
-McCouch, Susan
-Nielsen, Rasmus
-Wang, Jun
-Wang, Wen
-eng
+RNA, Plant/genetics
+Sequence Analysis, DNA
+Solanum tuberosum/genetics
+Glycine max/genetics
+Synteny
+Abstract: Tomato (Solanum lycopersicum) is a major crop plant and a model system for fruit development. Solanum is one of the largest angiosperm genera and includes annual and perennial plants from diverse habitats. Here we present a high-quality genome sequence of domesticated tomato, a draft sequence of its closest wild relative, Solanum pimpinellifolium, and compare them to each other and to the potato genome (Solanum tuberosum). The two tomato genomes show only 0.6% nucleotide divergence and signs of recent admixture, but show more than 8% divergence from potato, with nine large and several smaller inversions. In contrast to Arabidopsis, but similar to soybean, tomato and potato small RNAs map predominantly to gene-rich chromosomal regions, including gene promoters. The Solanum lineage has experienced two consecutive genome triplications: one that is ancient and shared with rosids, and a more recent one. These triplications set the stage for the neofunctionalization of genes controlling fruit characteristics, such as colour and fleshiness.
+Notes: eng
+BB/C509731/1/BB_/Biotechnology and Biological Sciences Research Council/United Kingdom
+BB/G006199/1/BB_/Biotechnology and Biological Sciences Research Council/United Kingdom
+BB/G02491X/1/BB_/Biotechnology and Biological Sciences Research Council/United Kingdom
 Research Support, Non-U.S. Gov't
-2011/12/14
-Nat Biotechnol. 2011 Dec 11;30(1):105-11. doi: 10.1038/nbt.2050.
-URL: https://www.ncbi.nlm.nih.gov/pubmed/22158310
-'File' Attachments: internal-pdf://1007277217/nbt.2050.pdf
-Author Address: CAS-Max Planck Junior Research Group on Evolutionary Genomics, State Key Laboratory of Genetic Resources and Evolution, Kunming Institute of Zoology, Chinese Academy of Sciences (CAS), Kunming, China.
+Research Support, U.S. Gov't, Non-P.H.S.
+England
+2012/06/05
+Nature. 2012 May 30;485(7400):635-41. doi: 10.1038/nature11119.
+URL: https://www.ncbi.nlm.nih.gov/pubmed/22660326
+'File' Attachments: internal-pdf://4057784573/nature11119.pdf
 Name of Database: Medline
 Database Provider: NLM
 
@@ -11827,53 +12009,6 @@ Cell. 2012 Mar 2;148(5):873-85. doi: 10.1016/j.cell.2012.02.028.
 URL: https://www.ncbi.nlm.nih.gov/pubmed/22385957
 'File' Attachments: internal-pdf://2803342347/Hou-2012-Single-cell exome sequencing and mono.pdf
 Author Address: BGI-Shenzhen, Shenzhen, China.
-Name of Database: Medline
-Database Provider: NLM
-
-
-Reference Type:  Journal Article
-Record Number: 5
-Author: Tomato Genome, Consortium
-Year: 2012
-Title: The tomato genome sequence provides insights into fleshy fruit evolution
-Journal: Nature
-Volume: 485
-Issue: 7400
-Pages: 635-41
-Epub Date: 20120530
-Date: May 30
-Short Title: The tomato genome sequence provides insights into fleshy fruit evolution
-ISSN: 1476-4687 (Electronic)
-0028-0836 (Print)
-0028-0836 (Linking)
-DOI: 10.1038/nature11119
-PMCID: PMC3378239
-Accession Number: 22660326
-Keywords: Arabidopsis/genetics
-*Evolution, Molecular
-Genetic Variation/genetics
-Genome, Plant/*genetics
-Genomics
-Solanum lycopersicum/*genetics/physiology
-Molecular Sequence Data
-Phylogeny
-RNA, Plant/genetics
-Sequence Analysis, DNA
-Solanum tuberosum/genetics
-Glycine max/genetics
-Synteny
-Abstract: Tomato (Solanum lycopersicum) is a major crop plant and a model system for fruit development. Solanum is one of the largest angiosperm genera and includes annual and perennial plants from diverse habitats. Here we present a high-quality genome sequence of domesticated tomato, a draft sequence of its closest wild relative, Solanum pimpinellifolium, and compare them to each other and to the potato genome (Solanum tuberosum). The two tomato genomes show only 0.6% nucleotide divergence and signs of recent admixture, but show more than 8% divergence from potato, with nine large and several smaller inversions. In contrast to Arabidopsis, but similar to soybean, tomato and potato small RNAs map predominantly to gene-rich chromosomal regions, including gene promoters. The Solanum lineage has experienced two consecutive genome triplications: one that is ancient and shared with rosids, and a more recent one. These triplications set the stage for the neofunctionalization of genes controlling fruit characteristics, such as colour and fleshiness.
-Notes: eng
-BB/C509731/1/BB_/Biotechnology and Biological Sciences Research Council/United Kingdom
-BB/G006199/1/BB_/Biotechnology and Biological Sciences Research Council/United Kingdom
-BB/G02491X/1/BB_/Biotechnology and Biological Sciences Research Council/United Kingdom
-Research Support, Non-U.S. Gov't
-Research Support, U.S. Gov't, Non-P.H.S.
-England
-2012/06/05
-Nature. 2012 May 30;485(7400):635-41. doi: 10.1038/nature11119.
-URL: https://www.ncbi.nlm.nih.gov/pubmed/22660326
-'File' Attachments: internal-pdf://4057784573/nature11119.pdf
 Name of Database: Medline
 Database Provider: NLM
 
@@ -12020,6 +12155,72 @@ Nat Biotechnol. 2011 Jul 31;29(8):735-41. doi: 10.1038/nbt.1932.
 URL: https://www.ncbi.nlm.nih.gov/pubmed/21804562
 'File' Attachments: internal-pdf://3333574076/Xu-2011-The genomic sequence of the Chinese ha.pdf
 Author Address: BGI-Shenzhen, Shenzhen, People's Republic of China.
+Name of Database: Medline
+Database Provider: NLM
+
+
+Reference Type:  Journal Article
+Record Number: 2
+Author: Xu, X., Liu, X., Ge, S., Jensen, J. D., Hu, F., Li, X., Dong, Y., Gutenkunst, R. N., Fang, L., Huang, L., Li, J., He, W., Zhang, G., Zheng, X., Zhang, F., Li, Y., Yu, C., Kristiansen, K., Zhang, X., Wang, J., Wright, M., McCouch, S., Nielsen, R., Wang, J. and Wang, W.
+Year: 2011
+Title: Resequencing 50 accessions of cultivated and wild rice yields markers for identifying agronomically important genes
+Journal: Nat Biotechnol
+Volume: 30
+Issue: 1
+Pages: 105-11
+Epub Date: 20111211
+Date: Dec 11
+Short Title: Resequencing 50 accessions of cultivated and wild rice yields markers for identifying agronomically important genes
+ISSN: 1546-1696 (Electronic)
+1087-0156 (Linking)
+DOI: 10.1038/nbt.2050
+Accession Number: 22158310
+Keywords: Breeding
+Chromosome Mapping
+Evolution, Molecular
+Genetic Markers/*genetics
+Genetic Variation
+Genome, Plant/*genetics
+Linkage Disequilibrium
+Oryza/*genetics
+Phylogeny
+Polymorphism, Single Nucleotide/*genetics
+Population
+Selection, Genetic
+Sequence Analysis, DNA/*methods
+Abstract: Rice is a staple crop that has undergone substantial phenotypic and physiological changes during domestication. Here we resequenced the genomes of 40 cultivated accessions selected from the major groups of rice and 10 accessions of their wild progenitors (Oryza rufipogon and Oryza nivara) to >15 x raw data coverage. We investigated genome-wide variation patterns in rice and obtained 6.5 million high-quality single nucleotide polymorphisms (SNPs) after excluding sites with missing data in any accession. Using these population SNP data, we identified thousands of genes with significantly lower diversity in cultivated but not wild rice, which represent candidate regions selected during domestication. Some of these variants are associated with important biological features, whereas others have yet to be functionally characterized. The molecular markers we have identified should be valuable for breeding and for identifying agronomically important genes in rice.
+Notes: Xu, Xun
+Liu, Xin
+Ge, Song
+Jensen, Jeffrey D
+Hu, Fengyi
+Li, Xin
+Dong, Yang
+Gutenkunst, Ryan N
+Fang, Lin
+Huang, Lei
+Li, Jingxiang
+He, Weiming
+Zhang, Guojie
+Zheng, Xiaoming
+Zhang, Fumin
+Li, Yingrui
+Yu, Chang
+Kristiansen, Karsten
+Zhang, Xiuqing
+Wang, Jian
+Wright, Mark
+McCouch, Susan
+Nielsen, Rasmus
+Wang, Jun
+Wang, Wen
+eng
+Research Support, Non-U.S. Gov't
+2011/12/14
+Nat Biotechnol. 2011 Dec 11;30(1):105-11. doi: 10.1038/nbt.2050.
+URL: https://www.ncbi.nlm.nih.gov/pubmed/22158310
+'File' Attachments: internal-pdf://1007277217/nbt.2050.pdf
+Author Address: CAS-Max Planck Junior Research Group on Evolutionary Genomics, State Key Laboratory of Genetic Resources and Evolution, Kunming Institute of Zoology, Chinese Academy of Sciences (CAS), Kunming, China.
 Name of Database: Medline
 Database Provider: NLM
 

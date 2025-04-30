@@ -34,6 +34,8 @@ This study showcases XinLab’s expertise in genomics and evolutionary biology. 
 
 ## Looking Ahead
 
-This conserved genomic baseline sets the stage for deeper dives into Heliconia’s nuclear genome, where its morphological diversity may originate. Stay tuned as XinLab continues to explore plant evolution and adaptation!
+Cheng Xin is a doctoral student of Xin Liu whose primary research focus is the Heliconia genome. In collaboration with our partners, we have collected several Heliconia species and conducted genome sequencing, with Cheng Xin mainly performing the genomic data analysis. In addition to the chloroplast genome, comparative analyses of the nuclear genomes of several species are underway and we hope to publish these results soon.
+
+Moreover, because the Heliconia family includes many ornamental plants with uniquely distinctive flower morphologies and designs, and given the fascinating coevolution phenomena observed with hummingbirds, Cheng Xin recently traveled to Thailand to work with our partner at Nong Nooch Tropical Botanical Garden. There, we completed additional sampling of more species and various flower-related tissues. We will continue to advance research on the Heliconia genome and promote further studies on the evolution of Heliconia flower morphology.
 
 *Published on April 11, 2025, by XinLab*

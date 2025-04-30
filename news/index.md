@@ -3,8 +3,9 @@ title: News
 layout: default
 background_img: /assets/images/banner-news.jpg
 welcome_msg: News
-intro_msg: Keep up with our most recent advancements and discoveries in genomics.
-abstract: XinLab has made steady progress in advancing genomics research across various domains. Recent efforts include contributions to plant genome evolution studies, innovations in single-cell and spatial omics technologies, and collaborative work in marine biology, clinical disease research, and agricultural genomics. These achievements reflect the lab's ongoing dedication to methodological refinement, effective data analysis, and meaningful applications, while continuing to align with its mission of contributing to the field of genomics.
+intro_msg: Stay updated on our recent findings and other's intriguing discoveries in genomics.
+abstract: XinLab has steadily advanced genomics research across diverse fields—from plant genome evolution to innovations in single‐cell and spatial omics, as well as collaborative projects in marine biology, clinical disease research, and agricultural genomics. These accomplishments underscore our commitment to refining methods, enhancing data analysis, and delivering meaningful applications—all in line with our mission to contribute to the genomics field. We also share our insights on some of the most intriguing recent studies, which we categorize as "frontiers."
+
 ---
 
 <section class="posts-grid">
