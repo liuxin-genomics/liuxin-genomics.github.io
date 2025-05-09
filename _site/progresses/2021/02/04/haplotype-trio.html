@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accurate Haplotype-Resolved Assembly in Human Trios Using Long Fragment Read Sequencing | XinLab</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+</head>
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+      <img src="/assets/images/logo.png" alt="Logo" height="50"> XinLab
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav nav-underline">
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/">Home</a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/research/">Research</a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/publications/">Publications</a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/people/">People</a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/about/">About</a>
+            </li>
+          
+        
+          
+            <li class="nav-item dropdown">
+              <!-- 使用普通链接，让点击 News 时跳转到 /news/ -->
+              <a class="nav-link dropdown-toggle" href="" id="navDropdown6" 
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                News
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navDropdown6">
+                
+                  <li>
+                    <a class="dropdown-item" href="/news/">
+                      All
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="/news/categories/">
+                      Categories
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="/news/tags/">
+                      Tags
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<body>
+  
+  <main class="container col-lg-8 col-md-12 col-sm-12">
+    
+    <div class="container post-content section">
+  <h2>Accurate Haplotype-Resolved Assembly in Human Trios Using Long Fragment Read Sequencing</h2>
+  
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <!-- 首页 -->
+        <li class="breadcrumb-item">
+          <a href="/">Home</a>
+        </li>
+        <!-- News 页面 -->
+        <li class="breadcrumb-item">
+          <a href="/news/">News</a>
+        </li>
+        <!-- 分类归档（取第一个分类） -->
+        
+          
+          <li class="breadcrumb-item">
+            <a href="/news/categories/progresses/">
+              Progresses
+            </a>
+          </li>
+        
+        <!-- 标签归档（取第一个标签） -->
+        
+          
+          <li class="breadcrumb-item">
+            <a href="/news/tags/genomics/">
+              Genomics
+            </a>
+          </li>
+        
+      </ol>
+    </nav>
+  
+  
+    
+  
+  <p class="post-meta"><i class="fas fa-calendar" aria-hidden="true"></i>  February 04, 2021</p>
+  
+    <img src="/assets/images/news/2021-02-04-haplotype-trio.png" alt="Accurate Haplotype-Resolved Assembly in Human Trios Using Long Fragment Read Sequencing" class="post-hero-image">
+  
+  <div class="content">
+    <p>Understanding how genetic variations are inherited and structured within an individual’s genome is key to advancing precision medicine and evolutionary studies. In our latest publication in <em>Bioinformatics</em>, we present <strong>Haplotype-resolved Assembly for Synthetic long reads using a Trio-binning strategy (HAST)</strong>—an approach that enhances haplotype assembly accuracy using Long Fragment Read (LFR) sequencing in trio samples.</p>
+
+<h2 id="key-findings">Key Findings</h2>
+
+<ul>
+  <li>
+    <p><strong>Improved Trio-Based Haplotype Assembly:</strong><br />
+We developed <strong>HAST</strong>, a new computational pipeline that efficiently resolves haplotypes using trio-based sequencing data. By incorporating parental genomic information, HAST successfully <strong>phases long genomic sequences</strong>, improving both <strong>haplotype precision (~99.7%) and recall (~95.9%)</strong>.</p>
+  </li>
+  <li>
+    <p><strong>High-Quality Genome Assembly Using LFR:</strong><br />
+Building on prior advancements in LFR sequencing (originally introduced by Complete Genomics), we applied this technique to human trios. The combination of <strong>LFR sequencing and Hi-C data</strong> enabled <strong>chromosome-level genome assembly</strong>, facilitating more accurate reconstruction of both paternal and maternal haplotypes.</p>
+  </li>
+  <li>
+    <p><strong>Structural Variations and Single-Base Accuracy:</strong><br />
+HAST demonstrated <strong>superior single-base accuracy (up to Q65)</strong> compared to other trio-binning methods, such as TrioCanu, while preserving structural variants (SVs) effectively. The method was particularly beneficial in detecting <strong>complex genomic rearrangements</strong> that traditional alignment-based haplotyping might miss.</p>
+  </li>
+</ul>
+
+<h2 id="reflections">Reflections</h2>
+
+<p>This study represents a significant milestone in our efforts to advance <strong>haplotype assembly using LFR sequencing in human trio datasets</strong>. Complete Genomics was among the earliest to introduce LFR technology, showcasing its role in haplotype phasing in previous <em>Nature</em> publications. The core idea behind LFR sequencing is similar to BAC library sequencing—effectively enabling sequence reconstruction across long genomic fragments, making it an ideal method for haplotype assembly.</p>
+
+<p>In this research, we integrated multiple genomic datasets to refine haplotype reconstruction, ultimately generating <strong>haplotype-resolved assemblies that can serve as sequencing standards</strong> for evaluating genome assembly and analytical tools. While LFR sequencing has its challenges, such as read length limitations, our study illustrates its effectiveness in producing highly accurate haplotype-resolved assemblies. The successful completion of this work was made possible through the dedication of our team and collaborators.</p>
+
+<p>The full text of this study can be accessed online at <a href="https://doi.org/10.1093/bioinformatics/btab068">Bioinformatics</a>.</p>
+
+  </div>
+</div>
+<div>
+    <h4>Share this:</h4>
+        <!-- Facebook -->
+        <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=http://0.0.0.0:4000/progresses/2021/02/04/haplotype-trio.html"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share this on facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <!-- Twitter -->
+        <a class="btn btn-primary" href="https://twitter.com/intent/tweet?text=Accurate Haplotype-Resolved Assembly in Human Trios Using Long Fragment Read Sequencing&url=http://0.0.0.0:4000/progresses/2021/02/04/haplotype-trio.html"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <!-- Google+ -->
+        <a class="btn btn-primary" href="https://plus.google.com/share?url=http://0.0.0.0:4000/progresses/2021/02/04/haplotype-trio.html"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Google+">
+            <i class="fab fa-google-plus"></i>
+        </a>
+</div>
+  </main>
+  <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href=" " class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <img class="bi" width="30" height="30" src="/assets/images/logo.svg"></img>
+      </a >
+      <span class="mb-3 mb-md-0 text-muted">&copy; 2025 XinLab</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      
+        <a href="https://x.com/liuxin_genomics" class="mx-2" target="_blank"><i class="fab fa-twitter" style="color: #333333;"></i></a>
+      
+        <a href="https://github.com/liuxin-genomics" class="mx-2" target="_blank"><i class="fab fa-github" style="color: #333333;"></i></a>
+      
+        <a href="https://facebook.com/liuxin.genomics" class="mx-2" target="_blank"><i class="fab fa-facebook" style="color: #333333;"></i></a>
+      
+        <a href="https://www.linkedin.com/in/liuxin-genomics" class="mx-2" target="_blank"><i class="fab fa-linkedin" style="color: #333333;"></i></a>
+      
+        <a href="mailto:liuxincqbj@gmail.com" class="mx-2" target="_blank"><i class="fas fa-envelope" style="color: #333333;"></i></a>
+      
+        <a href="www.xgenome.cn/feed.xml" class="mx-2" target="_blank"><i class="fa fa-rss-square" style="color: #333333;"></i></a>
+      
+    </ul>
+  </footer>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
