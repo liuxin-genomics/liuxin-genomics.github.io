@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLR-superscaffolder: A Novel Scaffolding Tool for Synthetic Long Reads | XinLab</title>
+
+  <!-- CSS 部分 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.bootstrap5.min.css">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+  <!-- 不要在这里放 JS -->
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href=" /">
+      <img src="/assets/images/logo.png" alt="Logo" height="50"> XinLab
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav nav-underline">
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/">
+                主页
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/research/">
+                研究
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/publications/">
+                论文
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/people/">
+                人员
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/about/">
+                关于
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navDropdown6" 
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                进展
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navDropdown6">
+                
+                  <li>
+                    <a class="dropdown-item" href="/zh/news/">
+                      所有进展
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="/zh/news/categories/">
+                      按分类
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="/zh/news/tags/">
+                      按标签
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-globe"></i><span class="d-lg-none">Language</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
+            <li>
+              <a class="dropdown-item " href=" /progresses/2021/03/25/slr-superscaffolder.html">
+                English
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item active" href=" /zh/progresses/2021/03/25/slr-superscaffolder.html">
+                中文
+              </a>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+  <main class="container col-lg-8 col-md-12 col-sm-12">
+    
+    <div class="container post-content section">
+  <h2>SLR-superscaffolder: A Novel Scaffolding Tool for Synthetic Long Reads</h2>
+  
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <!-- 首页 -->
+        <li class="breadcrumb-item">
+          <a href="/zh/">主页</a>
+        </li>
+        <!-- News 页面 -->
+        <li class="breadcrumb-item">
+          <a href="/zh/news/">进展</a>
+        </li>
+        <!-- 分类归档（取第一个分类） -->
+        
+          
+          <li class="breadcrumb-item">
+            <a href="/zh/news/categories/progresses/">
+              Progresses
+            </a>
+          </li>
+        
+        <!-- 标签归档（取第一个标签） -->
+        
+          
+          <li class="breadcrumb-item">
+            <a href="/zh/news/tags/genome-assembly/">
+              Genome assembly
+            </a>
+          </li>
+        
+      </ol>
+    </nav>
+  
+  
+    
+  
+  <p class="post-meta"><i class="fas fa-calendar" aria-hidden="true"></i>  March 25, 2021</p>
+  
+    <img src="/assets/images/news/2021-03-25-slr-superscaffolder.png" alt="SLR-superscaffolder: A Novel Scaffolding Tool for Synthetic Long Reads" class="post-hero-image">
+  
+  <div class="content">
+    <p>Genome assembly is a fundamental component of genomics research, enabling the reconstruction of complete genetic sequences from raw sequencing data. With the advancement of sequencing technologies, synthetic long reads (SLR) have emerged as an efficient strategy to improve genome assembly quality. In our latest study, published in <em>BMC Bioinformatics</em>, we introduce <strong>SLR-superscaffolder</strong>, a powerful standalone scaffolding tool designed to enhance assembly contiguity using co-barcoding and paired-end sequencing data.</p>
+
+<h2 id="key-findings">Key Findings</h2>
+
+<ul>
+  <li>
+    <p><strong>Standalone Scaffolding for Synthetic Long Reads:</strong><br />
+SLR-superscaffolder integrates co-barcoding and paired-end information to <strong>link draft assembly contigs into scaffolds</strong>, significantly improving genome assembly contiguity.</p>
+  </li>
+  <li>
+    <p><strong>Innovative Top-to-Bottom Approach:</strong><br />
+Unlike previous scaffolding tools, our algorithm first constructs a <strong>global scaffold graph</strong> based on <strong>Jaccard Similarity</strong>, determining the order and orientation of contigs before performing local refinements. This hierarchical approach <strong>reduces errors and misassemblies</strong> that often arise in genome assembly.</p>
+  </li>
+  <li>
+    <p><strong>Robust Performance Compared to Existing Scaffolders:</strong><br />
+We benchmarked SLR-superscaffolder against other scaffolding tools, including <strong>fragScaff, Architect, and ARKS</strong>, and demonstrated superior results—achieving <strong>longer scaffold NG50 values and fewer misassemblies</strong>.</p>
+  </li>
+  <li>
+    <p><strong>Application in Human Genome Assembly:</strong><br />
+Our tool was applied to the human genome sequencing dataset (HG001), improving the scaffold NG50 <strong>1,349-fold</strong>, reinforcing its effectiveness for large-scale genome projects.</p>
+  </li>
+</ul>
+
+<h2 id="reflections">Reflections</h2>
+
+<p>Genome assembly algorithms are a crucial part of bioinformatics research. At BGI, particularly after 2014, our focus shifted toward developing sequencing technologies based on <strong>our proprietary platforms</strong>. However, during this period, <strong>long-read sequencing</strong> became increasingly favored for genome assembly due to its superior continuity and accuracy. From both an experimental and computational perspective, <strong>long-read sequencing simplifies genome assembly</strong> while producing higher-quality results.</p>
+
+<p>Yet, at that time, most of our sequencing platforms were <strong>optimized for short-read sequencing</strong>, making genome assembly more challenging. Fortunately, we had developed <strong>single-tube long fragment read (stLFR) sequencing</strong>, a technique that functions like <strong>BAC library sequencing for short-read platforms</strong>. This approach provided an effective means of improving genome assembly through scaffolding. In this study, we utilized <strong>stLFR sequencing data for scaffolding</strong>, successfully <strong>enhancing genome assembly quality and continuity</strong>. This research is an important step forward in <strong>combining short-read sequencing with advanced assembly strategies</strong>.</p>
+
+<p>The full text of this study can be accessed online at <a href="https://doi.org/10.1186/s12859-021-04081-z">BMC Bioinformatics</a>.</p>
+
+  </div>
+</div>
+<div>
+    <h4>分享</h4>
+        <!-- Facebook -->
+        <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=www.xgenome.cn/progresses/2021/03/25/slr-superscaffolder.html"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share this on facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <!-- Twitter -->
+        <a class="btn btn-primary" href="https://twitter.com/intent/tweet?text=SLR-superscaffolder: A Novel Scaffolding Tool for Synthetic Long Reads&url=www.xgenome.cn/progresses/2021/03/25/slr-superscaffolder.html"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <!-- Google+ -->
+        <a class="btn btn-primary" href="https://plus.google.com/share?url=www.xgenome.cn/progresses/2021/03/25/slr-superscaffolder.html"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Google+">
+            <i class="fab fa-google-plus"></i>
+        </a>
+</div>
+  </main>
+
+  <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-6 d-flex align-items-center">
+      <a href="/zh/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <img class="bi" width="30" height="30" src="/assets/images/logo.svg" alt="XinLab Logo">
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">
+        &copy; 2025 XinLab 
+        <span class="mx-2">|</span> 
+        <a href="https://beian.miit.gov.cn/" target="_blank" class="text-muted text-decoration-none">粤ICP备2022017196号</a>
+      </span>
+    </div>
+
+    <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
+      
+        <a href="https://x.com/liuxin_genomics" class="mx-2" target="_blank"><i class="fab fa-twitter" style="color: #333333;"></i></a>
+      
+        <a href="https://github.com/liuxin-genomics" class="mx-2" target="_blank"><i class="fab fa-github" style="color: #333333;"></i></a>
+      
+        <a href="https://facebook.com/liuxin.genomics" class="mx-2" target="_blank"><i class="fab fa-facebook" style="color: #333333;"></i></a>
+      
+        <a href="https://www.linkedin.com/in/liuxin-genomics" class="mx-2" target="_blank"><i class="fab fa-linkedin" style="color: #333333;"></i></a>
+      
+        <a href="mailto:liuxincqbj@gmail.com" class="mx-2" target="_blank"><i class="fas fa-envelope" style="color: #333333;"></i></a>
+      
+        <a href="www.xgenome.cn/zh/feed.xml" class="mx-2" target="_blank"><i class="fa fa-rss-square" style="color: #333333;"></i></a>
+      
+    </ul>
+  </footer>
+</div>
+
+  <!-- JS 部分统一放在这里（body 结束前） -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.min.js"></script>
+
+
+</body>
+</html>

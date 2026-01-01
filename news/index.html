@@ -4,17 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>News | XinLab</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+  <!-- CSS 部分 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.bootstrap5.min.css">
+
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+  <!-- 不要在这里放 JS -->
 </head>
-<nav class="navbar navbar-expand-lg sticky-top">
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href=" /">
       <img src="/assets/images/logo.png" alt="Logo" height="50"> XinLab
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -22,37 +32,46 @@
         
           
             <li class="nav-item">
-              <a class="nav-link " href="/">Home</a>
+              <a class="nav-link " href="/">
+                Home
+              </a>
             </li>
           
         
           
             <li class="nav-item">
-              <a class="nav-link " href="/research/">Research</a>
+              <a class="nav-link " href="/research/">
+                Research
+              </a>
             </li>
           
         
           
             <li class="nav-item">
-              <a class="nav-link " href="/publications/">Publications</a>
+              <a class="nav-link " href="/publications/">
+                Publications
+              </a>
             </li>
           
         
           
             <li class="nav-item">
-              <a class="nav-link " href="/people/">People</a>
+              <a class="nav-link " href="/people/">
+                People
+              </a>
             </li>
           
         
           
             <li class="nav-item">
-              <a class="nav-link " href="/about/">About</a>
+              <a class="nav-link " href="/about/">
+                About
+              </a>
             </li>
           
         
           
             <li class="nav-item dropdown">
-              <!-- 使用普通链接，让点击 News 时跳转到 /news/ -->
               <a class="nav-link dropdown-toggle" href="" id="navDropdown6" 
                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 News
@@ -81,759 +100,86 @@
             </li>
           
         
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-globe"></i><span class="d-lg-none">Language</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
+            <li>
+              <a class="dropdown-item active" href=" /news/">
+                English
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item " href=" /zh/news/">
+                中文
+              </a>
+            </li>
+          </ul>
+        </li>
+
       </ul>
     </div>
   </div>
 </nav>
 
-
-
-<body>
   
   <div class="jumbotron" style="background-image: url('/assets/images/banner-news.jpg');">
-    
-    <!-- Overlay for better contrast -->
-    <!-- Content -->
     <div class="container">
-        <h1>News</h1>
-        <p>Stay updated on our recent findings and other's intriguing discoveries in genomics.</p>
+      <h1>News</h1>
+      <p>Stay updated on our recent findings and other's intriguing discoveries in genomics.</p>
     </div>
   </div>
   
+
   <main class="container col-lg-8 col-md-12 col-sm-12">
     
-      <div class="page-abstract">XinLab has steadily advanced genomics research across diverse fields—from plant genome evolution to innovations in single‐cell and spatial omics, as well as collaborative projects in marine biology, clinical disease research, and agricultural genomics. These accomplishments underscore our commitment to refining methods, enhancing data analysis, and delivering meaningful applications—all in line with our mission to contribute to the genomics field. We also share our insights on some of the most intriguing recent studies, which we categorize as "frontiers."</div>
+    <div class="page-abstract">XinLab has steadily advanced genomics research across diverse fields—from plant genome evolution to innovations in single‐cell and spatial omics, as well as collaborative projects in marine biology, clinical disease research, and agricultural genomics. These accomplishments underscore our commitment to refining methods, enhancing data analysis, and delivering meaningful applications—all in line with our mission to contribute to the genomics field. We also share our insights on some of the most intriguing recent studies, which we categorize as "frontiers."</div>
     
-    <section class="posts-grid">
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2025-04-29-krill-mitogenome.png" alt="Exploring Antarctic Krill Mitogenomes: Insights into Genetic Diversity and Population Dynamics" class="post-image" />
-      
-      <h2><a href="/progresses/2025/04/29/krill-mitogenome.html">Exploring Antarctic Krill Mitogenomes: Insights into Genetic Diversity and Population Dynamics</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  April 29, 2025</p>
-      <p class="abstract">Antarctic krill (Euphausia superba), a keystone species in the Southern Ocean ecosystem, plays a pivotal role in global marine biodiversity and bio...</p>
-      <a href="/progresses/2025/04/29/krill-mitogenome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2025-04-29-PTLO.png" alt="Tertiary Lymphoid Organ-like Structures in Carotid Artery Plaques: A Breakthrough in Understanding Plaque Instability" class="post-image" />
-      
-      <h2><a href="/progresses/2025/04/29/PTLO.html">Tertiary Lymphoid Organ-like Structures in Carotid Artery Plaques: A Breakthrough in Understanding Plaque Instability</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  April 29, 2025</p>
-      <p class="abstract">Tertiary lymphoid organ-like structures in human atherosclerosis contribute to plaque instability. Xin Liu, on behalf of the XinLab team and our co...</p>
-      <a href="/progresses/2025/04/29/PTLO.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2025-04-25-SaltToleranceInNHCC.png" alt="Single‐Cell Multiome Reveals Root Hair‐Specific Responses to Salt Stress in Non‐Heading Chinese Cabbage" class="post-image" />
-      
-      <h2><a href="/progresses/2025/04/25/SaltToleranceInNHCC.html">Single‐Cell Multiome Reveals Root Hair‐Specific Responses to Salt Stress in Non‐Heading Chinese Cabbage</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  April 25, 2025</p>
-      <p class="abstract">Our recent paper introduced findings on mechanisms underlying salt-tolerance in non-heading Chinese cabbage using single-cell and spatial transcrip...</p>
-      <a href="/progresses/2025/04/25/SaltToleranceInNHCC.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2025-04-21-TRADE.png" alt="New RNA-seq Analysis Method - TRADE" class="post-image" />
-      
-      <h2><a href="/frontiers/2025/04/21/TRADE.html">New RNA-seq Analysis Method - TRADE</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  April 21, 2025</p>
-      <p class="abstract">In a recent Nature paper, a novel RNA-seq analysis method was published, which might be the future direction for RNA-seq data analysis.
-</p>
-      <a href="/frontiers/2025/04/21/TRADE.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2025-04-16-RARE-seq.png" alt="Sensitively detect cfRNA - RARE-seq" class="post-image" />
-      
-      <h2><a href="/frontiers/2025/04/16/RARE-seq.html">Sensitively detect cfRNA - RARE-seq</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  April 16, 2025</p>
-      <p class="abstract">In a recent Nature paper, an improved sequencing method to more sensitively detect cell-free RNA was reported.
-</p>
-      <a href="/frontiers/2025/04/16/RARE-seq.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2025-04-11-plant-spatialtemporal-review.png" alt="Review Article on Spatial Omics for Plant Research" class="post-image" />
-      
-      <h2><a href="/progresses/2025/04/11/plant-spatialtemporal-review.html">Review Article on Spatial Omics for Plant Research</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  April 11, 2025</p>
-      <p class="abstract">Our recent review paper comprehensively introduced spatial transcriptome technologies and their applications in plant research and crop breeding.
-</p>
-      <a href="/progresses/2025/04/11/plant-spatialtemporal-review.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2025-04-07-SoybeanTranscriptomeAtlas.png" alt="Soybean Transcriptomic Atlas" class="post-image" />
-      
-      <h2><a href="/progresses/2025/04/07/SoybeanTranscriptomeAtlas.html">Soybean Transcriptomic Atlas</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  April 07, 2025</p>
-      <p class="abstract">We generated Bulk, Single-Cell, and Spatial Transcriptome Data for Soybean to Unveil Mechanisms Underlying its Organ Development
-</p>
-      <a href="/progresses/2025/04/07/SoybeanTranscriptomeAtlas.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2025-02-21-RodentsRevivingLikeBehavior.png" alt="Breaking Boundaries! Mice Exhibit 'Rescue' Behavior, Redefining Animal Social Cognition" class="post-image" />
-      
-      <h2><a href="/frontiers/2025/02/21/RodentsRevivingLikeBehavior.html">Breaking Boundaries! Mice Exhibit 'Rescue' Behavior, Redefining Animal Social Cognition</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  February 21, 2025</p>
-      <p class="abstract">A groundbreaking study published in *Science unveils how mice exhibit complex rescue behaviors toward unconscious peers, challenging our understand...</p>
-      <a href="/frontiers/2025/02/21/RodentsRevivingLikeBehavior.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2025-02-17-murine-heart-atlas.png" alt="New Paper Unveils Spatiotemporal Atlas of Mouse Heart Development" class="post-image" />
-      
-      <h2><a href="/progresses/2025/02/17/murine-heart-atlas.html">New Paper Unveils Spatiotemporal Atlas of Mouse Heart Development</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  February 17, 2025</p>
-      <p class="abstract">We’re thrilled to announce that XinLab has published a new paper in GigaScience (2025, Vol. 14) titled “Exploring the Cellular and Molecular Basis ...</p>
-      <a href="/progresses/2025/02/17/murine-heart-atlas.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2025-01-17-LampreySingleCellSequencing.png" alt="Lamprey Cell Atlas Study Reveals Natterin's Role in Fat Browning" class="post-image" />
-      
-      <h2><a href="/progresses/2025/01/17/LampreySingleCellSequencing.html">Lamprey Cell Atlas Study Reveals Natterin's Role in Fat Browning</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  January 17, 2025</p>
-      <p class="abstract">A study co-led by Xin Liu (BGI Research / XinLab), Guangyi Fan (BGI Research), Qingwei Li (Liaoning Normal University), and Yue Pang (Liaoning Norm...</p>
-      <a href="/progresses/2025/01/17/LampreySingleCellSequencing.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2025-01-16-Heliconia-chloroplast-genomes.png" alt="Conserved Chloroplast Genomes of Heliconia Revealed" class="post-image" />
-      
-      <h2><a href="/progresses/2025/01/16/Heliconia-chloroplast-genomes.html">Conserved Chloroplast Genomes of Heliconia Revealed</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  January 16, 2025</p>
-      <p class="abstract">We’re excited to share that XinLab has published a new study in Frontiers in Plant Science (2025, Vol. 15) titled “Unveiling the Conserved Nature o...</p>
-      <a href="/progresses/2025/01/16/Heliconia-chloroplast-genomes.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2024-12-23-PlantTE.png" alt="Dynamic TE Shaping Plant Evolution and Crop Traits" class="post-image" />
-      
-      <h2><a href="/progresses/2024/12/23/PlantTE.html">Dynamic TE Shaping Plant Evolution and Crop Traits</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  December 23, 2024</p>
-      <p class="abstract">We analyzed 811 plant genomes across 119 species to create an unprecedented atlas of recent transposable element activity, offering insights into g...</p>
-      <a href="/progresses/2024/12/23/PlantTE.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2024-10-25-tardigrade.png" alt="Multi-omics Landscape and Molecular Basis of Radiation Tolerance in a Tardigrade" class="post-image" />
-      
-      <h2><a href="/progresses/2024/10/25/tardigradeGenomics.html">Multi-omics Landscape and Molecular Basis of Radiation Tolerance in a Tardigrade</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  October 25, 2024</p>
-      <p class="abstract">In our latest collaborative project, we delved deep into the molecular basis of radiation tolerance in a newly identified tardigrade species, Hypsi...</p>
-      <a href="/progresses/2024/10/25/tardigradeGenomics.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2024-09-04-GlobalMarinceMicrobiome.png" alt="Massive Genomic Study Catalogues Marine Microbes" class="post-image" />
-      
-      <h2><a href="/progresses/2024/09/04/GlobalMarinceMicrobiome.html">Massive Genomic Study Catalogues Marine Microbes</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  September 04, 2024</p>
-      <p class="abstract">🌊 BGI Research Team Unveils Vast Marine Microbial Diversity and Biotechnological Potential in Nature and successfully discovers novel gene editing ...</p>
-      <a href="/progresses/2024/09/04/GlobalMarinceMicrobiome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/C4_mtscATAC-seq.png" alt="mtscATAC-seq based on DNBelab C4 published" class="post-image" />
-      
-      <h2><a href="/progresses/2024/09/01/scmtseq.html">mtscATAC-seq based on DNBelab C4 published</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  September 01, 2024</p>
-      <p class="abstract">Our recent paper in Aging Cell described our recently developed single-cell mitochondrial sequencing methods. Here we provide major information on ...</p>
-      <a href="/progresses/2024/09/01/scmtseq.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2024-07-01-chickpea-magic.png" alt="Mapping Drought Tolerance in Chickpea: Insights from Whole Genome Resequencing of a MAGIC Population" class="post-image" />
-      
-      <h2><a href="/progresses/2024/07/01/chickpea-magic.html">Mapping Drought Tolerance in Chickpea: Insights from Whole Genome Resequencing of a MAGIC Population</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  July 01, 2024</p>
-      <p class="abstract">In our ongoing long-term collaboration with Dr. Rajeev Varshney, our team has taken a further step forward in understanding and enhancing drought t...</p>
-      <a href="/progresses/2024/07/01/chickpea-magic.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2024-06-27-ChitalaGenome.png" alt="Chromosome-Scale Genome of Chitala ornata Illuminates Early Teleost Evolution" class="post-image" />
-      
-      <h2><a href="/progresses/2024/06/27/ChitalaGenome.html">Chromosome-Scale Genome of Chitala ornata Illuminates Early Teleost Evolution</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  June 27, 2024</p>
-      <p class="abstract">Chromosome-Scale Genome of Chitala ornata Illuminates Early Teleost Evolution
-</p>
-      <a href="/progresses/2024/06/27/ChitalaGenome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2024-05-23-ChickpeaSuperpangenome.png" alt="Cicer Super-Pangenome Study Offers Insights for Chickpea Improvement" class="post-image" />
-      
-      <h2><a href="/progresses/2024/05/23/ChickpeaSuperpangenome.html">Cicer Super-Pangenome Study Offers Insights for Chickpea Improvement</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  May 23, 2024</p>
-      <p class="abstract">Published online in Nature Genetics on May 23, 2024, a study presents genomes of eight wild chickpea relatives and a Cicer super-pangenome, providi...</p>
-      <a href="/progresses/2024/05/23/ChickpeaSuperpangenome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2024-03-25-RattenChloroplastGenomes.png" alt="Rattan Phylogeny based on the Calamus tetradactylus Chloroplast Genome" class="post-image" />
-      
-      <h2><a href="/progresses/2024/03/25/RattenChloroplastGenomes.html">Rattan Phylogeny based on the Calamus tetradactylus Chloroplast Genome</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  March 25, 2024</p>
-      <p class="abstract">Our recent study published in BMC Genomic Data by Zhang et al. provides the first complete chloroplast genome sequence for Calamus tetradactylus, a...</p>
-      <a href="/progresses/2024/03/25/RattenChloroplastGenomes.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2023-11-20-bleomycin-fibrosis.png" alt="Cellular and Molecular Insights into Fibrosis and Resolution in the Bleomycin-Induced Pulmonary Fibrosis Mouse Model" class="post-image" />
-      
-      <h2><a href="/progresses/2023/11/20/bleomycin-fibrosis.html">Cellular and Molecular Insights into Fibrosis and Resolution in the Bleomycin-Induced Pulmonary Fibrosis Mouse Model</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  November 20, 2023</p>
-      <p class="abstract">Pulmonary fibrosis is a chronic lung condition with limited treatment options and significant mortality rates. To better understand this condition,...</p>
-      <a href="/progresses/2023/11/20/bleomycin-fibrosis.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2023-10-10-characiformes-genomes.png" alt="Genomic Features and Genetic Basis of Tooth Development in Characiformes" class="post-image" />
-      
-      <h2><a href="/progresses/2023/10/10/characiformes-genomes.html">Genomic Features and Genetic Basis of Tooth Development in Characiformes</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  October 10, 2023</p>
-      <p class="abstract">Fish, as the most ancient vertebrates, exhibit many unique characteristics compared to later-evolving vertebrates. Our recent study on Characiforme...</p>
-      <a href="/progresses/2023/10/10/characiformes-genomes.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2023-08-17-butterflyfish-genome.png" alt="Chromosome-Level Genome of Butterflyfish Reveals Unique Color Patterns and Morphological Features" class="post-image" />
-      
-      <h2><a href="/progresses/2023/08/17/butterflyfish-genome.html">Chromosome-Level Genome of Butterflyfish Reveals Unique Color Patterns and Morphological Features</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  August 17, 2023</p>
-      <p class="abstract">Butterflyfishes (family Chaetodontidae) are iconic reef dwellers, renowned for their vibrant color patterns and specialized jaw morphologies. Our r...</p>
-      <a href="/progresses/2023/08/17/butterflyfish-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2023-03-16-antarctic-krill-genome.png" alt="Chromosome-Level Antarctic Krill Genome Unlocks Insights into Adaptations and Population Dynamics" class="post-image" />
-      
-      <h2><a href="/progresses/2023/03/16/antarctic-krill-genome.html">Chromosome-Level Antarctic Krill Genome Unlocks Insights into Adaptations and Population Dynamics</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  March 16, 2023</p>
-      <p class="abstract">Antarctic krill (Euphausia superba), Earth’s most abundant wild animal, plays a pivotal role in the Southern Ocean ecosystem. This species’ enormou...</p>
-      <a href="/progresses/2023/03/16/antarctic-krill-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2023-01-30-symbiont-screener.png" alt="Symbiont-Screener: Efficient Separation of Host and Symbiont Sequences for Long-Read Metagenomics" class="post-image" />
-      
-      <h2><a href="/progresses/2023/01/30/symbiont-screener.html">Symbiont-Screener: Efficient Separation of Host and Symbiont Sequences for Long-Read Metagenomics</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  January 30, 2023</p>
-      <p class="abstract">The phenomenon of symbiosis is widespread in nature, with biological samples often containing data from multiple species. In such cases, sequencing...</p>
-      <a href="/progresses/2023/01/30/symbiont-screener.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2022-11-10-chickpea-pangenome.png" alt="A Comprehensive Chickpea Genetic Variation Map: Insights from 3,366 Genomes" class="post-image" />
-      
-      <h2><a href="/progresses/2022/11/10/chickpea-pangenome.html">A Comprehensive Chickpea Genetic Variation Map: Insights from 3,366 Genomes</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  November 10, 2022</p>
-      <p class="abstract">Chickpea (Cicer arietinum), one of the world’s most important legume crops, has long been a focal point in agricultural genomics. In our latest col...</p>
-      <a href="/progresses/2022/11/10/chickpea-pangenome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2022-07-15-fall-armyworm-genome.png" alt="Chromosome-Level Genome Assembly of Fall Armyworm Sheds Light on Its Invasion and Pesticide Resistance" class="post-image" />
-      
-      <h2><a href="/progresses/2022/07/15/fall-armyworm-genome.html">Chromosome-Level Genome Assembly of Fall Armyworm Sheds Light on Its Invasion and Pesticide Resistance</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  July 15, 2022</p>
-      <p class="abstract">Fall armyworm (Spodoptera frugiperda) is a highly destructive pest that has rapidly spread across multiple continents, causing significant damage t...</p>
-      <a href="/progresses/2022/07/15/fall-armyworm-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2022-06-07-industrial-effluents.png" alt="Microbial Diversity in Industrial Effluents: Unlocking Source Tracking Potential" class="post-image" />
-      
-      <h2><a href="/progresses/2022/06/07/industrial-effluents.html">Microbial Diversity in Industrial Effluents: Unlocking Source Tracking Potential</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  June 07, 2022</p>
-      <p class="abstract">Understanding the microbial diversity in industrial effluents is crucial for efficient environmental surveillance and management. In our recent stu...</p>
-      <a href="/progresses/2022/06/07/industrial-effluents.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2021-09-15-moso-bamboo-genome.png" alt="Unveiling the Genetic Diversity of Moso Bamboo: A Population Genomics Study" class="post-image" />
-      
-      <h2><a href="/progresses/2021/09/15/moso-bamboo-genome.html">Unveiling the Genetic Diversity of Moso Bamboo: A Population Genomics Study</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  September 15, 2021</p>
-      <p class="abstract">Bamboo has been an integral part of Chinese culture and daily life for centuries, serving not only as an essential natural resource but also as a d...</p>
-      <a href="/progresses/2021/09/15/moso-bamboo-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2021-07-23-colon-cancer-evolution.png" alt="Comparative Analysis of Clonal Evolution in Right- and Left-Sided Colon and Rectal Cancer" class="post-image" />
-      
-      <h2><a href="/progresses/2021/07/23/colon-cancer-evolution.html">Comparative Analysis of Clonal Evolution in Right- and Left-Sided Colon and Rectal Cancer</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  July 23, 2021</p>
-      <p class="abstract">Tumor evolution is a dynamic and complex process, with variations in growth patterns significantly influencing disease progression and therapeutic ...</p>
-      <a href="/progresses/2021/07/23/colon-cancer-evolution.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2021-06-15-neo-y-genome.png" alt="Deciphering the Evolution of Neo-Y Chromosomes: Insights from the Spotted Knifejaw Genome" class="post-image" />
-      
-      <h2><a href="/progresses/2021/06/15/neo-y-genome.html">Deciphering the Evolution of Neo-Y Chromosomes: Insights from the Spotted Knifejaw Genome</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  June 15, 2021</p>
-      <p class="abstract">Sex chromosome evolution is one of the most fascinating processes in genomic research, with profound implications for understanding genetic differe...</p>
-      <a href="/progresses/2021/06/15/neo-y-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2021-05-12-lettuce-genome.png" alt="Global Lettuce Genomics: Unraveling the Domestication History and Genetic Diversity of Cultivated Lettuce" class="post-image" />
-      
-      <h2><a href="/progresses/2021/05/12/lettuce-genome.html">Global Lettuce Genomics: Unraveling the Domestication History and Genetic Diversity of Cultivated Lettuce</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  May 12, 2021</p>
-      <p class="abstract">Lettuce (Lactuca sativa) is one of the most widely consumed leafy vegetables in the world, yet its genetic diversity and domestication history have...</p>
-      <a href="/progresses/2021/05/12/lettuce-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2021-04-14-mangrove-fungi.png" alt="Genomic Insights into Mangrove Rhizosphere Fungi: Understanding Microbial Adaptations in Coastal Ecosystems" class="post-image" />
-      
-      <h2><a href="/progresses/2021/04/14/mangrove-fungi.html">Genomic Insights into Mangrove Rhizosphere Fungi: Understanding Microbial Adaptations in Coastal Ecosystems</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  April 14, 2021</p>
-      <p class="abstract">Mangrove forests are among the most biologically diverse and ecologically productive ecosystems, hosting a rich array of plant, animal, and microbi...</p>
-      <a href="/progresses/2021/04/14/mangrove-fungi.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2021-03-25-slr-superscaffolder.png" alt="SLR-superscaffolder: A Novel Scaffolding Tool for Synthetic Long Reads" class="post-image" />
-      
-      <h2><a href="/progresses/2021/03/25/slr-superscaffolder.html">SLR-superscaffolder: A Novel Scaffolding Tool for Synthetic Long Reads</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  March 25, 2021</p>
-      <p class="abstract">Genome assembly is a fundamental component of genomics research, enabling the reconstruction of complete genetic sequences from raw sequencing data...</p>
-      <a href="/progresses/2021/03/25/slr-superscaffolder.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2021-02-18-indian-ocean-microbiome.png" alt="Metagenomic Analysis Reveals Microbial Community Structure and Nitrogen Acquisition Strategies in the Indian Ocean" class="post-image" />
-      
-      <h2><a href="/progresses/2021/02/18/indian-ocean-microbiome.html">Metagenomic Analysis Reveals Microbial Community Structure and Nitrogen Acquisition Strategies in the Indian Ocean</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  February 18, 2021</p>
-      <p class="abstract">Despite being the third-largest ocean in the world, the Indian Ocean remains one of the least studied regions in terms of microbial diversity and b...</p>
-      <a href="/progresses/2021/02/18/indian-ocean-microbiome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2021-02-04-haplotype-trio.png" alt="Accurate Haplotype-Resolved Assembly in Human Trios Using Long Fragment Read Sequencing" class="post-image" />
-      
-      <h2><a href="/progresses/2021/02/04/haplotype-trio.html">Accurate Haplotype-Resolved Assembly in Human Trios Using Long Fragment Read Sequencing</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  February 04, 2021</p>
-      <p class="abstract">Understanding how genetic variations are inherited and structured within an individual’s genome is key to advancing precision medicine and evolutio...</p>
-      <a href="/progresses/2021/02/04/haplotype-trio.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2020-11-20-bamboo-shark-genome.png" alt="Chromosome-Level Genome Assembly of White-Spotted Bamboo Shark: Insights into Evolution and Immunity" class="post-image" />
-      
-      <h2><a href="/progresses/2020/11/20/bamboo-shark-genome.html">Chromosome-Level Genome Assembly of White-Spotted Bamboo Shark: Insights into Evolution and Immunity</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  November 20, 2020</p>
-      <p class="abstract">Cartilaginous fish, such as sharks, represent an early branch in vertebrate evolution, offering valuable insights into chromosome evolution, immuni...</p>
-      <a href="/progresses/2020/11/20/bamboo-shark-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2020-11-20-african-arowana-genome.png" alt="African Arowana Genome Provides Insights into Ancient Teleost Evolution" class="post-image" />
-      
-      <h2><a href="/progresses/2020/11/20/african-arowana-genome.html">African Arowana Genome Provides Insights into Ancient Teleost Evolution</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  November 20, 2020</p>
-      <p class="abstract">The evolutionary history of teleosts is deeply intertwined with continental drift, shaping their genetic diversity and adaptations. In our latest s...</p>
-      <a href="/progresses/2020/11/20/african-arowana-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2020-10-27-mangrove-microbiome.png" alt="Deciphering the Microbial Taxonomy and Functionality of Mangrove Ecosystems" class="post-image" />
-      
-      <h2><a href="/progresses/2020/10/27/mangrove-microbiome.html">Deciphering the Microbial Taxonomy and Functionality of Mangrove Ecosystems</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  October 27, 2020</p>
-      <p class="abstract">Mangrove ecosystems are unique coastal environments that support diverse microbial communities, playing a crucial role in nutrient cycling and envi...</p>
-      <a href="/progresses/2020/10/27/mangrove-microbiome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2020-10-23-humpback-dolphin-genome.png" alt="Chromosome-Level Genome Assembly of Indo-Pacific Humpback Dolphin" class="post-image" />
-      
-      <h2><a href="/progresses/2020/10/23/humpback-dolphin-genome.html">Chromosome-Level Genome Assembly of Indo-Pacific Humpback Dolphin</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  October 23, 2020</p>
-      <p class="abstract">The Indo-Pacific humpback dolphin (Sousa chinensis) is a coastal cetacean species facing increasing threats due to habitat loss, pollution, and hum...</p>
-      <a href="/progresses/2020/10/23/humpback-dolphin-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2020-09-25-panax-notoginseng-genome.png" alt="Chromosome-Level Genome Assembly and GWAS for Panax Notoginseng" class="post-image" />
-      
-      <h2><a href="/progresses/2020/09/25/panax-notoginseng-genome.html">Chromosome-Level Genome Assembly and GWAS for Panax Notoginseng</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  September 25, 2020</p>
-      <p class="abstract">Panax notoginseng (P. notoginseng), a medicinal herb with significant economic and therapeutic value, has long been studied for its active compound...</p>
-      <a href="/progresses/2020/09/25/panax-notoginseng-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2020-05-06-mangrove-chloroplast.png" alt="Comparative Chloroplast Genomics of Mangrove Species: Phylogenetic Insights and Evolutionary Analysis" class="post-image" />
-      
-      <h2><a href="/progresses/2020/05/06/mangrove-chloroplast.html">Comparative Chloroplast Genomics of Mangrove Species: Phylogenetic Insights and Evolutionary Analysis</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  May 06, 2020</p>
-      <p class="abstract">Mangrove ecosystems serve as critical environmental buffers between land and sea, hosting unique plant species that have adapted to extreme coastal...</p>
-      <a href="/progresses/2020/05/06/mangrove-chloroplast.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2020-04-30-mekong-tiger-perch-genome.png" alt="Genome Sequencing of Mekong Tiger Perch: Insights into Phylogeny and Conservation" class="post-image" />
-      
-      <h2><a href="/progresses/2020/04/30/mekong-tiger-perch-genome.html">Genome Sequencing of Mekong Tiger Perch: Insights into Phylogeny and Conservation</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  April 30, 2020</p>
-      <p class="abstract">The Mekong tiger perch (Datnioides undecimradiatus) is a vulnerable freshwater fish native to the Mekong basin in Indochina. As an ornamental speci...</p>
-      <a href="/progresses/2020/04/30/mekong-tiger-perch-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2020-04-21-mangrove-plastid-genomes.png" alt="Lineage-Specific Evolution of Mangrove Plastid Genomes" class="post-image" />
-      
-      <h2><a href="/progresses/2020/04/21/mangrove-plastid-genomes.html">Lineage-Specific Evolution of Mangrove Plastid Genomes</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  April 21, 2020</p>
-      <p class="abstract">Mangrove forests thrive in coastal tropical and subtropical regions, bridging the gap between terrestrial and marine ecosystems. These plants have ...</p>
-      <a href="/progresses/2020/04/21/mangrove-plastid-genomes.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2020-02-16-streptophyte-algae-genomes.png" alt="Genomes of Early-Diverging Streptophyte Algae Shed Light on Plant Terrestrialization" class="post-image" />
-      
-      <h2><a href="/progresses/2020/02/16/streptophyte-algae-genomes.html">Genomes of Early-Diverging Streptophyte Algae Shed Light on Plant Terrestrialization</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  February 16, 2020</p>
-      <p class="abstract">The transition of plants from aquatic to terrestrial environments represents a pivotal moment in evolutionary history. While land plants (embryophy...</p>
-      <a href="/progresses/2020/02/16/streptophyte-algae-genomes.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2020-02-16-rubber-tree-genome.png" alt="Chromosome-Based Rubber Tree Genome Provides Insights into Evolution and Rubber Biosynthesis" class="post-image" />
-      
-      <h2><a href="/progresses/2020/02/16/rubber-tree-genome.html">Chromosome-Based Rubber Tree Genome Provides Insights into Evolution and Rubber Biosynthesis</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  February 16, 2020</p>
-      <p class="abstract">The rubber tree (Hevea brasiliensis) is the primary source of natural rubber, a crucial industrial material with no synthetic equivalent. Understan...</p>
-      <a href="/progresses/2020/02/16/rubber-tree-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2020-01-24-artocarpus-genomes.png" alt="Draft Genomes of Jackfruit and Breadfruit Provide Insights into Starch and Sugar Metabolism" class="post-image" />
-      
-      <h2><a href="/progresses/2020/01/24/artocarpus-genomes.html">Draft Genomes of Jackfruit and Breadfruit Provide Insights into Starch and Sugar Metabolism</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  January 24, 2020</p>
-      <p class="abstract">Jackfruit (Artocarpus heterophyllus) and breadfruit (Artocarpus altilis) are two economically and nutritionally significant species within the Arto...</p>
-      <a href="/progresses/2020/01/24/artocarpus-genomes.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2019-12-23-penicillium-genome.png" alt="Chromosome-Level Genome Assembly of Mangrove Fungus Penicillium variabile HXQ-H-1" class="post-image" />
-      
-      <h2><a href="/progresses/2019/12/23/penicillium-genome.html">Chromosome-Level Genome Assembly of Mangrove Fungus Penicillium variabile HXQ-H-1</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  December 23, 2019</p>
-      <p class="abstract">Mangrove ecosystems host a diverse range of microorganisms, including fungi that play a crucial role in organic matter decomposition and secondary ...</p>
-      <a href="/progresses/2019/12/23/penicillium-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2019-10-15-solanum-aethiopicum-genome.png" alt="Draft Genome Sequence of Solanum Aethiopicum: Advancing Disease Resistance and Drought Tolerance Research" class="post-image" />
-      
-      <h2><a href="/progresses/2019/10/15/solanum-aethiopicum-genome.html">Draft Genome Sequence of Solanum Aethiopicum: Advancing Disease Resistance and Drought Tolerance Research</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  October 15, 2019</p>
-      <p class="abstract">The African eggplant (Solanum aethiopicum) is a vital crop cultivated across tropical Africa for its nutritional and medicinal value. Despite its s...</p>
-      <a href="/progresses/2019/10/15/solanum-aethiopicum-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2019-09-13-ginkgo-genome-resequencing.png" alt="Resequencing 545 Ginkgo Genomes: Unveiling the Evolutionary History of a Living Fossil" class="post-image" />
-      
-      <h2><a href="/progresses/2019/09/13/ginkgo-genome-resequencing.html">Resequencing 545 Ginkgo Genomes: Unveiling the Evolutionary History of a Living Fossil</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  September 13, 2019</p>
-      <p class="abstract">As one of the most ancient living plants, Ginkgo biloba has survived for over 200 million years, maintaining its resilience through dramatic enviro...</p>
-      <a href="/progresses/2019/09/13/ginkgo-genome-resequencing.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2019-07-04-sperm-whale-microbiome.png" alt="Exploring the Commensal Microbiome of the Sperm Whale" class="post-image" />
-      
-      <h2><a href="/progresses/2019/07/04/sperm-whale-microbiome.html">Exploring the Commensal Microbiome of the Sperm Whale</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  July 04, 2019</p>
-      <p class="abstract">The commensal microbiota of marine mammals plays a crucial role in their health and adaptation to the oceanic environment. However, due to the chal...</p>
-      <a href="/progresses/2019/07/04/sperm-whale-microbiome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2019-05-29-chickpea-genome-resequencing.png" alt="Resequencing 429 Chickpea Accessions: Insights into Genome Diversity and Domestication" class="post-image" />
-      
-      <h2><a href="/progresses/2019/05/29/chickpea-genome-resequencing.html">Resequencing 429 Chickpea Accessions: Insights into Genome Diversity and Domestication</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  May 29, 2019</p>
-      <p class="abstract">Chickpea (Cicer arietinum) is a staple legume crop with immense nutritional and agricultural importance. Understanding its genetic diversity is cru...</p>
-      <a href="/progresses/2019/05/29/chickpea-genome-resequencing.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2019-05-06-sperm-whale-genome.png" alt="Chromosome-Level Genome Assembly of Sperm Whale: Insights into Marine Mammal Evolution" class="post-image" />
-      
-      <h2><a href="/progresses/2019/05/06/sperm-whale-genome.html">Chromosome-Level Genome Assembly of Sperm Whale: Insights into Marine Mammal Evolution</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  May 06, 2019</p>
-      <p class="abstract">Marine mammals offer unique evolutionary models, demonstrating adaptations to aquatic environments through physiological and genetic modifications....</p>
-      <a href="/progresses/2019/05/06/sperm-whale-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2019-05-06-black-rockfish-genome.png" alt="Chromosome-Level Genome Assembly of Black Rockfish Provides Insights into the Evolution of Live Birth" class="post-image" />
-      
-      <h2><a href="/progresses/2019/05/06/black-rockfish-genome.html">Chromosome-Level Genome Assembly of Black Rockfish Provides Insights into the Evolution of Live Birth</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  May 06, 2019</p>
-      <p class="abstract">The black rockfish (Sebastes schlegelii) is a teleost species that exhibits viviparity, a reproductive strategy in which eggs are fertilized intern...</p>
-      <a href="/progresses/2019/05/06/black-rockfish-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2019-01-25-botanical-genome.png" alt="Molecular Digitization of a Botanical Garden: High-Depth Genome Sequencing of 689 Vascular Plant Species" class="post-image" />
-      
-      <h2><a href="/progresses/2019/01/25/botanical-genome.html">Molecular Digitization of a Botanical Garden: High-Depth Genome Sequencing of 689 Vascular Plant Species</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  January 25, 2019</p>
-      <p class="abstract">Genome sequencing has transformed plant research, offering insights into species diversity, evolution, and adaptation. However, the number of plant...</p>
-      <a href="/progresses/2019/01/25/botanical-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2019-01-10-brassica-genome.png" alt="Chromosome-Level Comparative Analysis of Brassica Genomes" class="post-image" />
-      
-      <h2><a href="/progresses/2019/01/10/brassica-genome.html">Chromosome-Level Comparative Analysis of Brassica Genomes</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  January 10, 2019</p>
-      <p class="abstract">Brassica species are essential for agriculture and evolutionary studies, with genomes shaped by polyploidization events and extensive structural va...</p>
-      <a href="/progresses/2019/01/10/brassica-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2018-12-07-african-orphan-crops.png" alt="Draft Genomes of Five African Orphan Crops: Expanding Genetic Resources for Food Security" class="post-image" />
-      
-      <h2><a href="/progresses/2018/12/07/african-orphan-crops.html">Draft Genomes of Five African Orphan Crops: Expanding Genetic Resources for Food Security</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  December 07, 2018</p>
-      <p class="abstract">To diversify global food supplies and enhance nutrition security, underutilized crops—often referred to as orphan crops—offer an essential path for...</p>
-      <a href="/progresses/2018/12/07/african-orphan-crops.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2018-09-18-spotted-sea-bass-genome.png" alt="Chromosome-Level Genome Assembly of Spotted Sea Bass" class="post-image" />
-      
-      <h2><a href="/progresses/2018/09/18/spotted-sea-bass-genome.html">Chromosome-Level Genome Assembly of Spotted Sea Bass</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  September 18, 2018</p>
-      <p class="abstract">The spotted sea bass (Lateolabrax maculatus) is a commercially valuable fish widely cultivated in China. Despite its importance in aquaculture, gen...</p>
-      <a href="/progresses/2018/09/18/spotted-sea-bass-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2018-07-11-betta-genome.png" alt="Chromosome-Level Reference Genome of the Siamese Fighting Fish" class="post-image" />
-      
-      <h2><a href="/progresses/2018/07/11/betta-genome.html">Chromosome-Level Reference Genome of the Siamese Fighting Fish</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  July 11, 2018</p>
-      <p class="abstract">The Siamese fighting fish (Betta splendens) is well known for its highly aggressive behavior, making it a valuable model species for studying the g...</p>
-      <a href="/progresses/2018/07/11/betta-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2018-05-11-quail-genome.png" alt="Population Genomics of Japanese Quail: Insights into Genetic Diversity and Domestication" class="post-image" />
-      
-      <h2><a href="/progresses/2018/05/11/quail-genome.html">Population Genomics of Japanese Quail: Insights into Genetic Diversity and Domestication</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  May 11, 2018</p>
-      <p class="abstract">The Japanese quail (Coturnix japonica) is a poultry species with significant agricultural and scientific value. As a model organism for avian genet...</p>
-      <a href="/progresses/2018/05/11/quail-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2017-10-18-pearl-millet-genome.png" alt="Pearl Millet Genome Sequencing: A Resource for Improving Agronomic Traits in Arid Regions" class="post-image" />
-      
-      <h2><a href="/progresses/2017/10/18/pearl-millet-genome.html">Pearl Millet Genome Sequencing: A Resource for Improving Agronomic Traits in Arid Regions</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  October 18, 2017</p>
-      <p class="abstract">Pearl millet (Cenchrus americanus) is a staple crop for over 90 million farmers in arid and semi-arid regions, particularly in sub-Saharan Africa a...</p>
-      <a href="/progresses/2017/10/18/pearl-millet-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2017-07-25-pearl-oyster-genome.png" alt="Genome Sequencing of the Pearl Oyster *Pinctada fucata martensii*: Insights into Biomineralization" class="post-image" />
-      
-      <h2><a href="/progresses/2017/07/25/pearl-oyster-genome.html">Genome Sequencing of the Pearl Oyster *Pinctada fucata martensii*: Insights into Biomineralization</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  July 25, 2017</p>
-      <p class="abstract">Pearl-producing mollusks have long been recognized as economically valuable species, not only for their exquisite pearls but also for their role in...</p>
-      <a href="/progresses/2017/07/25/pearl-oyster-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2017-05-05-rhodiola-genome.png" alt="Draft Genome Sequence of the Tibetan Medicinal Herb Rhodiola Crenulata" class="post-image" />
-      
-      <h2><a href="/progresses/2017/05/05/rhodiola-genome.html">Draft Genome Sequence of the Tibetan Medicinal Herb Rhodiola Crenulata</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  May 05, 2017</p>
-      <p class="abstract">Rhodiola crenulata (R. crenulata) is a highly valued medicinal plant, particularly in traditional Chinese and Tibetan medicine. It is widely known ...</p>
-      <a href="/progresses/2017/05/05/rhodiola-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2016-01-16-ruff-genome.png" alt="Genomic Basis of Alternative Reproductive Strategies in the Ruff" class="post-image" />
-      
-      <h2><a href="/progresses/2016/01/16/ruff-genome.html">Genomic Basis of Alternative Reproductive Strategies in the Ruff</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  January 16, 2016</p>
-      <p class="abstract">The ruff (Philomachus pugnax) is a migratory wading bird with one of the most complex and fascinating mating systems in the animal kingdom. Males e...</p>
-      <a href="/progresses/2016/01/16/ruff-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2015-04-09-ophisaurus-genome.png" alt="Genome Draft of the Legless Anguid Lizard *Ophisaurus gracilis*" class="post-image" />
-      
-      <h2><a href="/progresses/2015/04/09/ophisaurus-genome.html">Genome Draft of the Legless Anguid Lizard *Ophisaurus gracilis*</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  April 09, 2015</p>
-      <p class="abstract">The transition from lizard-like to snake-like body forms represents one of the most intriguing evolutionary transformations in reptiles. Despite gr...</p>
-      <a href="/progresses/2015/04/09/ophisaurus-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2015-01-16-orchid-genome.png" alt="Genome Sequencing of Phalaenopsis equestris: Unraveling Orchid Evolution and Floral Diversity" class="post-image" />
-      
-      <h2><a href="/progresses/2015/01/16/orchid-genome.html">Genome Sequencing of Phalaenopsis equestris: Unraveling Orchid Evolution and Floral Diversity</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  January 16, 2015</p>
-      <p class="abstract">Orchids are one of the most diverse and fascinating plant families, displaying remarkable floral adaptations and ecological strategies. As an impor...</p>
-      <a href="/progresses/2015/01/16/orchid-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2014-07-31-peach-genome.png" alt="Comparative Population Genomics Reveals the Domestication History of Peach" class="post-image" />
-      
-      <h2><a href="/progresses/2014/07/31/peach-genome.html">Comparative Population Genomics Reveals the Domestication History of Peach</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  July 31, 2014</p>
-      <p class="abstract">Peach (Prunus persica) is one of the most economically and culturally significant fruit crops, with a long history of domestication dating back tho...</p>
-      <a href="/progresses/2014/07/31/peach-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2013-10-20-cucumber-genome.png" alt="Genomic Variation Map of Cucumber: Insights into Domestication and Diversity" class="post-image" />
-      
-      <h2><a href="/progresses/2013/10/20/cucumber-genome.html">Genomic Variation Map of Cucumber: Insights into Domestication and Diversity</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  October 20, 2013</p>
-      <p class="abstract">Most fruits consumed today are the result of long-term domestication and breeding efforts. However, the genetic basis underlying domestication trai...</p>
-      <a href="/progresses/2013/10/20/cucumber-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2013-08-21-chinese-hamster-genome.png" alt="Genomic Landscapes of Chinese Hamster Ovary Cell Lines and Cricetulus griseus" class="post-image" />
-      
-      <h2><a href="/progresses/2013/08/21/chinese-hamster-genome.html">Genomic Landscapes of Chinese Hamster Ovary Cell Lines and Cricetulus griseus</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  August 21, 2013</p>
-      <p class="abstract">Chinese hamster ovary (CHO) cells are the preferred production hosts for biopharmaceuticals, widely used for the development of therapeutic protein...</p>
-      <a href="/progresses/2013/08/21/chinese-hamster-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2012-12-11-rice-genome.png" alt="Resequencing 50 Accessions of Cultivated and Wild Rice for Agronomic Gene Identification" class="post-image" />
-      
-      <h2><a href="/progresses/2012/12/11/rice-genome.html">Resequencing 50 Accessions of Cultivated and Wild Rice for Agronomic Gene Identification</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  December 11, 2012</p>
-      <p class="abstract">Rice (Oryza sativa) is a staple food crop that has undergone extensive domestication, resulting in significant phenotypic and physiological changes...</p>
-      <a href="/progresses/2012/12/11/rice-genome.html" class="read-more">Read More</a>
-    </article>
-  
-    <article class="post-card">
-      
-        <img src="/assets/images/news/2012-06-13-foxtail-millet-genome.png" alt="Foxtail Millet Genome Sequencing: Insights into Grass Evolution and Biofuel Potential" class="post-image" />
-      
-      <h2><a href="/progresses/2012/06/13/foxtail-millet-genome.html">Foxtail Millet Genome Sequencing: Insights into Grass Evolution and Biofuel Potential</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  June 13, 2012</p>
-      <p class="abstract">Foxtail millet (Setaria italica) is a drought-tolerant crop with rich nutritional value and historical significance, domesticated in China over 8,7...</p>
-      <a href="/progresses/2012/06/13/foxtail-millet-genome.html" class="read-more">Read More</a>
-    </article>
+    
+<section class="posts-grid">
   
     <article class="post-card">
       
         <img src="/assets/images/news/2010-12-14-soybean-genome.png" alt="Resequencing 31 Wild and Cultivated Soybean Genomes: Insights into Genetic Diversity and Domestication" class="post-image" />
       
-      <h2><a href="/progresses/2010/12/14/soybean-genome.html">Resequencing 31 Wild and Cultivated Soybean Genomes: Insights into Genetic Diversity and Domestication</a></h2>
-      <p class="abstract"><i class="fas fa-calendar" aria-hidden="true"></i>  December 14, 2010</p>
+      
+      <h2><a href="/news/2010/12/14/soybean-resequencing" style="text-decoration: none;">Resequencing 31 Wild and Cultivated Soybean Genomes: Insights into Genetic Diversity and Domestication</a></h2>
+      
+      <p class="abstract">
+        <i class="fas fa-calendar" aria-hidden="true"></i>  
+        
+        
+          December 14, 2010
+        
+      </p>
+
       <p class="abstract">Soybean (Glycine max) is a critical crop globally, serving as a major source of protein and oil. Understanding its genetic diversity and domesticat...</p>
-      <a href="/progresses/2010/12/14/soybean-genome.html" class="read-more">Read More</a>
+      
+      <a href="/news/2010/12/14/soybean-resequencing" class="read-more">
+        Read More
+      </a>
     </article>
   
 </section>
 
   </main>
+
   <div class="container">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <a href=" " class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-        <img class="bi" width="30" height="30" src="/assets/images/logo.svg"></img>
-      </a >
-      <span class="mb-3 mb-md-0 text-muted">&copy; 2025 XinLab</span>
+    <div class="col-md-6 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <img class="bi" width="30" height="30" src="/assets/images/logo.svg" alt="XinLab Logo">
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">
+        &copy; 2025 XinLab 
+        <span class="mx-2">|</span> 
+        <a href="https://beian.miit.gov.cn/" target="_blank" class="text-muted text-decoration-none">粤ICP备2022017196号</a>
+      </span>
     </div>
 
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+    <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
       
         <a href="https://x.com/liuxin_genomics" class="mx-2" target="_blank"><i class="fab fa-twitter" style="color: #333333;"></i></a>
       
@@ -850,7 +196,14 @@
     </ul>
   </footer>
 </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
 
+  <!-- JS 部分统一放在这里（body 结束前） -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.min.js"></script>
+
+
+</body>
 </html>

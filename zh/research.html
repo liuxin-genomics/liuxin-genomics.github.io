@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research | XinLab</title>
+
+  <!-- CSS 部分 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.bootstrap5.min.css">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+  <!-- 不要在这里放 JS -->
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href=" /">
+      <img src="/assets/images/logo.png" alt="Logo" height="50"> XinLab
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav nav-underline">
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/">
+                主页
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/research/">
+                研究
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/publications/">
+                论文
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/people/">
+                人员
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/about/">
+                关于
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navDropdown6" 
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                进展
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navDropdown6">
+                
+                  <li>
+                    <a class="dropdown-item" href="/zh/news/">
+                      所有进展
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="/zh/news/categories/">
+                      按分类
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="/zh/news/tags/">
+                      按标签
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-globe"></i><span class="d-lg-none">Language</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
+            <li>
+              <a class="dropdown-item " href=" /research">
+                English
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item active" href=" /zh/research">
+                中文
+              </a>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+  <div class="jumbotron" style="background-image: url('/assets/images/research-jumbotron.jpg');">
+    <div class="container">
+      <h1>研究内容</h1>
+      <p>通过技术发展与多组学研究，实现科学发现与应用转化。</p>
+    </div>
+  </div>
+  
+
+  <main class="container col-lg-8 col-md-12 col-sm-12">
+    
+    <div class="page-abstract">XinLab的研究方向涵盖四个关键领域，包括技术开发、数据分析、生物学研究以及实际应用。实验室致力于创造前沿的测序技术，例如基于优化的单细胞ATAC-seq方法发展出的单细胞线粒体测序。同时，实验室也专注于推进数据分析方法学，以有效应对复杂的生物学问题。通过在植物、动物和疾病领域开展多组学研究，XinLab旨在揭示基本的生物学现象。此外，实验室高度重视将研究成果应用于现实挑战，例如农业育种和临床疾病诊断，凸显其将科学发现与实际影响相结合的使命。</div>
+    
+    <hr />
+<p><img src="/assets/images/intro-3-research-directions.png" alt="Research directions" width="100%" />
+<em>XinLab的研究方向。</em></p>
+
+<hr />
+
+<p>在清晰的整体愿景指引下，XinLab制定了结构化的研究方向规划。在技术创新领域，实验室专注于推动基因组学广阔领域中的方法学进步。基于高通量测序、单细胞测序和空间转录组学等基础基因组学技术，XinLab 致力于生成更精细的组学数据。例如，实验室改进了华大的单细胞技术（<a href="https://www.mgi-tech.com/products/solution/3/">DNBelab C4</a>），并开创了一种名为mtscATAC-seq 的新方法。该创新能够在单个细胞内同时进行线粒体基因组测序和染色质可及性分析。该方法的原理与性能已通过初步验证（详见<a href="/zh/2024/06/01/scmtseq.html">mtscATAC-seq</a>）。展望未来，这项技术有望解决诸如衰老相关的关键科学问题。
+在分析方法学方面，尽管 XinLab并不以原创性创新为主要目标，但它充分利用现有方法，开发并优化适用于特定研究需求的方案。这确保了实验室的分析始终保持精确，并与其科学目标高度一致。</p>
+
+<hr />
+<p><img src="/assets/images/intro-4-tech-example.png" alt="mtscATAC-seq" width="100%" />
+<em>XinLab技术开发案例：mtscATAC-seq方法(<a href="https://doi.org/10.1111/acel.14242">Liu et al., Aging Cell, 2024</a>).</em></p>
+
+<hr />
+
+<p>除了技术和分析方法学的创新外，XinLab还积极投身于多个专业的组学研究领域。其中，植物基因组学研究是主要重点，包括植物参考基因组构建、基因组进化研究、作物群体基因组学分析、重要性状的基因组基础研究、植物单细胞研究以及关键生物学过程的分子基础。</p>
+
+<p>例如，在鹰嘴豆（<em>Cicer arietinum</em> L.）的研究中，XinLab合作开展了一系列研究，从参考基因组构建和群体基因组学分析到重要性状的关联研究和种质库基因组分析。这些工作持续推动组学研究成果在育种实践中的应用，实现研究与育种实践的衔接。</p>
+
+<hr />
+<p><img src="/assets/images/intro-5-application-example.png" alt="鹰嘴豆基因组研究" width="100%" />
+<em>鹰嘴豆基因组项目：从基础研究到育种实践。</em></p>
+
+<hr />
+
+<p>除了植物基因组学之外，XinLab还通过合作项目将研究范围扩展至动物和人类研究。这些研究计划利用组学方法来解决特定的生物学问题，进一步拓宽了实验室在多个领域的影响力。</p>
+
+  </main>
+
+  <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-6 d-flex align-items-center">
+      <a href="/zh/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <img class="bi" width="30" height="30" src="/assets/images/logo.svg" alt="XinLab Logo">
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">
+        &copy; 2025 XinLab 
+        <span class="mx-2">|</span> 
+        <a href="https://beian.miit.gov.cn/" target="_blank" class="text-muted text-decoration-none">粤ICP备2022017196号</a>
+      </span>
+    </div>
+
+    <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
+      
+        <a href="https://x.com/liuxin_genomics" class="mx-2" target="_blank"><i class="fab fa-twitter" style="color: #333333;"></i></a>
+      
+        <a href="https://github.com/liuxin-genomics" class="mx-2" target="_blank"><i class="fab fa-github" style="color: #333333;"></i></a>
+      
+        <a href="https://facebook.com/liuxin.genomics" class="mx-2" target="_blank"><i class="fab fa-facebook" style="color: #333333;"></i></a>
+      
+        <a href="https://www.linkedin.com/in/liuxin-genomics" class="mx-2" target="_blank"><i class="fab fa-linkedin" style="color: #333333;"></i></a>
+      
+        <a href="mailto:liuxincqbj@gmail.com" class="mx-2" target="_blank"><i class="fas fa-envelope" style="color: #333333;"></i></a>
+      
+        <a href="www.xgenome.cn/zh/feed.xml" class="mx-2" target="_blank"><i class="fa fa-rss-square" style="color: #333333;"></i></a>
+      
+    </ul>
+  </footer>
+</div>
+
+  <!-- JS 部分统一放在这里（body 结束前） -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.min.js"></script>
+
+
+</body>
+</html>

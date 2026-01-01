@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New RNA-seq Analysis Method - TRADE | XinLab</title>
+
+  <!-- CSS 部分 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.bootstrap5.min.css">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+  <!-- 不要在这里放 JS -->
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href=" /">
+      <img src="/assets/images/logo.png" alt="Logo" height="50"> XinLab
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav nav-underline">
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/">
+                主页
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/research/">
+                研究
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/publications/">
+                论文
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/people/">
+                人员
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a class="nav-link " href="/zh/about/">
+                关于
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navDropdown6" 
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                进展
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navDropdown6">
+                
+                  <li>
+                    <a class="dropdown-item" href="/zh/news/">
+                      所有进展
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="/zh/news/categories/">
+                      按分类
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="/zh/news/tags/">
+                      按标签
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-globe"></i><span class="d-lg-none">Language</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
+            <li>
+              <a class="dropdown-item " href=" /frontiers/2025/04/21/TRADE.html">
+                English
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item active" href=" /zh/frontiers/2025/04/21/TRADE.html">
+                中文
+              </a>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+  <main class="container col-lg-8 col-md-12 col-sm-12">
+    
+    <div class="container post-content section">
+  <h2>New RNA-seq Analysis Method - TRADE</h2>
+  
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <!-- 首页 -->
+        <li class="breadcrumb-item">
+          <a href="/zh/">主页</a>
+        </li>
+        <!-- News 页面 -->
+        <li class="breadcrumb-item">
+          <a href="/zh/news/">进展</a>
+        </li>
+        <!-- 分类归档（取第一个分类） -->
+        
+          
+          <li class="breadcrumb-item">
+            <a href="/zh/news/categories/frontiers/">
+              Frontiers
+            </a>
+          </li>
+        
+        <!-- 标签归档（取第一个标签） -->
+        
+          
+          <li class="breadcrumb-item">
+            <a href="/zh/news/tags/bioinformatics/">
+              Bioinformatics
+            </a>
+          </li>
+        
+      </ol>
+    </nav>
+  
+  
+    
+      <div class="alert alert-danger" role="alert">
+        Disclaimer: This post does not represent a publication by XinLab. Instead, we are sharing research progress that we find intriguing. Please note that our interpretations reflect our current perspective and may not be entirely accurate. We welcome your feedback—if you believe any part of this content is inappropriate for our website, please let us know.
+      </div>
+    
+  
+  <p class="post-meta"><i class="fas fa-calendar" aria-hidden="true"></i>  April 21, 2025</p>
+  
+    <img src="/assets/images/news/2025-04-21-TRADE.png" alt="New RNA-seq Analysis Method - TRADE" class="post-hero-image">
+  
+  <div class="content">
+    <p><em>In a recent Nature paper, a novel RNA-seq analysis method was published, which might be the future direction for RNA-seq data analysis.</em></p>
+
+<hr />
+
+<h1 id="new-rna-seq-analysis-method---trade">New RNA-seq Analysis Method - TRADE</h1>
+
+<h2 id="-methodological-innovations">🔹 Methodological Innovations</h2>
+
+<h3 id="-innovative-modeling-approach">✨ Innovative Modeling Approach</h3>
+<p>TRADE is a statistical model that directly captures the distribution of differential expression effects. Unlike previous methods that often lack clear estimation objectives or use ambiguous units, TRADE provides a precise quantification of the overall impact of gene perturbation on the transcriptome.</p>
+
+<h3 id="-integration-of-multi-dimensional-data">🔗 Integration of Multi-Dimensional Data</h3>
+<p>By integrating single-cell RNA sequencing data with pseudo-bulk RNA sequencing read count matrices from CRISPR screening experiments, TRADE effectively combines multiple layers of information. It utilizes both differential expression estimates and standard errors to determine the true distribution of expression effects while accounting for estimation errors—enhancing reliability and accuracy.</p>
+
+<h2 id="-technical-advantages">🔹 Technical Advantages</h2>
+
+<h3 id="-eliminates-the-need-for-multiple-testing-corrections">🎯 Eliminates the Need for Multiple Testing Corrections</h3>
+<p>TRADE circumvents the statistical power loss typically seen in traditional single-gene testing methods due to multiple testing corrections. This enables a more efficient detection of transcriptome-wide effects, even for small perturbations that conventional analyses might miss.</p>
+
+<h3 id="-adaptability-across-different-data-characteristics">🔍 Adaptability Across Different Data Characteristics</h3>
+<p>Whether the effects of gene perturbation are concentrated in a few genes or dispersed across many, TRADE quantifies them effectively using metrics such as the number of differentially expressed genes. This makes it highly suitable for diverse datasets and distribution patterns.</p>
+
+<h3 id="-stability--noise-resistance">🛠 Stability &amp; Noise Resistance</h3>
+<p>Through simulations and experimental validation, TRADE demonstrates strong stability across different sample sizes, cell types, and experimental conditions. It also exhibits robust resistance to noise and external interference, ensuring accurate representation of gene perturbation effects.</p>
+
+<h2 id="-key-findings">🔹 Key Findings</h2>
+
+<h3 id="-widespread-impact-of-gene-perturbation">🔬 Widespread Impact of Gene Perturbation</h3>
+<p>Analyzing large Perturb-seq datasets reveals that many transcriptional effects overlooked in standard methods are detectable through TRADE. On average, a typical gene perturbation influences about <strong>45 genes</strong>, while an essential gene affects <strong>over 500 genes</strong>, highlighting a broader transcriptomic impact than traditional analyses suggest.</p>
+
+<h3 id="-consistency-across-cell-types">📌 Consistency Across Cell Types</h3>
+<p>A moderate level of transcriptional response consistency was observed for gene perturbations across different cell types. However, certain perturbations displayed unique patterns in specific cell types, offering insights into the conserved and specialized functions of genes in different cellular environments.</p>
+
+<h3 id="-dose-sensitivity-analysis">🧪 Dose Sensitivity Analysis</h3>
+<p>Through dose-gradient experiments, TRADE uncovers a <strong>dose-dependent and nonlinear relationship</strong> in transcriptomic responses. Partial depletion of a gene may affect only a few downstream genes, while complete depletion impacts a broader set. Additionally, transcriptional responses at different dose levels exhibit varying correlations—offering crucial insights into gene dosage effects and therapeutic applications.</p>
+
+<h3 id="-association-with-neuropsychiatric-disorders">🧠 Association with Neuropsychiatric Disorders</h3>
+<p>Reanalysis of differential expression data from postmortem brain tissues of neuropsychiatric disorder patients suggests stronger correlations in transcriptomic effects across different diseases than previously estimated. These correlations also show altered relationships with genetic associations, hinting at <strong>shared transcriptomic features and potential common pathological mechanisms in neuropsychiatric disorders</strong>.</p>
+
+<h2 id="-applications">🔹 Applications</h2>
+
+<h3 id="-gene-function-research">🔍 Gene Function Research</h3>
+<p>TRADE provides a powerful tool for investigating gene functions by analyzing how gene perturbations influence transcription, revealing key roles and regulatory networks in cellular physiology.</p>
+
+<h3 id="-drug-target-discovery--evaluation">💊 Drug Target Discovery &amp; Evaluation</h3>
+<p>TRADE helps identify promising drug target genes and evaluates their effectiveness across different cell types and doses, offering valuable insights for drug development and precision medicine.</p>
+
+<h3 id="-disease-mechanism-exploration">🏥 Disease Mechanism Exploration</h3>
+<p>TRADE enhances the study of complex diseases, particularly neuropsychiatric disorders, by uncovering transcriptional dysregulation in disease-associated genes and molecular relationships between different conditions.</p>
+
+<h3 id="-cell-type-identification--classification">🧬 Cell Type Identification &amp; Classification</h3>
+<p>By serving as a transcriptomic distance metric tool, TRADE facilitates cell type identification, classification, and clustering analysis—advancing single-cell transcriptomics and cell heterogeneity research.</p>
+
+<h3 id="-gene-regulatory-network-inference">🔗 Gene Regulatory Network Inference</h3>
+<p>Integrating TRADE results with existing gene regulatory network models enables the inference of <strong>global regulatory features and key network nodes</strong>, further deepening our understanding of gene expression control.</p>
+
+
+  </div>
+</div>
+<div>
+    <h4>分享</h4>
+        <!-- Facebook -->
+        <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=www.xgenome.cn/frontiers/2025/04/21/TRADE.html"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share this on facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <!-- Twitter -->
+        <a class="btn btn-primary" href="https://twitter.com/intent/tweet?text=New RNA-seq Analysis Method - TRADE&url=www.xgenome.cn/frontiers/2025/04/21/TRADE.html"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <!-- Google+ -->
+        <a class="btn btn-primary" href="https://plus.google.com/share?url=www.xgenome.cn/frontiers/2025/04/21/TRADE.html"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Google+">
+            <i class="fab fa-google-plus"></i>
+        </a>
+</div>
+  </main>
+
+  <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-6 d-flex align-items-center">
+      <a href="/zh/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <img class="bi" width="30" height="30" src="/assets/images/logo.svg" alt="XinLab Logo">
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">
+        &copy; 2025 XinLab 
+        <span class="mx-2">|</span> 
+        <a href="https://beian.miit.gov.cn/" target="_blank" class="text-muted text-decoration-none">粤ICP备2022017196号</a>
+      </span>
+    </div>
+
+    <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
+      
+        <a href="https://x.com/liuxin_genomics" class="mx-2" target="_blank"><i class="fab fa-twitter" style="color: #333333;"></i></a>
+      
+        <a href="https://github.com/liuxin-genomics" class="mx-2" target="_blank"><i class="fab fa-github" style="color: #333333;"></i></a>
+      
+        <a href="https://facebook.com/liuxin.genomics" class="mx-2" target="_blank"><i class="fab fa-facebook" style="color: #333333;"></i></a>
+      
+        <a href="https://www.linkedin.com/in/liuxin-genomics" class="mx-2" target="_blank"><i class="fab fa-linkedin" style="color: #333333;"></i></a>
+      
+        <a href="mailto:liuxincqbj@gmail.com" class="mx-2" target="_blank"><i class="fas fa-envelope" style="color: #333333;"></i></a>
+      
+        <a href="www.xgenome.cn/zh/feed.xml" class="mx-2" target="_blank"><i class="fa fa-rss-square" style="color: #333333;"></i></a>
+      
+    </ul>
+  </footer>
+</div>
+
+  <!-- JS 部分统一放在这里（body 结束前） -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.min.js"></script>
+
+
+</body>
+</html>

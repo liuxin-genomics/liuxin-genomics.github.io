@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title></title>
+        <description>Genomics Research Laboratory</description>
+        <link>www.xgenome.cn</link>
+        <atom:link href="www.xgenome.cn/zh/feed.xml" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>Exploring Antarctic Krill Mitogenomes: Insights into Genetic Diversity and Population Dynamics</title>
+                <description>&lt;p&gt;Antarctic krill (&lt;em&gt;Euphausia superba&lt;/em&gt;), a keystone species in the Southern Ocean ecosystem, plays a pivotal role in global marine biodiversity and biogeochemical cycles. In our recent study, we leveraged previously published whole-genome sequencing data of Antarctic krill to conduct a deeper analysis of mitochondrial genomes, shedding light on population evolution and genetic selection pressures.&lt;/p&gt;
+
+&lt;h2 id=&quot;key-findings&quot;&gt;Key Findings&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;High-Quality Mitogenome Assembly:&lt;/strong&gt;&lt;br /&gt;
+Using PacBio long-read sequencing technology, we assembled the complete mitochondrial genome of Antarctic krill, spanning 18,926 bp with a notably large control region (CR) of 3,952 bp. The CR includes a 2,289 bp tandem repeat, highlighting the advantages of long-read sequencing in resolving complex genomic regions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;NUMTs and Mitogenome Diversity:&lt;/strong&gt;&lt;br /&gt;
+Our analysis identified 900 nuclear-mitochondrial DNA segments (NUMTs) in the krill nuclear genome, totaling 2.79 Mb. These NUMTs provide insights into the dynamic integration of mitochondrial DNA into nuclear genomes during and after speciation events. Additionally, we constructed a dataset of 80 krill mitogenomes, revealing substantial mitochondrial diversity and high levels of genetic connectivity across geographically distinct populations in the Southern Ocean.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Population Evolution and Demographic History:&lt;/strong&gt;&lt;br /&gt;
+Haplotype network analysis and demographic reconstructions suggest a recent population expansion, likely driven by favorable environmental conditions during the late Pleistocene. Our study also revealed evidence of purifying selection across all 13 mitochondrial protein-coding genes, emphasizing the evolutionary constraint to maintain mitochondrial function under extreme conditions.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;reflections-and-comments&quot;&gt;Reflections and Comments&lt;/h2&gt;
+
+&lt;p&gt;This project forms part of the PhD research undertaken by Shuai Sun, one of my doctoral students and a vital member of XinLab. Shuai has contributed significantly to various projects involving crop population genomics and marine species, publishing multiple papers in these fields. This particular study represents a focused effort to analyze mitochondrial genomes and uncover evolutionary insights from mutations and selection pressures within krill populations.&lt;/p&gt;
+
+&lt;p&gt;As a mentor, I was impressed by Shuai’s dedication and meticulous approach to this research. Leveraging previously published Antarctic krill genomic data, Shuai conducted an in-depth exploration of mitochondrial genes to reveal their evolutionary dynamics and functional significance. These findings not only advance our understanding of krill population biology but also highlight the importance of integrative genomics for marine species conservation.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Our study provides valuable insights into the mitochondrial genomic landscape of Antarctic krill, offering new perspectives on population genetics and evolutionary history. By combining high-quality genomic data with advanced bioinformatics approaches, we have established a foundational resource for krill conservation and management in the Southern Ocean. This work underscores the critical role of mitochondrial research in addressing broader ecological and evolutionary questions.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 29 Apr 2025 10:00:00 +0000</pubDate>
+                <link>www.xgenome.cn/progresses/2025/04/29/krill-mitogenome.html</link>
+                <guid isPermaLink="true">www.xgenome.cn/progresses/2025/04/29/krill-mitogenome.html</guid>
+            </item>
+        
+            <item>
+                <title>Tertiary Lymphoid Organ-like Structures in Carotid Artery Plaques: A Breakthrough in Understanding Plaque Instability</title>
+                <description>&lt;p&gt;&lt;em&gt;Tertiary lymphoid organ-like structures in human atherosclerosis contribute to plaque instability. Xin Liu, on behalf of the XinLab team and our collaborators at Peking Union Medical College Hospital&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Carotid artery plaques are a significant risk factor for atherosclerosis and various cardiovascular diseases.&lt;/strong&gt; Driven by our passion for applying cutting‐edge genomic technologies to real-world clinical challenges, our team set out to unravel the cellular secrets hidden within these plaques. Using spatiotemporal omics and single‑cell sequencing, our research has revealed a previously unappreciated facet of plaque biology—clusters of immune cells that organize into structures strikingly similar to tertiary lymphoid organs (TLOs), commonly observed in tumor microenvironments.&lt;/p&gt;
+
+&lt;h2 id=&quot;uncovering-the-immune-landscape-of-plaques&quot;&gt;Uncovering the Immune Landscape of Plaques&lt;/h2&gt;
+
+&lt;p&gt;Our study employed high‑resolution spatial transcriptomics alongside single‑cell RNA sequencing to create a detailed atlas of the cellular composition within carotid plaques. The spatial data provided crucial context: we observed that in select regions of the plaque, immune cells—chiefly B cells and plasma cells—congregated into organized clusters. These structures bear a resemblance to TLS, suggesting that local immune responses may play a pivotal role in plaque progression and instability.&lt;/p&gt;
+
+&lt;p&gt;Further integrative analysis allowed us not only to map these cell assemblies but also to tease apart the key factors and signaling pathways that drive their formation. By combining molecular profiling with rigorous histopathological validation (using H&amp;amp;E staining), our data shows that plaques harboring TLS are more likely to be unstable and associated with adverse clinical symptoms. In other words, the presence of these organized immune cell clusters appears to contribute directly to the risk of subsequent cardiovascular events.&lt;/p&gt;
+
+&lt;h2 id=&quot;significance-of-our-findings&quot;&gt;Significance of Our Findings&lt;/h2&gt;
+
+&lt;p&gt;This discovery is particularly significant—it represents the first time that TLS-like structures have been definitively identified within carotid artery plaques. While similar structures have been observed in other atherosclerosis-related tissues, finding them in carotid plaques opens new avenues for understanding the adaptive immune responses that modulate plaque stability. Molecular evidence from our study suggests that the aggregation of B cells and plasma cells could instigate local inflammatory processes, destabilizing the plaque and thereby heightening the risk of clinical events.&lt;/p&gt;
+
+&lt;p&gt;Our work not only deepens our understanding of the immune system’s role in atherosclerosis but also uncovers new therapeutic targets. By pinpointing the molecular drivers of TLS formation within plaques, we pave the way for the development of interventions designed to stabilize these high-risk lesions, potentially preventing strokes and other cardiovascular complications.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-collaborative-milestone&quot;&gt;A Collaborative Milestone&lt;/h2&gt;
+
+&lt;p&gt;This study marks a major milestone in our research efforts. It was born out of a collaborative synergy between XinLab—a dynamic team led by Xin Liu at BGI—and our colleagues at Peking Union Medical College Hospital, spearheaded by Dr. Bao Liu. Significant contributions from Zhichao Lai, Deqiang Kong, Yue Wang, Qingsong Du, Ziqing Deng, and others exemplify the spirit of teamwork that drives breakthroughs in human disease research. For more information about our lab’s work, please visit &lt;a href=&quot;http://www.xgenome.cn&quot;&gt;www.xgenome.cn&lt;/a&gt; and our GitHub page &lt;a href=&quot;http://liuxin-genomics.github.io&quot;&gt;liuxin-genomics.github.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;reflections-on-the-journey&quot;&gt;Reflections on the Journey&lt;/h2&gt;
+
+&lt;p&gt;No discovery, however groundbreaking, comes easily. Reflecting on the peer-review journey for this work, I recall a time of grueling scrutiny and intense revision. At moments, it felt like the hurdles were insurmountable; yet, the challenge was also deeply invigorating. In retrospect, every piece of feedback pushed us to refine our analyses and strengthen our conclusions. I find it fascinating how a rigorous review process ultimately enriches research—it shaped our study into something even more compelling and robust.&lt;/p&gt;
+
+&lt;p&gt;I am particularly grateful to Reviewer Klaus Ley, who not only provided incisive comments but also authored a thoughtful commentary on our work. His summary, available &lt;a href=&quot;https://www.nature.com/articles/s44161-025-00645-x&quot;&gt;here&lt;/a&gt;, offers a distillation of our findings and an appreciation of their clinical implications. Such insights remind me that science, much like the fabled allegories of transformation, involves a process of refinement—a journey reminiscent of the Chinese fable of Sun Wukong being tempered in Laozi’s alchemy furnace until, in a dramatic reversal, the latent power bursts forth in unexpected ways.&lt;/p&gt;
+
+&lt;h2 id=&quot;looking-ahead&quot;&gt;Looking Ahead&lt;/h2&gt;
+
+&lt;p&gt;Our discovery of TLS-like structures in carotid plaques is only the beginning. It not only underscores the critical role of local immune dynamics in cardiovascular disease but also opens exciting avenues for therapeutic intervention. XinLab remains dedicated to leveraging advanced genomic technologies in our quest to decode complex human diseases. I look forward to sharing more details about our ongoing research and the fascinating lessons learned from our continued exploration of the immune microenvironment in atherosclerosis.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;We hope you find our journey as inspiring as we do. Stay tuned for more updates from XinLab, where cutting-edge genomics meets impactful discovery.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 29 Apr 2025 05:56:51 +0000</pubDate>
+                <link>www.xgenome.cn/progresses/2025/04/29/PTLO.html</link>
+                <guid isPermaLink="true">www.xgenome.cn/progresses/2025/04/29/PTLO.html</guid>
+            </item>
+        
+            <item>
+                <title>Single‐Cell Multiome Reveals Root Hair‐Specific Responses to Salt Stress in Non‐Heading Chinese Cabbage</title>
+                <description>&lt;p&gt;&lt;em&gt;Our recent paper introduced findings on mechanisms underlying salt-tolerance in non-heading Chinese cabbage using single-cell and spatial transcriptome sequencing.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;We are excited to announce that our latest research article, “Single‐cell multiome reveals root hair‐specific responses to salt stress,” has been published in New Phytologist (DOI: 10.1111/nph.70160). This work marks a significant advance in our understanding of how non‐heading Chinese cabbage (NHCC) roots adapt at the cellular and molecular levels to salt stress—a growing challenge for sustainable agriculture.&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;Soil salinization is a critical issue driven by environmental degradation and unsustainable cultivation practices. Salt stress affects plants by:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Inhibiting seed germination and root development&lt;/li&gt;
+  &lt;li&gt;Reducing crop yield through detrimental physiological impacts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For NHCC—a vital leafy vegetable crop—the root system is central to detecting and responding to salinity. However, the cell type–specific regulatory mechanisms underlying this response have largely remained unexplored. To address this gap, our study leverages cutting-edge single-cell multiomic technologies to create the first comprehensive single-cell atlas of NHCC root tips under both normal and salt-stress conditions.&lt;/p&gt;
+
+&lt;h2 id=&quot;methodology&quot;&gt;Methodology&lt;/h2&gt;
+&lt;p&gt;Our approach combined several advanced techniques to dissect the complexity of root responses:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Single-Nucleus RNA Sequencing (snRNA-seq) and ATAC Sequencing (snATAC-seq):
+    &lt;ul&gt;
+      &lt;li&gt;Nuclei were isolated from 5-mm root tips of NHCC plants grown under control conditions and after a 12-hour treatment with 150 mM NaCl.&lt;/li&gt;
+      &lt;li&gt;This dual approach allowed us to simultaneously profile gene expression and chromatin accessibility, revealing distinct cell populations and regulatory elements.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Spatial Transcriptomics (Stereo-seq):
+    &lt;ul&gt;
+      &lt;li&gt;Root tip sections were processed with Stereo-seq, capturing spatial expression data at “cell-sized” resolution.&lt;/li&gt;
+      &lt;li&gt;This enabled us to map the anatomical distribution of cell type–specific markers and correlate transcriptomic data with tissue structure.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;RNA In Situ Hybridization and Histochemical Staining:
+    &lt;ul&gt;
+      &lt;li&gt;These validation experiments confirmed the subcellular localization of important genes.&lt;/li&gt;
+      &lt;li&gt;Histochemical stains (e.g., Perls and DAB) were used to assess iron distribution in root tissues.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Virus-Induced Gene Silencing (VIGS):
+    &lt;ul&gt;
+      &lt;li&gt;We silenced the iron transporter gene BcIRT2 to decipher its role under salt stress.&lt;/li&gt;
+      &lt;li&gt;Plants with reduced BcIRT2 expression exhibited lower iron accumulation and stress symptoms (e.g., leaf chlorosis), underscoring its pivotal role.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;key-findings&quot;&gt;Key Findings&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Disrupted Root Hair Differentiation&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Normal vs. Salt Stress Conditions: Under salt stress, the developmental trajectory of root hair cells was markedly altered. Many cells were arrested in an undifferentiated state, preventing the proper transcriptional program required for full maturation&lt;/li&gt;
+  &lt;li&gt;Suppression of Stress-Response Genes: The focus on single-cell transcriptomics revealed that key stress-responsive genes were not activated in the root hair clusters, directly impairing nutrient uptake and environmental sensing abilities.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Impaired Iron Uptake Linked to BcIRT2&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Downregulation of BcIRT2: We discovered that BcIRT2, the NHCC ortholog of an established Arabidopsis iron transporter, was significantly downregulated under salt stress.&lt;/li&gt;
+  &lt;li&gt;Physiological Impact: Reduced BcIRT2 levels correlated with lower iron content in roots. VIGS experiments confirmed that silencing BcIRT2 produced chlorotic leaves and increased salt sensitivity, highlighting the gene’s importance in sustaining iron homeostasis.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Cell Type–Specific Regulatory Networks&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Integrated Multiomic Analysis: By combining snRNA-seq, snATAC-seq, and spatial transcriptomics, we constructed a high-resolution atlas that delineates the distinct regulatory circuits of individual cell types in the NHCC root tip.&lt;/li&gt;
+  &lt;li&gt;Regulatory Insights for Crop Improvement: Our study identified key transcription factors and signaling pathways that govern root hair differentiation and stress response. These findings provide molecular targets for future breeding programs aimed at enhancing salt tolerance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;discussion--impact&quot;&gt;Discussion &amp;amp; Impact&lt;/h2&gt;
+
+&lt;p&gt;Our research provides a comprehensive view of the cellular reprogramming that occurs in NHCC roots under salt stress. The arrest in root hair differentiation and the consequent impairment in iron uptake are critical factors that could explain stress-induced yield losses. Importantly, this work:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Deepens our fundamental understanding of plant abiotic stress responses at the single-cell level.&lt;/li&gt;
+  &lt;li&gt;Offers valuable molecular insights that can drive the development of salt-tolerant cultivars.&lt;/li&gt;
+  &lt;li&gt;Provides a resource-rich multiomic atlas that will support future studies on plant stress physiology and crop improvement.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;acknowledgements&quot;&gt;Acknowledgements&lt;/h2&gt;
+
+&lt;p&gt;This research was a collaborative effort involving contributions from multiple institutions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;State Key Laboratory of North China Crop Improvement and Regulation, Hebei Agricultural University&lt;/li&gt;
+  &lt;li&gt;BGI Research, Beijing (as well as XinLab, www.xgenome.cn)&lt;/li&gt;
+  &lt;li&gt;College of Life Sciences, University of Chinese Academy of Sciences, Beijing&lt;/li&gt;
+  &lt;li&gt;Suzhou Academy of Agricultural Sciences, Suzhou&lt;/li&gt;
+  &lt;li&gt;Glbizzia Biosciences, Beijing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Co-first authors: Qing Liu, Jingmin Kang, Lin Du, and Zhaokun Liu Additional key team members include Hao Liang, Kailai Wang, Haijiao He, Xiaonan Zhang, Qifan Wang, Yiguo Hong, Qi Cheng, Xin Liu, Wei Ma, and Jianjun Zhao.
+We also gratefully acknowledge the support from:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;National Natural Science Foundation of China (Grant Nos. 32330096; 32202505; U24A20417)&lt;/li&gt;
+  &lt;li&gt;Hebei Natural Science Foundation (Grant Nos. C2023204308; C2024204246)&lt;/li&gt;
+  &lt;li&gt;Hebei S&amp;amp;T Bureau (2023HBQZYCSB009)&lt;/li&gt;
+  &lt;li&gt;Science Foundation of the Ministry of Education of China (MoE, 902/1123401)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;The publication of our paper in New Phytologist marks an important milestone in plant genomics research. By unveiling the single-cell landscape of NHCC root responses to salt stress, we have not only expanded our understanding of plant stress physiology but also identified potential targets to enhance crop resilience in saline environments. We are enthusiastic about the future implications of these findings for precision breeding and sustainable agriculture.&lt;/p&gt;
+
+&lt;p&gt;Read the full paper here: &lt;a href=&quot;https://doi.org/10.1111/nph.70160&quot;&gt;https://doi.org/10.1111/nph.70160&lt;/a&gt;&lt;/p&gt;
+</description>
+                <pubDate>Fri, 25 Apr 2025 05:56:51 +0000</pubDate>
+                <link>www.xgenome.cn/progresses/2025/04/25/SaltToleranceInNHCC.html</link>
+                <guid isPermaLink="true">www.xgenome.cn/progresses/2025/04/25/SaltToleranceInNHCC.html</guid>
+            </item>
+        
+            <item>
+                <title>New RNA-seq Analysis Method - TRADE</title>
+                <description>&lt;p&gt;&lt;em&gt;In a recent Nature paper, a novel RNA-seq analysis method was published, which might be the future direction for RNA-seq data analysis.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;new-rna-seq-analysis-method---trade&quot;&gt;New RNA-seq Analysis Method - TRADE&lt;/h1&gt;
+
+&lt;h2 id=&quot;-methodological-innovations&quot;&gt;🔹 Methodological Innovations&lt;/h2&gt;
+
+&lt;h3 id=&quot;-innovative-modeling-approach&quot;&gt;✨ Innovative Modeling Approach&lt;/h3&gt;
+&lt;p&gt;TRADE is a statistical model that directly captures the distribution of differential expression effects. Unlike previous methods that often lack clear estimation objectives or use ambiguous units, TRADE provides a precise quantification of the overall impact of gene perturbation on the transcriptome.&lt;/p&gt;
+
+&lt;h3 id=&quot;-integration-of-multi-dimensional-data&quot;&gt;🔗 Integration of Multi-Dimensional Data&lt;/h3&gt;
+&lt;p&gt;By integrating single-cell RNA sequencing data with pseudo-bulk RNA sequencing read count matrices from CRISPR screening experiments, TRADE effectively combines multiple layers of information. It utilizes both differential expression estimates and standard errors to determine the true distribution of expression effects while accounting for estimation errors—enhancing reliability and accuracy.&lt;/p&gt;
+
+&lt;h2 id=&quot;-technical-advantages&quot;&gt;🔹 Technical Advantages&lt;/h2&gt;
+
+&lt;h3 id=&quot;-eliminates-the-need-for-multiple-testing-corrections&quot;&gt;🎯 Eliminates the Need for Multiple Testing Corrections&lt;/h3&gt;
+&lt;p&gt;TRADE circumvents the statistical power loss typically seen in traditional single-gene testing methods due to multiple testing corrections. This enables a more efficient detection of transcriptome-wide effects, even for small perturbations that conventional analyses might miss.&lt;/p&gt;
+
+&lt;h3 id=&quot;-adaptability-across-different-data-characteristics&quot;&gt;🔍 Adaptability Across Different Data Characteristics&lt;/h3&gt;
+&lt;p&gt;Whether the effects of gene perturbation are concentrated in a few genes or dispersed across many, TRADE quantifies them effectively using metrics such as the number of differentially expressed genes. This makes it highly suitable for diverse datasets and distribution patterns.&lt;/p&gt;
+
+&lt;h3 id=&quot;-stability--noise-resistance&quot;&gt;🛠 Stability &amp;amp; Noise Resistance&lt;/h3&gt;
+&lt;p&gt;Through simulations and experimental validation, TRADE demonstrates strong stability across different sample sizes, cell types, and experimental conditions. It also exhibits robust resistance to noise and external interference, ensuring accurate representation of gene perturbation effects.&lt;/p&gt;
+
+&lt;h2 id=&quot;-key-findings&quot;&gt;🔹 Key Findings&lt;/h2&gt;
+
+&lt;h3 id=&quot;-widespread-impact-of-gene-perturbation&quot;&gt;🔬 Widespread Impact of Gene Perturbation&lt;/h3&gt;
+&lt;p&gt;Analyzing large Perturb-seq datasets reveals that many transcriptional effects overlooked in standard methods are detectable through TRADE. On average, a typical gene perturbation influences about &lt;strong&gt;45 genes&lt;/strong&gt;, while an essential gene affects &lt;strong&gt;over 500 genes&lt;/strong&gt;, highlighting a broader transcriptomic impact than traditional analyses suggest.&lt;/p&gt;
+
+&lt;h3 id=&quot;-consistency-across-cell-types&quot;&gt;📌 Consistency Across Cell Types&lt;/h3&gt;
+&lt;p&gt;A moderate level of transcriptional response consistency was observed for gene perturbations across different cell types. However, certain perturbations displayed unique patterns in specific cell types, offering insights into the conserved and specialized functions of genes in different cellular environments.&lt;/p&gt;
+
+&lt;h3 id=&quot;-dose-sensitivity-analysis&quot;&gt;🧪 Dose Sensitivity Analysis&lt;/h3&gt;
+&lt;p&gt;Through dose-gradient experiments, TRADE uncovers a &lt;strong&gt;dose-dependent and nonlinear relationship&lt;/strong&gt; in transcriptomic responses. Partial depletion of a gene may affect only a few downstream genes, while complete depletion impacts a broader set. Additionally, transcriptional responses at different dose levels exhibit varying correlations—offering crucial insights into gene dosage effects and therapeutic applications.&lt;/p&gt;
+
+&lt;h3 id=&quot;-association-with-neuropsychiatric-disorders&quot;&gt;🧠 Association with Neuropsychiatric Disorders&lt;/h3&gt;
+&lt;p&gt;Reanalysis of differential expression data from postmortem brain tissues of neuropsychiatric disorder patients suggests stronger correlations in transcriptomic effects across different diseases than previously estimated. These correlations also show altered relationships with genetic associations, hinting at &lt;strong&gt;shared transcriptomic features and potential common pathological mechanisms in neuropsychiatric disorders&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;-applications&quot;&gt;🔹 Applications&lt;/h2&gt;
+
+&lt;h3 id=&quot;-gene-function-research&quot;&gt;🔍 Gene Function Research&lt;/h3&gt;
+&lt;p&gt;TRADE provides a powerful tool for investigating gene functions by analyzing how gene perturbations influence transcription, revealing key roles and regulatory networks in cellular physiology.&lt;/p&gt;
+
+&lt;h3 id=&quot;-drug-target-discovery--evaluation&quot;&gt;💊 Drug Target Discovery &amp;amp; Evaluation&lt;/h3&gt;
+&lt;p&gt;TRADE helps identify promising drug target genes and evaluates their effectiveness across different cell types and doses, offering valuable insights for drug development and precision medicine.&lt;/p&gt;
+
+&lt;h3 id=&quot;-disease-mechanism-exploration&quot;&gt;🏥 Disease Mechanism Exploration&lt;/h3&gt;
+&lt;p&gt;TRADE enhances the study of complex diseases, particularly neuropsychiatric disorders, by uncovering transcriptional dysregulation in disease-associated genes and molecular relationships between different conditions.&lt;/p&gt;
+
+&lt;h3 id=&quot;-cell-type-identification--classification&quot;&gt;🧬 Cell Type Identification &amp;amp; Classification&lt;/h3&gt;
+&lt;p&gt;By serving as a transcriptomic distance metric tool, TRADE facilitates cell type identification, classification, and clustering analysis—advancing single-cell transcriptomics and cell heterogeneity research.&lt;/p&gt;
+
+&lt;h3 id=&quot;-gene-regulatory-network-inference&quot;&gt;🔗 Gene Regulatory Network Inference&lt;/h3&gt;
+&lt;p&gt;Integrating TRADE results with existing gene regulatory network models enables the inference of &lt;strong&gt;global regulatory features and key network nodes&lt;/strong&gt;, further deepening our understanding of gene expression control.&lt;/p&gt;
+
+</description>
+                <pubDate>Mon, 21 Apr 2025 05:56:51 +0000</pubDate>
+                <link>www.xgenome.cn/frontiers/2025/04/21/TRADE.html</link>
+                <guid isPermaLink="true">www.xgenome.cn/frontiers/2025/04/21/TRADE.html</guid>
+            </item>
+        
+            <item>
+                <title>Sensitively detect cfRNA - RARE-seq</title>
+                <description>&lt;p&gt;&lt;em&gt;In a recent Nature paper, an improved sequencing method to more sensitively detect cell-free RNA was reported.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;sensitively-detect-cfrna---rare-seq&quot;&gt;Sensitively detect cfRNA - RARE-seq&lt;/h1&gt;
+
+&lt;h2 id=&quot;-methodological-innovations&quot;&gt;✨ Methodological Innovations&lt;/h2&gt;
+
+&lt;h3 id=&quot;-optimized-cfrna-analysis-workflow&quot;&gt;🔬 Optimized cfRNA Analysis Workflow&lt;/h3&gt;
+&lt;p&gt;RARE-seq is a refined method for cfRNA analysis, encompassing the entire workflow—from plasma sample processing, cfRNA extraction, and library preparation to high-throughput sequencing. This method is designed to significantly enhance the sensitivity of ctRNA detection.&lt;/p&gt;
+
+&lt;h3 id=&quot;-addressing-platelet-contamination&quot;&gt;🩸 Addressing Platelet Contamination&lt;/h3&gt;
+&lt;p&gt;For the first time, RARE-seq reveals the substantial impact of platelet contamination on cfRNA analysis. A computational approach was developed to effectively remove platelet RNA interference, ensuring more accurate detection of non-platelet-derived gene expression.&lt;/p&gt;
+
+&lt;h3 id=&quot;-targeted-capture-of-low-abundance-genes&quot;&gt;🎯 Targeted Capture of Low-Abundance Genes&lt;/h3&gt;
+&lt;p&gt;Innovatively designed to target and capture rare or absent transcripts (RAGs) in healthy individuals’ plasma, RARE-seq facilitates efficient detection of genes originating from non-hematopoietic tissues—providing a powerful tool for identifying cancer-specific and organ-specific genes.&lt;/p&gt;
+
+&lt;h2 id=&quot;-technical-advantages&quot;&gt;🚀 Technical Advantages&lt;/h2&gt;
+
+&lt;h3 id=&quot;-high-sensitivity&quot;&gt;🔍 High Sensitivity&lt;/h3&gt;
+&lt;p&gt;Compared to traditional whole-transcriptome RNA sequencing, RARE-seq enhances sensitivity in detecting tumor-derived cfRNA by &lt;strong&gt;approximately 50-fold&lt;/strong&gt;, with a detection limit as low as &lt;strong&gt;0.05%&lt;/strong&gt;. This allows for the identification of minuscule amounts of tumor-related cfRNA in the bloodstream with remarkable precision.&lt;/p&gt;
+
+&lt;h3 id=&quot;-exceptional-specificity&quot;&gt;🎯 Exceptional Specificity&lt;/h3&gt;
+&lt;p&gt;RARE-seq effectively distinguishes tumor-derived cfRNA from background cfRNA, reducing false-positive results and improving detection accuracy.&lt;/p&gt;
+
+&lt;h3 id=&quot;-robust-noise-resistance&quot;&gt;🛠 Robust Noise Resistance&lt;/h3&gt;
+&lt;p&gt;By optimizing experimental procedures and computational methods, RARE-seq successfully eliminates platelet contamination and background noise, enhancing signal clarity and result reliability.&lt;/p&gt;
+
+&lt;h3 id=&quot;-broad-applicability&quot;&gt;🔬 Broad Applicability&lt;/h3&gt;
+&lt;p&gt;RARE-seq is not limited to cancer detection—it also shows promising potential in &lt;strong&gt;tissue origin identification&lt;/strong&gt;, &lt;strong&gt;therapy resistance monitoring&lt;/strong&gt;, and &lt;strong&gt;evaluation of non-malignant diseases&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;-key-findings&quot;&gt;🔑 Key Findings&lt;/h2&gt;
+
+&lt;h3 id=&quot;-non-small-cell-lung-cancer-nsclc-detection&quot;&gt;🧪 Non-Small Cell Lung Cancer (NSCLC) Detection&lt;/h3&gt;
+&lt;p&gt;Among &lt;strong&gt;437 plasma samples&lt;/strong&gt;, RARE-seq efficiently detects NSCLC transcriptional signatures. Detection sensitivity increases with tumor progression, reaching &lt;strong&gt;83% sensitivity&lt;/strong&gt; and &lt;strong&gt;95% specificity&lt;/strong&gt; in stage IV patients—outperforming initial circulating tumor DNA (ctDNA) analysis.&lt;/p&gt;
+
+&lt;h3 id=&quot;-tissue-origin-identification&quot;&gt;📌 Tissue Origin Identification&lt;/h3&gt;
+&lt;p&gt;Analysis of pancreatic, prostate, and liver cancer patients validates RARE-seq’s effectiveness across multiple cancer types. With an &lt;strong&gt;89% accuracy rate&lt;/strong&gt;, it provides a powerful tool for determining the tissue origin of malignancies.&lt;/p&gt;
+
+&lt;h3 id=&quot;-therapy-resistance-monitoring&quot;&gt;🔬 Therapy Resistance Monitoring&lt;/h3&gt;
+&lt;p&gt;In NSCLC patients harboring &lt;strong&gt;EGFR mutations&lt;/strong&gt;, RARE-seq successfully detects histological transformations and mutation-based resistance mechanisms, equipping clinicians with a more comprehensive understanding of therapy resistance.&lt;/p&gt;
+
+&lt;h3 id=&quot;-non-malignant-disease-assessment&quot;&gt;🩺 Non-Malignant Disease Assessment&lt;/h3&gt;
+&lt;p&gt;RARE-seq identifies lung-derived cfRNA expression in patients with &lt;strong&gt;chronic obstructive pulmonary disease (COPD)&lt;/strong&gt;, &lt;strong&gt;active COVID-19 infection&lt;/strong&gt;, and &lt;strong&gt;intensive care unit (ICU) admissions&lt;/strong&gt;, demonstrating its potential for assessing non-malignant lung conditions.&lt;/p&gt;
+
+&lt;h2 id=&quot;-clinical-applications&quot;&gt;💡 Clinical Applications&lt;/h2&gt;
+
+&lt;h3 id=&quot;-early-cancer-screening&quot;&gt;🔎 Early Cancer Screening&lt;/h3&gt;
+&lt;p&gt;With its high sensitivity, RARE-seq holds promise for &lt;strong&gt;early cancer detection&lt;/strong&gt;, particularly for small tumors that are challenging to identify through conventional imaging methods.&lt;/p&gt;
+
+&lt;h3 id=&quot;-tissue-origin-identification-1&quot;&gt;🏥 Tissue Origin Identification&lt;/h3&gt;
+&lt;p&gt;For patients with &lt;strong&gt;unknown primary tumors&lt;/strong&gt; or those requiring cancer subtype differentiation, RARE-seq enables non-invasive tumor tissue identification—enhancing clinical diagnostic precision.&lt;/p&gt;
+
+&lt;h3 id=&quot;-therapy-monitoring--prognostic-evaluation&quot;&gt;💊 Therapy Monitoring &amp;amp; Prognostic Evaluation&lt;/h3&gt;
+&lt;p&gt;By tracking ctRNA changes in real-time, RARE-seq facilitates the early detection of therapy resistance mechanisms, allowing for timely &lt;strong&gt;adjustments to personalized treatment plans&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;-non-malignant-disease-assessment-1&quot;&gt;🩺 Non-Malignant Disease Assessment&lt;/h3&gt;
+&lt;p&gt;RARE-seq aids in monitoring &lt;strong&gt;tissue damage and inflammation&lt;/strong&gt;, evaluating &lt;strong&gt;disease activity&lt;/strong&gt;, and &lt;strong&gt;treatment response&lt;/strong&gt;—offering a new perspective for diagnosing and managing non-malignant diseases.&lt;/p&gt;
+
+&lt;h3 id=&quot;-rna-vaccine-tracking&quot;&gt;🦠 RNA Vaccine Tracking&lt;/h3&gt;
+&lt;p&gt;RARE-seq enables simultaneous tracking of &lt;strong&gt;vaccine RNA&lt;/strong&gt; and &lt;strong&gt;host immune response&lt;/strong&gt; in individuals vaccinated with mRNA-based COVID-19 vaccines, providing valuable insights for RNA vaccine development and application.&lt;/p&gt;
+
+</description>
+                <pubDate>Wed, 16 Apr 2025 05:56:51 +0000</pubDate>
+                <link>www.xgenome.cn/frontiers/2025/04/16/RARE-seq.html</link>
+                <guid isPermaLink="true">www.xgenome.cn/frontiers/2025/04/16/RARE-seq.html</guid>
+            </item>
+        
+            <item>
+                <title>Review Article on Spatial Omics for Plant Research</title>
+                <description>&lt;p&gt;&lt;em&gt;Our recent review paper comprehensively introduced spatial transcriptome technologies and their applications in plant research and crop breeding.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;We are excited to announce the publication of a groundbreaking review article authored by XinLab, in collaboration with esteemed researchers across multiple institutions. The paper, titled &lt;em&gt;“Spatial Omics for Accelerating Plant Research and Crop Improvement”&lt;/em&gt;, is now featured in &lt;strong&gt;Trends in Biotechnology&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;key-highlights-of-the-paper&quot;&gt;Key Highlights of the Paper&lt;/h4&gt;
+&lt;p&gt;This comprehensive review explores cutting-edge advancements in spatial omics technologies and their transformative potential in plant biology and crop improvement. Some of the key topics discussed include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Spatial Omics Technologies&lt;/strong&gt;: The article provides an overview of spatial transcriptomics, proteomics, and metabolomics, highlighting their ability to preserve spatial context while analyzing molecular and cellular features.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Applications in Crop Breeding&lt;/strong&gt;: It examines how spatial profiling unveils key biological processes, such as plant responses to environmental stresses, developmental trajectories, and nutrient dynamics, which are crucial for precision breeding.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Technological Challenges and Solutions&lt;/strong&gt;: The review delves into experimental and computational challenges, such as achieving single-cell resolution and integrating complex datasets, while offering strategies to navigate these hurdles.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Future Directions&lt;/strong&gt;: The authors emphasize the emerging role of spatial multiomics and predictive modeling for accelerating crop improvement efforts in the face of climate change and increasing global food demand.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;collaborative-impact&quot;&gt;Collaborative Impact&lt;/h4&gt;
+&lt;p&gt;This publication showcases the collaborative spirit of XinLab, contributing to the frontier of research in plant science and biotechnology. It reflects our dedication to providing innovative solutions for sustainable agriculture and enhanced food security.&lt;/p&gt;
+
+&lt;h4 id=&quot;access-the-full-article&quot;&gt;Access the Full Article&lt;/h4&gt;
+&lt;p&gt;Explore this impactful work in detail by visiting the publication &lt;a href=&quot;https://doi.org/10.1016/j.tibtech.2025.03.007&quot;&gt;here&lt;/a&gt;. Stay tuned for more updates as we continue to push boundaries in genomics and biotechnology!&lt;/p&gt;
+
+</description>
+                <pubDate>Fri, 11 Apr 2025 05:56:51 +0000</pubDate>
+                <link>www.xgenome.cn/progresses/2025/04/11/plant-spatialtemporal-review.html</link>
+                <guid isPermaLink="true">www.xgenome.cn/progresses/2025/04/11/plant-spatialtemporal-review.html</guid>
+            </item>
+        
+            <item>
+                <title>Soybean Transcriptomic Atlas</title>
+                <description>&lt;p&gt;&lt;em&gt;We generated Bulk, Single-Cell, and Spatial Transcriptome Data for Soybean to Unveil Mechanisms Underlying its Organ Development&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Release Date:&lt;/strong&gt; &lt;strong&gt;April 7, 2025&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Researchers, including teams from &lt;strong&gt;XinLab&lt;/strong&gt; (BGI-Shenzhen/Beijing), in collaboration with the Institute of Genetics and Developmental Biology (Chinese Academy of Sciences) and other institutions, have published a groundbreaking study in the internationally renowned journal &lt;strong&gt;&lt;em&gt;Molecular Plant&lt;/em&gt;&lt;/strong&gt;. They have successfully constructed a &lt;strong&gt;comprehensive, large-scale integrated transcriptomic atlas of soybean organ development&lt;/strong&gt;, providing unprecedented insights into the growth regulation of this crucial crop, marking a milestone for future soybean genetic improvement.&lt;/p&gt;
+
+&lt;h3 id=&quot;-why-is-this-research-crucial&quot;&gt;💡 Why is this Research Crucial?&lt;/h3&gt;
+
+&lt;p&gt;Soybeans are a major global source of protein and oil. To meet growing demand and enhance resilience to environmental changes, a deep understanding of the complex genetic networks governing the development of its various organs—such as roots, leaves, flowers, seeds, and symbiotic nitrogen-fixing nodules—is urgently needed. This knowledge is key to breeding higher-yielding, more adaptable varieties.&lt;/p&gt;
+
+&lt;h3 id=&quot;-an-advanced-multi-omics-integration-approach&quot;&gt;🔬 An Advanced Multi-Omics Integration Approach&lt;/h3&gt;
+
+&lt;p&gt;To create this detailed developmental blueprint, the research team utilized the soybean cultivar ‘Zhonghuang 13’ (ZH13) and ingeniously integrated several cutting-edge omics technologies:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;📊 Bulk RNA Sequencing:&lt;/strong&gt; Analyzed &lt;strong&gt;314 samples&lt;/strong&gt; covering the entire soybean life cycle, encompassing 14 organs at different developmental stages, providing a global overview of gene expression.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;🧬 Single-Nucleus RNA Sequencing (snRNA-seq):&lt;/strong&gt; Delved into the single-nucleus level to finely resolve cell-type diversity and gene expression profiles within five key organs: root, nodule, shoot apex, leaf, and stem.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;🗺️ Spatial Transcriptomics (Stereo-seq):&lt;/strong&gt; Combined high-resolution imaging and sequencing technology to map gene expression &lt;strong&gt;in situ&lt;/strong&gt; within the tissue context of the same five organs, revealing the spatial organization of gene activity and cellular microenvironments.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This multi-dimensional data integration allows researchers to track dynamic gene expression changes across time, space, organs, and cell types with unprecedented resolution.&lt;/p&gt;
+
+&lt;h3 id=&quot;-key-scientific-discovery-highlights&quot;&gt;✨ Key Scientific Discovery Highlights&lt;/h3&gt;
+
+&lt;p&gt;This powerful integrated atlas enabled several significant scientific discoveries:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Nodule Symbiotic Nitrogen Fixation Mechanisms:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Identified novel sugar transporter gene family (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GmPMT&lt;/code&gt;) crucial for energy supply during nodule formation.&lt;/li&gt;
+      &lt;li&gt;Discovered key transcription factors (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GmHB1a/b&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GmHB21&lt;/code&gt; of the HD-ZIP I family) with precise spatiotemporal regulatory roles in nodule vascular bundle development.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Leaf Development &amp;amp; Morphogenesis:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Revealed the central role of the transcription factor &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MYB94&lt;/code&gt; and its regulatory network in cuticular wax biosynthesis in young, unfolded leaves.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cell Fate Atlas &amp;amp; Developmental Trajectories:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Generated detailed cell atlases for key organs, for instance, locating &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GmPLT&lt;/code&gt; genes potentially involved in maintaining stem cell characteristics in the root tip.&lt;/li&gt;
+      &lt;li&gt;Distinguished specific cell populations and their functional transitions between early and mature nodule development stages by comparing nodules at different time points, involving processes like hypoxia response, nodulin synthesis, and cell wall remodeling.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Post-Transcriptional Regulation:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Identified organ-specific alternative splicing (AS) events, suggesting their potential regulatory roles in organ functional differentiation.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-an-open-resource-treasure-trove-for-the-community&quot;&gt;🌐 An Open Resource Treasure Trove for the Community&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A core value of this work lies in its openness.&lt;/strong&gt; Beyond publishing the findings, the team created a &lt;strong&gt;publicly accessible, user-friendly online database&lt;/strong&gt;. All data have been integrated into the &lt;strong&gt;SoyOmics&lt;/strong&gt; platform and a dedicated &lt;strong&gt;Soybean Organ Transcriptomic Atlas&lt;/strong&gt; website. Researchers worldwide can freely access, query, download, and visualize this valuable data resource (including &lt;strong&gt;3D reconstruction models&lt;/strong&gt; for root and nodule), which will greatly accelerate functional genomics research and related breeding applications in soybean.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;-significance--future-outlook&quot;&gt;🚀 Significance &amp;amp; Future Outlook&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This integrated transcriptomic atlas study, co-led by &lt;strong&gt;XinLab (Dr. Xin Liu’s team)&lt;/strong&gt; and the &lt;strong&gt;Institute of Genetics and Developmental Biology, CAS (Dr. Zhixi Tian’s team)&lt;/strong&gt;, provides an invaluable resource for the global soybean research community. It not only deepens our understanding of the complexity of plant organogenesis but also paves the way for precisely identifying key genes determining important agronomic traits, thereby accelerating the breeding of high-yield, high-quality, and resilient soybean varieties.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;-some-of-my-personal-comments&quot;&gt;💡 Some of my personal comments&lt;/h3&gt;
+&lt;p&gt;Fifteen or sixteen years ago, I began my journey into the field of genomics, with my first project focusing on soybean resequencing. At that time, we conducted whole-genome resequencing on 17 wild soybeans and 14 cultivated soybeans, marking the first study on soybean population diversity at the whole-genome level. After the publication of this project, Professor Tian Zhixi, who was then working in Dr. Ma Jianxin’s lab in the United States, reached out to us for the data. He conducted research on the identification and analysis of repetitive sequences in the soybean genome, which was later published as well.&lt;/p&gt;
+
+&lt;p&gt;Professor Tian subsequently returned to China, joining the Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, where he continued soybean-related research and published a series of high-quality papers, including studies on the soybean pan-genome. Around 2021, following the establishment of our joint research center at the Genetics Institute, I had the opportunity to meet Professor Tian in person for the first time (our previous interactions had been limited to emails, despite co-authoring research articles). We quickly decided to leverage the platform we had built in Beijing to collaborate on soybean spatiotemporal genomics research.&lt;/p&gt;
+
+&lt;p&gt;Over the past few years, we divided tasks and worked collaboratively, efficiently completing the study described in this paper. Throughout the process, I gained a deep appreciation for Professor Tian and his team’s outstanding scientific approach, which has greatly benefited both myself and Chen Chuan.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-publication--data-access-details&quot;&gt;📄 Publication &amp;amp; Data Access Details&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Journal:&lt;/strong&gt; &lt;strong&gt;&lt;em&gt;Molecular Plant&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Title:&lt;/strong&gt; A large-scale integrated transcriptomic atlas for soybean organ development&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Authors:&lt;/strong&gt; Fan J., Shen Y., Chen C., Chen X., et al.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Volume/Pages:&lt;/strong&gt; 18, 669-689 (2025)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;DOI:&lt;/strong&gt; 🔗 &lt;a href=&quot;https://doi.org/10.1016/j.molp.2025.02.003&quot;&gt;https://doi.org/10.1016/j.molp.2025.02.003&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Database Links:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;🌐 &lt;strong&gt;SoyOmics Integrated Database:&lt;/strong&gt; &lt;a href=&quot;https://ngdc.cncb.ac.cn/soyomics/transcriptome&quot;&gt;https://ngdc.cncb.ac.cn/soyomics/transcriptome&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;🗺️ &lt;strong&gt;Soybean Organ Transcriptomic Atlas (incl. Spatial Data &amp;amp; 3D Models):&lt;/strong&gt; &lt;a href=&quot;https://db.cngb.org/stomics/soybean&quot;&gt;https://db.cngb.org/stomics/soybean&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Funding:&lt;/strong&gt;
+  This research was supported by the National Natural Science Foundation of China, the National Key Research and Development Program of China, the Taishan Scholars Program, and the Xplorer Prize, among others.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;(Optional) Contact:&lt;/strong&gt;
+  [Insert your lab’s contact email, website, or other information here]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+</description>
+                <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+                <link>www.xgenome.cn/progresses/2025/04/07/SoybeanTranscriptomeAtlas.html</link>
+                <guid isPermaLink="true">www.xgenome.cn/progresses/2025/04/07/SoybeanTranscriptomeAtlas.html</guid>
+            </item>
+        
+            <item>
+                <title>Breaking Boundaries! Mice Exhibit 'Rescue' Behavior, Redefining Animal Social Cognition</title>
+                <description>&lt;p&gt;&lt;em&gt;A groundbreaking study published in *Science&lt;/em&gt; unveils how mice exhibit complex rescue behaviors toward unconscious peers, challenging our understanding of animal social behavior*&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;breaking-boundaries-mice-exhibit-rescue-behavior-redefining-animal-social-cognition&quot;&gt;Breaking Boundaries! Mice Exhibit ‘Rescue’ Behavior, Redefining Animal Social Cognition&lt;/h1&gt;
+
+&lt;p&gt;In human society, providing emergency assistance when encountering an unconscious individual is a common response. But do animals exhibit similar behaviors? This has remained a mystery in scientific research. A recent study published in &lt;em&gt;Science&lt;/em&gt; systematically reveals the intricate rescue behaviors mice perform when faced with unconscious peers, along with the underlying neural mechanisms—fundamentally reshaping our perception of animal social behavior.&lt;/p&gt;
+
+&lt;p&gt;📌 &lt;strong&gt;Read the full study here:&lt;/strong&gt; &lt;a href=&quot;https://doi.org/10.1126/science.adq2677&quot;&gt;Science DOI Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-innovative-experiment-design-capturing-animal-behavior-with-precision&quot;&gt;🧪 Innovative Experiment Design: Capturing Animal Behavior with Precision&lt;/h2&gt;
+&lt;p&gt;Researchers designed meticulous experiments placing mice in specific scenarios to observe their reactions to unconscious peers. In the test group, mice were anesthetized into an unconscious state, while the control group remained active. Using machine-learning-assisted motion recognition technology, researchers precisely recorded subtle behavioral changes.&lt;/p&gt;
+
+&lt;p&gt;Results indicate that mice exhibit a range of behaviors toward unconscious peers—including sniffing, grooming, and increasingly aggressive actions such as mouth-and-tongue biting and tongue pulling—which intensify over time.&lt;/p&gt;
+
+&lt;h2 id=&quot;-stunning-discovery-mice-have-a-rescue-instinct&quot;&gt;🔥 Stunning Discovery: Mice Have a ‘Rescue’ Instinct&lt;/h2&gt;
+&lt;p&gt;Experimental data shows that mice react very differently to unconscious peers compared to active ones. On average, mice spent &lt;strong&gt;47.4%&lt;/strong&gt; of their time interacting with unconscious peers, significantly higher than the &lt;strong&gt;5.8%&lt;/strong&gt; spent engaging with active ones.&lt;/p&gt;
+
+&lt;p&gt;Notably, these behaviors are not driven by curiosity or social interaction needs but are triggered upon detecting a peer in an unresponsive state. Interaction ceases immediately once the peer regains consciousness. These actions—including clearing airway obstructions—suggest that mice may be unconsciously engaging in &lt;strong&gt;life-saving behavior&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;-deciphering-neural-mechanisms-the-key-role-of-oxytocin&quot;&gt;🔬 Deciphering Neural Mechanisms: The Key Role of Oxytocin&lt;/h2&gt;
+&lt;p&gt;Further investigations into neural activity reveal increased activation of &lt;strong&gt;oxytocin neurons in the paraventricular nucleus of the hypothalamus&lt;/strong&gt; when mice encounter unconscious peers.&lt;/p&gt;
+
+&lt;p&gt;Using optogenetic technology to either stimulate or suppress these neurons, researchers found that activation &lt;strong&gt;enhanced rescue behavior&lt;/strong&gt;, while suppression &lt;strong&gt;reduced such responses&lt;/strong&gt;—confirming oxytocin’s crucial role in regulating this behavior.&lt;/p&gt;
+
+&lt;h2 id=&quot;-sociological-significance-reshaping-our-understanding-of-animal-behavior&quot;&gt;🌍 Sociological Significance: Reshaping Our Understanding of Animal Behavior&lt;/h2&gt;
+&lt;p&gt;This study not only deepens our comprehension of animal behavior but also introduces &lt;strong&gt;new perspectives for animal welfare, species conservation, and comparative psychology&lt;/strong&gt;. The discovery of rescue-like behaviors prompts a reevaluation of animal sociality and emotional experiences.&lt;/p&gt;
+
+&lt;p&gt;It suggests that animals may possess &lt;strong&gt;far more complex intra-group rescue mechanisms and social behavior patterns&lt;/strong&gt; than previously assumed—offering valuable clues for exploring animal consciousness and social evolution.&lt;/p&gt;
+
+&lt;h2 id=&quot;-unlocking-the-future-what-lies-ahead&quot;&gt;🚀 Unlocking the Future: What Lies Ahead?&lt;/h2&gt;
+&lt;p&gt;The true success of this research lies not only in its ingenious experimental design and rigorous neural investigation—but in its ability to open new doors to how we perceive the animal kingdom.&lt;/p&gt;
+
+&lt;p&gt;Animal behaviors are far richer and more intricate than we once imagined. And this discovery is just the tip of the iceberg. As research advances, we may uncover even &lt;strong&gt;more secrets behind animal behavior&lt;/strong&gt;, further deepening our understanding of life’s diversity and complexity.&lt;/p&gt;
+
+&lt;p&gt;🔍 &lt;strong&gt;Stay curious—because science never stops uncovering the wonders of life!&lt;/strong&gt;&lt;/p&gt;
+</description>
+                <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+                <link>www.xgenome.cn/frontiers/2025/02/21/RodentsRevivingLikeBehavior.html</link>
+                <guid isPermaLink="true">www.xgenome.cn/frontiers/2025/02/21/RodentsRevivingLikeBehavior.html</guid>
+            </item>
+        
+            <item>
+                <title>New Paper Unveils Spatiotemporal Atlas of Mouse Heart Development</title>
+                <description>&lt;p&gt;We’re thrilled to announce that XinLab has published a new paper in &lt;em&gt;GigaScience&lt;/em&gt; (2025, Vol. 14) titled &lt;strong&gt;“Exploring the Cellular and Molecular Basis of Murine Cardiac Development through Spatiotemporal Transcriptome Sequencing.”&lt;/strong&gt; Led by &lt;a href=&quot;/people/xinliu&quot;&gt;Xin Liu&lt;/a&gt; and &lt;a href=&quot;https://fuwaihospital.org&quot;&gt;Jizheng Wang&lt;/a&gt;, with contributions from Jingmin Kang, Qingsong Li, and others, this study marks a significant step forward in understanding heart development and regeneration.&lt;/p&gt;
+
+&lt;h4 id=&quot;why-it-matters&quot;&gt;Why It Matters&lt;/h4&gt;
+
+&lt;p&gt;The heart is a complex organ, and unlocking the secrets of its development could pave the way for new treatments for heart disease. Mice are unique because their hearts can regenerate shortly after birth, unlike humans. By studying this process, we aim to uncover mechanisms that could one day inspire regenerative therapies. Our study uses cutting-edge &lt;strong&gt;Stereo-seq&lt;/strong&gt; technology to map gene expression across developing mouse hearts, revealing how cells and molecules change over time.&lt;/p&gt;
+
+&lt;h4 id=&quot;key-findings&quot;&gt;Key Findings&lt;/h4&gt;
+
+&lt;p&gt;Using spatial transcriptomics, we created a &lt;strong&gt;comprehensive atlas&lt;/strong&gt; of mouse heart development at four time points: embryonic day 20 (E20), postnatal day 1 (P01), day 4 (P04), and day 14 (P14). Here’s what we discovered:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Cellular Landscape&lt;/strong&gt;: Identified 14 distinct cell types, with ventricular cardiomyocytes (57%) and atrial cardiomyocytes (21%) dominating. Over time, ventricular cells increased, while atrial cells and fibroblasts decreased.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cell Interactions&lt;/strong&gt;: Found that cell-cell interactions weaken as the heart matures, linked to reduced signals like collagen and insulin-like growth factor, potentially tied to loss of regeneration.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Regeneration Insights&lt;/strong&gt;: Pinpointed genes like &lt;em&gt;Igf2&lt;/em&gt; and transcription factor &lt;em&gt;Plagl1&lt;/em&gt; as key players in early heart regeneration, validated by quantitative PCR. These could be targets for future research.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Atrial Asymmetry&lt;/strong&gt;: Uncovered genes like &lt;em&gt;Pitx2&lt;/em&gt; and &lt;em&gt;Bmp10&lt;/em&gt; driving left-right atrial differences, critical for heart function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-xinlab-connection&quot;&gt;The XinLab Connection&lt;/h4&gt;
+
+&lt;p&gt;This study reflects XinLab’s mission to push the boundaries of computational biology and cardiology. &lt;a href=&quot;/people/xinliu&quot;&gt;Xin Liu&lt;/a&gt;, the study’s senior author, guided the team in leveraging spatial omics to map the heart’s molecular dynamics. Jingmin Kang and Qingsong Li played pivotal roles in data analysis and experiments, collaborating with experts like &lt;a href=&quot;https://fuwaihospital.org&quot;&gt;Jizheng Wang&lt;/a&gt; from Fuwai Hospital. Check out our &lt;a href=&quot;/people&quot;&gt;People page&lt;/a&gt; to meet the full team behind this work!&lt;/p&gt;
+
+&lt;h4 id=&quot;dive-deeper&quot;&gt;Dive Deeper&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Read the Paper&lt;/strong&gt;: Access the full study in &lt;em&gt;GigaScience&lt;/em&gt; &lt;a href=&quot;https://doi.org/10.1093/gigascience/giaf012&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Explore the Data&lt;/strong&gt;: Raw data is available at NCBI SRA (&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/sra/PRJNA1148773&quot;&gt;PRJNA1148773&lt;/a&gt;), processed data at CNGBdb (&lt;a href=&quot;https://db.cngb.org&quot;&gt;5170000062&lt;/a&gt;), and supporting materials at GigaDB (&lt;a href=&quot;https://doi.org/10.5524/102645&quot;&gt;10.5524/102645&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Learn More&lt;/strong&gt;: See how Stereo-seq works in this &lt;a href=&quot;https://doi.org/10.1016/j.cell.2022.04.003&quot;&gt;Cell paper&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;whats-next&quot;&gt;What’s Next?&lt;/h4&gt;
+
+&lt;p&gt;This atlas is a foundation for future studies on heart regeneration and disease. We’re already exploring new time points and functional validations to build on these findings. Stay tuned for updates, and join us in unraveling the heart’s mysteries!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Published on April 11, 2025, by XinLab&lt;/em&gt;&lt;/p&gt;
+</description>
+                <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+                <link>www.xgenome.cn/progresses/2025/02/17/murine-heart-atlas.html</link>
+                <guid isPermaLink="true">www.xgenome.cn/progresses/2025/02/17/murine-heart-atlas.html</guid>
+            </item>
+        
+            <item>
+                <title>Lamprey Cell Atlas Study Reveals Natterin's Role in Fat Browning</title>
+                <description>&lt;p&gt;A study co-led by &lt;strong&gt;Xin Liu (BGI Research / XinLab)&lt;/strong&gt;, Guangyi Fan (BGI Research), Qingwei Li (Liaoning Normal University), and Yue Pang (Liaoning Normal University), published in &lt;strong&gt;&lt;em&gt;Nature Communications&lt;/em&gt;&lt;/strong&gt;, presents a comprehensive single-cell atlas of the lamprey (&lt;em&gt;Lethenteron reissneri&lt;/em&gt;), offering profound insights into vertebrate evolution and uncovering a novel function for the immune protein Natterin in regulating fat metabolism.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;why-lampreys&quot;&gt;&lt;strong&gt;Why Lampreys?&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Lampreys, ancient jawless vertebrates, hold a unique evolutionary position linking invertebrates and jawed vertebrates. Understanding their cellular makeup is key to deciphering vertebrate evolution, but a lack of detailed multi-organ cell atlases has been a major hurdle.&lt;/p&gt;
+
+&lt;h3 id=&quot;building-the-atlas-a-single-cell-approach&quot;&gt;&lt;strong&gt;Building the Atlas: A Single-Cell Approach&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;The research team, with significant contributions from XinLab, generated a vast single-cell and single-nucleus transcriptome atlas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Scope:&lt;/strong&gt; Covered &lt;strong&gt;14 different tissues&lt;/strong&gt; from lamprey larvae.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Scale:&lt;/strong&gt; Profiled &lt;strong&gt;~604,460 cells/nuclei&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Resolution:&lt;/strong&gt; Identified &lt;strong&gt;70 distinct cell types&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This atlas provides an unprecedented high-resolution map of lamprey cellular diversity.&lt;/p&gt;
+
+&lt;h3 id=&quot;key-discoveries--insights&quot;&gt;&lt;strong&gt;Key Discoveries &amp;amp; Insights&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Vertebrate Evolution:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Cross-species comparison revealed that most lamprey cell types have &lt;strong&gt;homologous counterparts&lt;/strong&gt; in jawed vertebrates (like mice and humans), shedding light on shared ancestry.&lt;/li&gt;
+      &lt;li&gt;Despite lacking a distinct pancreas, lampreys possess &lt;strong&gt;islet-like and acinar-like cells&lt;/strong&gt; within their intestines, suggesting the evolutionary origins of pancreatic function.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Lamprey Immunity:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The atlas characterized diverse immune cell populations, including VLR cells (homologous to T/B cells) and distinct granulocyte subtypes.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Natterin’s Novel Role in Metabolism:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The immune protein &lt;strong&gt;Natterin&lt;/strong&gt; was found highly expressed in lamprey granulocytes and localized to &lt;strong&gt;lipid droplets&lt;/strong&gt;.&lt;/li&gt;
+      &lt;li&gt;Crucially, expressing lamprey Natterin in a &lt;strong&gt;transgenic mouse model&lt;/strong&gt; led to the &lt;strong&gt;browning of white adipose tissue (WAT)&lt;/strong&gt; – converting fat-storing cells into metabolically active, heat-generating cells.&lt;/li&gt;
+      &lt;li&gt;This Natterin-induced browning &lt;strong&gt;increased thermogenesis&lt;/strong&gt; and resulted in &lt;strong&gt;significant weight loss&lt;/strong&gt; in obese mice, comparable to the effect of the weight-loss drug Orlistat, without apparent short-term or long-term toxicity at effective doses.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Mechanism:&lt;/strong&gt; The study suggests Natterin interacts with the &lt;strong&gt;transferrin receptor (TFR1)&lt;/strong&gt;, potentially mediating iron accumulation in WAT cells, which triggers lipolysis, mitochondrial proliferation, and ultimately, WAT browning.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;significance--future-directions&quot;&gt;&lt;strong&gt;Significance &amp;amp; Future Directions&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;This research, co-led by XinLab, delivers a vital resource for evolutionary biology and comparative genomics. It significantly advances our understanding of vertebrate cellular origins and lamprey immunity. Furthermore, the discovery of Natterin’s potent effect on WAT browning opens exciting new avenues for exploring therapeutic strategies against obesity and metabolic disorders.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; Pang, Y., Qin, Y., Du, Z. et al. Single-cell transcriptome atlas of lamprey exploring Natterin-induced white adipose tissue browning. &lt;em&gt;Nat Commun&lt;/em&gt; &lt;strong&gt;16&lt;/strong&gt;, 752 (2025). https://doi.org/10.1038/s41467-025-56153-w&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Availability:&lt;/strong&gt; Data are available via the CNGB Nucleotide Sequence Archive (CNP0005120) and NCBI BioProject (PRJNA1194219). An interactive portal is available at https://db.cngb.org/search/project/CNP0005120/.&lt;/p&gt;
+</description>
+                <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+                <link>www.xgenome.cn/progresses/2025/01/17/LampreySingleCellSequencing.html</link>
+                <guid isPermaLink="true">www.xgenome.cn/progresses/2025/01/17/LampreySingleCellSequencing.html</guid>
+            </item>
+        
+    </channel>
+</rss>

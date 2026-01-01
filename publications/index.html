@@ -4,17 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Publications | XinLab</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+  <!-- CSS 部分 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.bootstrap5.min.css">
+
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+  <!-- 不要在这里放 JS -->
 </head>
-<nav class="navbar navbar-expand-lg sticky-top">
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href=" /">
       <img src="/assets/images/logo.png" alt="Logo" height="50"> XinLab
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -22,37 +32,46 @@
         
           
             <li class="nav-item">
-              <a class="nav-link " href="/">Home</a>
+              <a class="nav-link " href="/">
+                Home
+              </a>
             </li>
           
         
           
             <li class="nav-item">
-              <a class="nav-link " href="/research/">Research</a>
+              <a class="nav-link " href="/research/">
+                Research
+              </a>
             </li>
           
         
           
             <li class="nav-item">
-              <a class="nav-link active" href="/publications/">Publications</a>
+              <a class="nav-link active" href="/publications/">
+                Publications
+              </a>
             </li>
           
         
           
             <li class="nav-item">
-              <a class="nav-link " href="/people/">People</a>
+              <a class="nav-link " href="/people/">
+                People
+              </a>
             </li>
           
         
           
             <li class="nav-item">
-              <a class="nav-link " href="/about/">About</a>
+              <a class="nav-link " href="/about/">
+                About
+              </a>
             </li>
           
         
           
             <li class="nav-item dropdown">
-              <!-- 使用普通链接，让点击 News 时跳转到 /news/ -->
               <a class="nav-link dropdown-toggle" href="" id="navDropdown6" 
                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 News
@@ -81,193 +100,351 @@
             </li>
           
         
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-globe"></i><span class="d-lg-none">Language</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
+            <li>
+              <a class="dropdown-item active" href=" /publications/">
+                English
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item " href=" /zh/publications/">
+                中文
+              </a>
+            </li>
+          </ul>
+        </li>
+
       </ul>
     </div>
   </div>
 </nav>
 
-
-
-<body>
   
   <div class="jumbotron" style="background-image: url('/assets/images/banner-publications.jpg');">
-    
-    <!-- Overlay for better contrast -->
-    <!-- Content -->
     <div class="container">
-        <h1>Publications</h1>
-        <p>Contributing to Over 180 Scientific Publications with Excellence in Genomics Research.</p>
+      <h1>Publications</h1>
+      <p>Contributing to Over 180 Scientific Publications with Excellence in Genomics Research.</p>
     </div>
   </div>
   
+
   <main class="container col-lg-8 col-md-12 col-sm-12">
     
-      <div class="page-abstract">A total of more than 180 scientific papers have been published with XinLab's participation and co-authorship, among which more than 39 papers were published as major participants. Here is a list of our publications and you can visit our <a href="https://scholar.google.com/citations?user=UkTazWQAAAAJ&hl=en" target="_blank">Google Scholar profile</a> for more details.</div>
+    <div class="page-abstract">A total of more than 180 scientific papers have been published with XinLab's participation,  among which more than 39 papers were published as major participants.  You can visit our <a href="https://scholar.google.com/citations?user=UkTazWQAAAAJ&hl=en" target="_blank">Google Scholar profile</a> for more details.
+</div>
     
-        <!-- DataTables CSS -->
-    <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet">
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- DataTables JS -->
-    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <div class="container mt-5">
 
-        <h2>XinLab Publications</h2>
+    <div id="statusMessage" class="status-message alert alert-info" style="display: none;"></div>
+
+    <div class="row">
+        <h3>Publications by Year</h3>
+        <div id="publicationsByYearChart" class="chart-container"></div>
+    </div>
+
+    <div class="page-content mt-5">
+        <h3>Publications List</h3>
         <div class="table-container">
             <table id="publicationsTable" class="table table-striped table-bordered" style="width:100%">
-                <thead>
-                    <tr>
-                        <th>Year</th>
-                        <th>Title</th>
-                        <th>Journal</th>
-                        <th>Details</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
+                </table>
         </div>
-    <!-- Modal for Details -->
-    <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="detailsModalLabel">Publication details</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+
+<style>
+    /* 确保图表容器有明确高度，否则 ECharts 无法渲染 */
+    .chart-container { 
+        width: 100%; 
+        height: 450px !important; 
+        min-height: 450px;
+        background-color: #fff; 
+        border: 1px solid #ddd; 
+        border-radius: .25rem; 
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075); 
+        margin-bottom: 30px; 
+        padding: 20px; 
+    }
+    .table-container { 
+        background-color: #fff; 
+        padding: 20px; 
+        border-radius: .25rem; 
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075); 
+        margin-bottom: 30px; 
+    }
+    .abstract-content { 
+        max-height: 300px; 
+        overflow-y: auto; 
+        white-space: pre-wrap; 
+        word-wrap: break-word; 
+        font-size: 0.95em; 
+        line-height: 1.6; 
+    }
+    .status-message { 
+        text-align: center; 
+        padding: 20px; 
+        font-size: 1.2em; 
+    }
+    .fw-bold { color: #333; }
+</style>
+
+<script>
+    // --- 多语言配置 (内嵌 DataTables 翻译以防止加载错误) ---
+    const currentLang = "en";
+    const i18n = {
+        zh: {
+            loading: "正在同步数据...",
+            noData: "未找到有效的论文数据。",
+            fetchError: "无法连接到服务器，请检查数据文件路径。",
+            chartYearY: "发表数量",
+            chartYearX: "年份",
+            tableYear: "年份",
+            tableTitle: "文章标题",
+            tableJournal: "发表期刊",
+            tableDetails: "查看详情",
+            modalTitle: "文献详细信息",
+            modalAbstract: "摘要内容",
+            modalClose: "关闭窗口",
+            // DataTables 本地化翻译对象
+            dtLanguage: {
+                "processing": "处理中...",
+                "lengthMenu": "显示 _MENU_ 项结果",
+                "zeroRecords": "没有匹配结果",
+                "info": "显示第 _START_ 至 _END_ 项结果，共 _TOTAL_ 项",
+                "infoEmpty": "显示第 0 至 0 项结果，共 0 项",
+                "infoFiltered": "(由 _MAX_ 项结果过滤)",
+                "search": "搜索:",
+                "emptyTable": "表中数据为空",
+                "paginate": {
+                    "first": "首页",
+                    "previous": "上页",
+                    "next": "下页",
+                    "last": "末页"
+                }
+            }
+        },
+        en: {
+            loading: "Synchronizing data...",
+            noData: "No valid publication data found.",
+            fetchError: "Server connection failed, please check data path.",
+            chartYearY: "Publications Count",
+            chartYearX: "Year",
+            tableYear: "Year",
+            tableTitle: "Title",
+            tableJournal: "Journal",
+            tableDetails: "Details",
+            modalTitle: "Publication Details",
+            modalAbstract: "Abstract",
+            modalClose: "Close",
+            dtLanguage: {} // 英文使用插件默认
+        }
+    };
+
+    const lang = i18n[currentLang] || i18n['en'];
+
+    // --- 数据解析器 ---
+    function parsePublicationsData(fileContent) {
+        const publications = [];
+        const entries = fileContent.split(/\r?\nReference Type: {2}Journal Article/);
+        const actualEntries = entries.slice(1).map(entry => "Reference Type:  Journal Article\n" + entry.trim());
+
+        actualEntries.forEach((entryText) => {
+            const publication = { authors: [], title: '', year: '', journal: '', doi: '', abstract: '', url: '' };
+            const lines = entryText.trim().split(/\r\n?|\n/);
+            let currentMode = null;
+            let buffer = [];
+
+            lines.forEach(lineContent => {
+                lineContent = lineContent.trim();
+                if (!lineContent) return;
+
+                let isNewField = false;
+                const fieldPrefixes = ["Author:", "Year:", "Title:", "Journal:", "DOI:", "Abstract:", "URL:"];
+                
+                for (const prefix of fieldPrefixes) {
+                    if (lineContent.startsWith(prefix)) {
+                        isNewField = true;
+                        if (currentMode === 'abstract' && buffer.length > 0) publication.abstract = buffer.join(" ").trim();
+                        buffer = [];
+                        if (prefix === "Abstract:") currentMode = 'abstract';
+                        else {
+                            currentMode = null;
+                            const val = lineContent.replace(prefix, "").trim();
+                            const key = prefix.slice(0, -1);
+                            if(key === 'Year') publication.year = val;
+                            if(key === 'Title') publication.title = val;
+                            if(key === 'Journal') publication.journal = val;
+                            if(key === 'URL') publication.url = val;
+                            if(key === 'DOI') publication.doi = val;
+                            if(key === 'Author') publication.authors = val.split(/,|and|;/).map(a => a.trim()).filter(a => a);
+                        }
+                        break;
+                    }
+                }
+                if (!isNewField && currentMode === 'abstract') buffer.push(lineContent);
+            });
+            if (publication.year && publication.title) publications.push(publication);
+        });
+        return publications;
+    }
+
+    // --- 图表生成器 ---
+    function renderYearChart(data) {
+        const chartDom = document.getElementById('publicationsByYearChart');
+        if (!chartDom) return;
+
+        const myChart = echarts.init(chartDom);
+        const yearsCount = data.reduce((acc, pub) => {
+            const y = pub.year.trim();
+            if (/^\d{4}$/.test(y)) acc[y] = (acc[y] || 0) + 1;
+            return acc;
+        }, {});
+        
+        const sortedYears = Object.keys(yearsCount).sort();
+        
+        const option = {
+            tooltip: { trigger: 'axis' },
+            grid: { left: '3%', right: '4%', bottom: '3%', containLabel: true },
+            xAxis: { type: 'category', data: sortedYears, name: lang.chartYearX },
+            yAxis: { type: 'value', name: lang.chartYearY },
+            series: [{
+                name: lang.chartYearY,
+                type: 'bar',
+                data: sortedYears.map(y => yearsCount[y]),
+                itemStyle: { color: '#ee5a24' },
+                label: { show: true, position: 'top' }
+            }]
+        };
+
+        myChart.setOption(option);
+        window.addEventListener('resize', () => myChart.resize());
+    }
+
+    // --- 页面初始化 ---
+    $(document).ready(function() {
+        const statusDiv = $('#statusMessage');
+        statusDiv.text(lang.loading).show();
+
+        $.get('/assets/data/xinlab-publications.txt')
+            .done(function(rawData) {
+                const parsedData = parsePublicationsData(rawData);
+                window.publicationData = parsedData; // 挂载到全局变量
+
+                if (parsedData.length > 0) {
+                    statusDiv.hide();
+                    
+                    // 1. 初始化 DataTables (直接使用内嵌语言包)
+                    $('#publicationsTable').DataTable({
+                        data: parsedData,
+                        columns: [
+                            { data: 'year', title: lang.tableYear },
+                            { data: 'title', title: lang.tableTitle },
+                            { 
+                                data: 'journal', 
+                                title: lang.tableJournal,
+                                render: (d, t, r) => r.url ? `<a href="${r.url}" target="_blank">${d}</a>` : d
+                            },
+                            {
+                                data: null,
+                                title: lang.tableDetails,
+                                orderable: false,
+                                render: (d, t, r, meta) => `<button class="btn btn-primary btn-sm details-btn" data-index="${meta.row}">${lang.tableDetails}</button>`
+                            }
+                        ],
+                        order: [[0, 'desc']],
+                        language: lang.dtLanguage // 使用内嵌对象，解决 i18n 加载错误
+                    });
+
+                    // 2. 渲染图表
+                    if (typeof echarts !== 'undefined') {
+                        renderYearChart(parsedData);
+                    }
+                } else {
+                    statusDiv.text(lang.noData).addClass("alert-danger");
+                }
+            })
+            .fail(function() {
+                statusDiv.text(lang.fetchError).addClass("alert-danger");
+            });
+
+        // 3. 详情弹窗逻辑 (使用委派确保兼容性)
+        $('#publicationsTable').on('click', '.details-btn', function() {
+            const index = $(this).data('index');
+            const pub = window.publicationData[index];
+
+            $('#modalTitle').text(pub.title);
+            $('#modalAuthors').text(pub.authors.join(', '));
+            $('#modalJournal').text(pub.journal);
+            $('#modalYear').text(pub.year);
+            $('#modalAbstract').text(pub.abstract || 'N/A');
+            
+            $('#detailsModalLabel').text(lang.modalTitle);
+            $('.btn-secondary[data-bs-dismiss="modal"]').text(lang.modalClose);
+            
+            if (pub.doi) {
+                const doiUrl = `https://doi.org/${pub.doi}`;
+                $('#modalDOI').text(doiUrl).attr('href', doiUrl);
+            } else {
+                $('#modalDOI').text('N/A').removeAttr('href');
+            }
+            
+            const modalEl = document.getElementById('detailsModal');
+            const modalInstance = bootstrap.Modal.getOrCreateInstance(modalEl);
+            modalInstance.show();
+        });
+    });
+</script>
+
+<div id="statusMessage" class="status-message alert"></div>
+
+<div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="detailsModalLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row mb-3"><div class="col-md-3 fw-bold">Title:</div><div class="col-md-9" id="modalTitle"></div></div>
+                    <div class="row mb-3"><div class="col-md-3 fw-bold">Authors:</div><div class="col-md-9" id="modalAuthors"></div></div>
+                    <div class="row mb-3"><div class="col-md-3 fw-bold">Journal:</div><div class="col-md-9" id="modalJournal"></div></div>
+                    <div class="row mb-3"><div class="col-md-3 fw-bold">Year:</div><div class="col-md-9" id="modalYear"></div></div>
+                    <div class="row mb-3"><div class="col-md-3 fw-bold">Abstract:</div><div class="col-md-9 abstract-content" id="modalAbstract"></div></div>
+                    <div class="row mb-3"><div class="col-md-3 fw-bold">DOI:</div><div class="col-md-9"><a id="modalDOI" target="_blank"></a></div></div>
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row mb-3">
-                            <div class="col-md-3 fw-bold">Title:</div>
-                            <div class="col-md-9" id="modalTitle"></div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-3 fw-bold">Author:</div>
-                            <div class="col-md-9" id="modalAuthors"></div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-3 fw-bold">Abstract:</div>
-                            <div class="col-md-9" id="modalAbstract" class="abstract-content"></div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-3 fw-bold">DOI:</div>
-                            <div class="col-md-9" id="modalDOI"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"></button>
             </div>
         </div>
     </div>
+</div>
 
-    <script>
-        $(document).ready(function() {
-            // Use jQuery $.get to fetch the txt file
-            $.get('/assets/data/xinlab-publications.txt', function(data) {
-                // Parse the raw data into an array of publication objects
-                const publications = parsePublications(data);
-
-                // Initialize DataTable
-                const table = $('#publicationsTable').DataTable({
-                    data: publications,
-                    columns: [
-                        { data: 'year' },
-                        { data: 'title' },
-                        {
-                            data: null,
-                            render: function(data, type, row) {
-                                return `<a href="${row.url}" target="_blank">${row.journal}</a>`;
-                            }
-                        },
-                        {
-                            data: null,
-                            render: function(data, type, row) {
-                                return `<button class="btn btn-primary btn-sm details-btn" data-index="${publications.indexOf(row)}">Details</button>`;
-                            }
-                        }
-                    ],
-                    order: [[0, 'desc']],
-                    pageLength: 10,
-                    responsive: true
-                });
-
-                // Handle details button click
-                $('#publicationsTable tbody').on('click', '.details-btn', function() {
-                    const index = $(this).data('index');
-                    const pub = publications[index];
-
-                    $('#modalTitle').text(pub.title);
-                    $('#modalAuthors').text(pub.authors);
-                    $('#modalAbstract').text(pub.abstract || 'Not available');
-                    $('#modalDOI').text(pub.doi || 'Not available');
-                    $('#modalDOI').attr('href', pub.doi ? `https://doi.org/${pub.doi}` : '#');
-
-                    $('#detailsModal').modal('show');
-                });
-            }).fail(function(jqXHR, textStatus, errorThrown) {
-                console.error('Error fetching the file:', textStatus, errorThrown);
-                alert('Failed to load publications data. Please ensure the file is accessible via a web server.');
-            });
-
-            // Function to parse the raw EndNote data
-            function parsePublications(data) {
-                const records = data.trim().split('Reference Type:').slice(1); // Split by reference type
-                const publications = [];
-
-                records.forEach(record => {
-                    const lines = record.trim().split('\n');
-                    let pub = {};
-
-                    lines.forEach(line => {
-                        const [key, value] = line.split(/: +(.+)/); // Split key-value pairs
-                        if (key && value) {
-                            switch (key.trim()) {
-                                case 'Year':
-                                    pub.year = value.trim();
-                                    break;
-                                case 'Title':
-                                    pub.title = value.trim();
-                                    break;
-                                case 'Journal':
-                                    pub.journal = value.trim();
-                                    break;
-                                case 'URL':
-                                    pub.url = value.trim();
-                                    break;
-                                case 'Author':
-                                    pub.authors = value.trim();
-                                    break;
-                                case 'Abstract':
-                                    pub.abstract = value.trim();
-                                    break;
-                                case 'DOI':
-                                    pub.doi = value.trim();
-                                    break;
-                            }
-                        }
-                    });
-
-                    if (pub.year && pub.title && pub.journal) {
-                        publications.push(pub);
-                    }
-                });
-
-                return publications;
-            }
-        });
-    </script>
   </main>
+
   <div class="container">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <a href=" " class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-        <img class="bi" width="30" height="30" src="/assets/images/logo.svg"></img>
-      </a >
-      <span class="mb-3 mb-md-0 text-muted">&copy; 2025 XinLab</span>
+    <div class="col-md-6 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <img class="bi" width="30" height="30" src="/assets/images/logo.svg" alt="XinLab Logo">
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">
+        &copy; 2025 XinLab 
+        <span class="mx-2">|</span> 
+        <a href="https://beian.miit.gov.cn/" target="_blank" class="text-muted text-decoration-none">粤ICP备2022017196号</a>
+      </span>
     </div>
 
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+    <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
       
         <a href="https://x.com/liuxin_genomics" class="mx-2" target="_blank"><i class="fab fa-twitter" style="color: #333333;"></i></a>
       
@@ -284,7 +461,14 @@
     </ul>
   </footer>
 </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
 
+  <!-- JS 部分统一放在这里（body 结束前） -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.min.js"></script>
+
+
+</body>
 </html>
