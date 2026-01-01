@@ -1,0 +1,18 @@
+- name: Twitter
+  url: https://x.com/liuxin_genomics
+  icon: fab fa-twitter
+- name: GitHub
+  url: https://github.com/liuxin-genomics
+  icon: fab fa-github
+- name: Facebook 
+  url: https://facebook.com/liuxin.genomics
+  icon: fab fa-facebook
+- name: LinkedIn
+  url: https://www.linkedin.com/in/liuxin-genomics
+  icon: fab fa-linkedin
+- name: Email
+  url: mailto:liuxincqbj@gmail.com
+  icon: fas fa-envelope
+- name: RSS
+  url: www.xgenome.cn/feed.xml
+  icon: fa fa-rss-square

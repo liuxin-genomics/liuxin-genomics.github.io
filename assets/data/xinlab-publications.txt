@@ -1,4 +1,67 @@
 ﻿Reference Type:  Journal Article
+Record Number: 201
+Author: Sun, S., Li, S., Seim, I., Du, X., Yang, X., Liu, K., Wei, Z., Shao, C., Fan, G. and Liu, X.
+Year: 2025
+Title: Complete mitogenomes reveal high diversity and recent population dynamics in Antarctic krill
+Journal: BMC Genomics
+Volume: 26
+Issue: 1
+Pages: 419
+Epub Date: 20250429
+Date: Apr 29
+Short Title: Complete mitogenomes reveal high diversity and recent population dynamics in Antarctic krill
+ISSN: 1471-2164 (Electronic)
+1471-2164 (Linking)
+DOI: 10.1186/s12864-025-11579-w
+Legal Note: Declarations. Ethics approval and consent to participate: All experimental procedures were conducted in accordance with the guidelines approved by the institutional review board on bioethics and biosafety of BGI (IRB-BGI). The experiment was authorized by IRB-BGI (NO. BGI-IRB A20007), and the review procedures in IRB-BGI meet good clinical practice (GCP) principles. Consent for publication: The authors declare that they have no conflicting agendas. Competing interests: The authors declare no competing interests.
+Accession Number: 40301719
+Keywords: Antarctic krill
+Genetic diversity
+Mitochondrial genome
+Natural selection
+Population dynamics
+Abstract: BACKGROUND: The Antarctic krill (Euphausia superba) is a keystone species in the Southern Ocean ecosystem, influencing food web dynamics and ecosystem functionality. Despite its ecological importance, further exploration is essential to understand their population dynamics. RESULTS: In this study, we present the complete mitogenome of the Antarctic krill. The assembly is 18,926 bp, including a notably large 3,952 bp control region (CR). The CR features a satellite repeat spanning 2,289 bp, showcasing the effectiveness of long-read sequencing in resolving complex genomic regions. Additionally, we identified 900 nuclear-mitochondrial segments (NUMTs) totaling 2.79 Mb, shedding light on the dynamic integration of mitochondrial DNA (mtDNA) into the nuclear genomes. By establishing a dataset comprising 80 krill mitogenomes, we unveil substantial mitochondrial diversity, particularly within the ND4 gene. While our analysis reveals no significant differentiation among four geographically distinct groups, we identify at least four maternal genetic clusters. Haplotype network analysis and demographic reconstructions suggest a recent population expansion, likely driven by favorable environmental conditions during the late Pleistocene. Furthermore, our investigation into selection pressures on mitochondrial genes reveals evidence of purifying selection across all 13 protein-coding genes, underscoring the pivotal role of mtDNA conservation in maintaining mitochondrial function under extreme environments. CONCLUSIONS: This study provides a repository of Antarctic krill mitogenomes and insights into the population genetics and evolutionary history of this ecologically important species from a mitogenomic perspective, with implications for krill conservation and management in the Southern Ocean.
+Notes: Sun, Shuai
+Li, Shuo
+Seim, Inge
+Du, Xiao
+Yang, Xianwei
+Liu, Kaiqiang
+Wei, Zhanfei
+Shao, Changwei
+Fan, Guangyi
+Liu, Xin
+eng
+2022YFC2807505/National Key Research and Development Program of China/
+No.2022QNLM030004/Marine S&T Fund of Shandong Province for Pilot National Laboratory for Marine Science and Technology (Qingdao)/
+No.2019QY01, No.2020TD19/Central Public-interest Scientific institution Basal Research Fund, CAFS/
+No.tstp20221149 to C.S./Taishan Scholars Program/
+England
+2025/04/30
+BMC Genomics. 2025 Apr 29;26(1):419. doi: 10.1186/s12864-025-11579-w.
+URL: https://www.ncbi.nlm.nih.gov/pubmed/40301719
+https://bmcgenomics.biomedcentral.com/counter/pdf/10.1186/s12864-025-11579-w.pdf
+'File' Attachments: internal-pdf://3829176424/Sun-2025-Complete mitogenomes reveal high dive.pdf
+Author Address: College of Life Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China.
+BGI Research, Qingdao, 266555, China.
+Shenzhen Key Laboratory of Marine Biology Genomics, BGI Research, Shenzhen, 518083, China.
+State Key Laboratory of Mariculture Biobreeding and Sustainable Goods, Yellow Sea Fisheries Research Institute, Chinese Academy of Fishery Sciences, Qingdao, Shandong, 266071, China.
+Laboratory for Marine Fisheries Science and Food Production Processes, Qingdao Marine Science and Technology Center, Qingdao, Shandong, 266237, China.
+Institute of Deep-Sea Science and Engineering, Chinese Academy of Sciences, Sanya, 572000, China.
+State Key Laboratory of Genome and Multi-Omics Technologies, BGI Research, Shenzhen, 518083, China.
+China National GeneBank, BGI Research, Shenzhen, 518120, China.
+State Key Laboratory of Mariculture Biobreeding and Sustainable Goods, Yellow Sea Fisheries Research Institute, Chinese Academy of Fishery Sciences, Qingdao, Shandong, 266071, China. shaocw@ysfri.ac.cn.
+Laboratory for Marine Fisheries Science and Food Production Processes, Qingdao Marine Science and Technology Center, Qingdao, Shandong, 266237, China. shaocw@ysfri.ac.cn.
+BGI Research, Qingdao, 266555, China. fanguangyi@genomics.cn.
+Shenzhen Key Laboratory of Marine Biology Genomics, BGI Research, Shenzhen, 518083, China. fanguangyi@genomics.cn.
+State Key Laboratory of Genome and Multi-Omics Technologies, BGI Research, Shenzhen, 518083, China. fanguangyi@genomics.cn.
+College of Life Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China. liuxin@genomics.cn.
+State Key Laboratory of Genome and Multi-Omics Technologies, BGI Research, Shenzhen, 518083, China. liuxin@genomics.cn.
+Name of Database: In-Process
+Database Provider: NLM
+
+
+Reference Type:  Journal Article
 Record Number: 197
 Author: Pang, Y., Qin, Y., Du, Z., Liu, Q., Zhang, J., Han, K., Lu, J., Yuan, Z., Li, J., Pan, S., Dong, X., Xu, M., Wang, D., Li, S., Li, Z., Chen, Y., Zhao, Z., Zhang, Z., Chuan, S., Song, Y., Sun, M., Jia, X., Xia, Z., Zhan, L., Yue, Z., Cui, W., Wang, J., Gu, Y., Ni, M., Yang, H., Xu, X., Liu, X., Li, Q. and Fan, G.
 Year: 2025
@@ -146,6 +209,7 @@ England
 2025/04/24
 New Phytol. 2025 Apr 23. doi: 10.1111/nph.70160.
 URL: https://www.ncbi.nlm.nih.gov/pubmed/40269556
+'File' Attachments: internal-pdf://0719885385/New Phytologist - 2025 - Liu - Single‐cell mul.pdf
 Author Address: State Key Laboratory of North China Crop Improvement and Regulation, Key Laboratory of Vegetable Germplasm Innovation and Utilization of Hebei, Collaborative Innovation Center of Vegetable Industry in Hebei, Hebei International Joint Research and Development Center of Modern Agricultural Biotechnology, College of Horticulture, College of Life Sciences, Hebei Agricultural University, Baoding, 071000, China.
 BGI Research, Beijing, 102601, China.
 College of Life Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China.
@@ -211,6 +275,7 @@ England
 2025/04/29
 Nat Cardiovasc Res. 2025 Apr 28. doi: 10.1038/s44161-025-00639-9.
 URL: https://www.ncbi.nlm.nih.gov/pubmed/40295810
+'File' Attachments: internal-pdf://3172686009/s44161-025-00639-9.pdf
 Author Address: Department of Vascular Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, China.
 BGI Research, Beijing, China.
 Shanxi Medical University-BGI Collaborative Center for Future Medicine, Shanxi Medical University, Taiyuan, China.

@@ -1,5 +1,5 @@
 <div>
-    <h4>Share this:</h4>
+    <h4>{% if site.active_lang == 'zh' %}分享{% else %}Share{% endif %}</h4>
         <!-- Facebook -->
         <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"

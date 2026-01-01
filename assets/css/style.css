@@ -1,10 +1,27 @@
   /* General Font */
-  body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    background-color: #F8F8F8; /* Soft white for content background */
-    color: #333333; /* Dark gray for text */
-  }
+  :root {
+  --font-main: "Noto Sans", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  font-size: 16px;          /* 实验室网站建议不小于16px */
+  line-height: 1.7;        /* 适中的行高，适合阅读长段落摘要 */
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* 2. 标题排版：更有力量感，增加字母间距 */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+  line-height: 1.3;
+}
+
+h1 { font-size: 2.25rem; letter-spacing: -0.02em; }
+h2 { font-size: 1.85rem; border-bottom: 2px solid #ee5a24; padding-bottom: 0.3em; }
 
   .navbar {
     background-color: rgba(255, 255, 255, 0.8); #透明

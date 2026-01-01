@@ -39,5 +39,13 @@ jekyll-archives:
     tag: "/news/tags/:name/"       # 标签归档页地址，如 /news/tags/plant-genomics/
     category: "/news/categories/:name/"  # 分类归档页地址，如 /news/categories/frontiers/
 
+# 插件启用
+plugins:
+  - jekyll-polyglot
 
+# Polyglot 配置
+languages: ["en", "zh"] # 语言列表，第一项通常是默认语言
+default_lang: "en"            # 默认语言
+exclude_from_localization: ["assets", "_layouts", "_includes", "_data"] # 不需要被翻译的静态资源文件夹
+parallel_localization: true
 

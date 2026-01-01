@@ -3,8 +3,8 @@
     <channel>
         <title></title>
         <description>Genomics Research Laboratory</description>
-        <link>http://0.0.0.0:4000</link>
-        <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+        <link>http://localhost:4000</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
                 <title>Exploring Antarctic Krill Mitogenomes: Insights into Genetic Diversity and Population Dynamics</title>
@@ -37,9 +37,9 @@ Haplotype network analysis and demographic reconstructions suggest a recent popu
 
 &lt;p&gt;Our study provides valuable insights into the mitochondrial genomic landscape of Antarctic krill, offering new perspectives on population genetics and evolutionary history. By combining high-quality genomic data with advanced bioinformatics approaches, we have established a foundational resource for krill conservation and management in the Southern Ocean. This work underscores the critical role of mitochondrial research in addressing broader ecological and evolutionary questions.&lt;/p&gt;
 </description>
-                <pubDate>Tue, 29 Apr 2025 05:00:00 -0500</pubDate>
-                <link>http://0.0.0.0:4000/progresses/2025/04/29/krill-mitogenome.html</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/progresses/2025/04/29/krill-mitogenome.html</guid>
+                <pubDate>Tue, 29 Apr 2025 18:00:00 +0800</pubDate>
+                <link>http://localhost:4000/progresses/2025/04/29/krill-mitogenome.html</link>
+                <guid isPermaLink="true">http://localhost:4000/progresses/2025/04/29/krill-mitogenome.html</guid>
             </item>
         
             <item>
@@ -78,9 +78,9 @@ Haplotype network analysis and demographic reconstructions suggest a recent popu
 
 &lt;p&gt;We hope you find our journey as inspiring as we do. Stay tuned for more updates from XinLab, where cutting-edge genomics meets impactful discovery.&lt;/p&gt;
 </description>
-                <pubDate>Tue, 29 Apr 2025 00:56:51 -0500</pubDate>
-                <link>http://0.0.0.0:4000/progresses/2025/04/29/PTLO.html</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/progresses/2025/04/29/PTLO.html</guid>
+                <pubDate>Tue, 29 Apr 2025 13:56:51 +0800</pubDate>
+                <link>http://localhost:4000/progresses/2025/04/29/PTLO.html</link>
+                <guid isPermaLink="true">http://localhost:4000/progresses/2025/04/29/PTLO.html</guid>
             </item>
         
             <item>
@@ -199,9 +199,9 @@ We also gratefully acknowledge the support from:&lt;/p&gt;
 
 &lt;p&gt;Read the full paper here: &lt;a href=&quot;https://doi.org/10.1111/nph.70160&quot;&gt;https://doi.org/10.1111/nph.70160&lt;/a&gt;&lt;/p&gt;
 </description>
-                <pubDate>Fri, 25 Apr 2025 00:56:51 -0500</pubDate>
-                <link>http://0.0.0.0:4000/progresses/2025/04/25/SaltToleranceInNHCC.html</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/progresses/2025/04/25/SaltToleranceInNHCC.html</guid>
+                <pubDate>Fri, 25 Apr 2025 13:56:51 +0800</pubDate>
+                <link>http://localhost:4000/progresses/2025/04/25/SaltToleranceInNHCC.html</link>
+                <guid isPermaLink="true">http://localhost:4000/progresses/2025/04/25/SaltToleranceInNHCC.html</guid>
             </item>
         
             <item>
@@ -263,9 +263,9 @@ We also gratefully acknowledge the support from:&lt;/p&gt;
 &lt;p&gt;Integrating TRADE results with existing gene regulatory network models enables the inference of &lt;strong&gt;global regulatory features and key network nodes&lt;/strong&gt;, further deepening our understanding of gene expression control.&lt;/p&gt;
 
 </description>
-                <pubDate>Mon, 21 Apr 2025 00:56:51 -0500</pubDate>
-                <link>http://0.0.0.0:4000/frontiers/2025/04/21/TRADE.html</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/frontiers/2025/04/21/TRADE.html</guid>
+                <pubDate>Mon, 21 Apr 2025 13:56:51 +0800</pubDate>
+                <link>http://localhost:4000/frontiers/2025/04/21/TRADE.html</link>
+                <guid isPermaLink="true">http://localhost:4000/frontiers/2025/04/21/TRADE.html</guid>
             </item>
         
             <item>
@@ -333,9 +333,9 @@ We also gratefully acknowledge the support from:&lt;/p&gt;
 &lt;p&gt;RARE-seq enables simultaneous tracking of &lt;strong&gt;vaccine RNA&lt;/strong&gt; and &lt;strong&gt;host immune response&lt;/strong&gt; in individuals vaccinated with mRNA-based COVID-19 vaccines, providing valuable insights for RNA vaccine development and application.&lt;/p&gt;
 
 </description>
-                <pubDate>Wed, 16 Apr 2025 00:56:51 -0500</pubDate>
-                <link>http://0.0.0.0:4000/frontiers/2025/04/16/RARE-seq.html</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/frontiers/2025/04/16/RARE-seq.html</guid>
+                <pubDate>Wed, 16 Apr 2025 13:56:51 +0800</pubDate>
+                <link>http://localhost:4000/frontiers/2025/04/16/RARE-seq.html</link>
+                <guid isPermaLink="true">http://localhost:4000/frontiers/2025/04/16/RARE-seq.html</guid>
             </item>
         
             <item>
@@ -362,9 +362,9 @@ We also gratefully acknowledge the support from:&lt;/p&gt;
 &lt;p&gt;Explore this impactful work in detail by visiting the publication &lt;a href=&quot;https://doi.org/10.1016/j.tibtech.2025.03.007&quot;&gt;here&lt;/a&gt;. Stay tuned for more updates as we continue to push boundaries in genomics and biotechnology!&lt;/p&gt;
 
 </description>
-                <pubDate>Fri, 11 Apr 2025 00:56:51 -0500</pubDate>
-                <link>http://0.0.0.0:4000/progresses/2025/04/11/plant-spatialtemporal-review.html</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/progresses/2025/04/11/plant-spatialtemporal-review.html</guid>
+                <pubDate>Fri, 11 Apr 2025 13:56:51 +0800</pubDate>
+                <link>http://localhost:4000/progresses/2025/04/11/plant-spatialtemporal-review.html</link>
+                <guid isPermaLink="true">http://localhost:4000/progresses/2025/04/11/plant-spatialtemporal-review.html</guid>
             </item>
         
             <item>
@@ -467,9 +467,9 @@ We also gratefully acknowledge the support from:&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>
-                <pubDate>Mon, 07 Apr 2025 00:00:00 -0500</pubDate>
-                <link>http://0.0.0.0:4000/progresses/2025/04/07/SoybeanTranscriptomeAtlas.html</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/progresses/2025/04/07/SoybeanTranscriptomeAtlas.html</guid>
+                <pubDate>Mon, 07 Apr 2025 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/progresses/2025/04/07/SoybeanTranscriptomeAtlas.html</link>
+                <guid isPermaLink="true">http://localhost:4000/progresses/2025/04/07/SoybeanTranscriptomeAtlas.html</guid>
             </item>
         
             <item>
@@ -511,9 +511,9 @@ We also gratefully acknowledge the support from:&lt;/p&gt;
 
 &lt;p&gt;🔍 &lt;strong&gt;Stay curious—because science never stops uncovering the wonders of life!&lt;/strong&gt;&lt;/p&gt;
 </description>
-                <pubDate>Fri, 21 Feb 2025 00:00:00 -0600</pubDate>
-                <link>http://0.0.0.0:4000/frontiers/2025/02/21/RodentsRevivingLikeBehavior.html</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/frontiers/2025/02/21/RodentsRevivingLikeBehavior.html</guid>
+                <pubDate>Fri, 21 Feb 2025 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/frontiers/2025/02/21/RodentsRevivingLikeBehavior.html</link>
+                <guid isPermaLink="true">http://localhost:4000/frontiers/2025/02/21/RodentsRevivingLikeBehavior.html</guid>
             </item>
         
             <item>
@@ -553,9 +553,9 @@ We also gratefully acknowledge the support from:&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Published on April 11, 2025, by XinLab&lt;/em&gt;&lt;/p&gt;
 </description>
-                <pubDate>Mon, 17 Feb 2025 00:00:00 -0600</pubDate>
-                <link>http://0.0.0.0:4000/progresses/2025/02/17/murine-heart-atlas.html</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/progresses/2025/02/17/murine-heart-atlas.html</guid>
+                <pubDate>Mon, 17 Feb 2025 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/progresses/2025/02/17/murine-heart-atlas.html</link>
+                <guid isPermaLink="true">http://localhost:4000/progresses/2025/02/17/murine-heart-atlas.html</guid>
             </item>
         
             <item>
@@ -614,9 +614,9 @@ We also gratefully acknowledge the support from:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Data Availability:&lt;/strong&gt; Data are available via the CNGB Nucleotide Sequence Archive (CNP0005120) and NCBI BioProject (PRJNA1194219). An interactive portal is available at https://db.cngb.org/search/project/CNP0005120/.&lt;/p&gt;
 </description>
-                <pubDate>Fri, 17 Jan 2025 00:00:00 -0600</pubDate>
-                <link>http://0.0.0.0:4000/progresses/2025/01/17/LampreySingleCellSequencing.html</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/progresses/2025/01/17/LampreySingleCellSequencing.html</guid>
+                <pubDate>Fri, 17 Jan 2025 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/progresses/2025/01/17/LampreySingleCellSequencing.html</link>
+                <guid isPermaLink="true">http://localhost:4000/progresses/2025/01/17/LampreySingleCellSequencing.html</guid>
             </item>
         
     </channel>
